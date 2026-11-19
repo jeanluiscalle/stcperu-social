@@ -139,9 +139,40 @@
     ],
     "historia": "posts/2026-11-19-impresora-cada-cuanto/historia.jpg",
     "reel": "posts/2026-11-19-impresora-cada-cuanto/reel.mp4",
-    "estado": "aprobado",
+    "estado": "publicado",
     "programado": "2026-11-21T10:00-05:00",
     "creado": "2026-11-19T17:46:54-05:00",
-    "publicado": {}
+    "publicado": {
+      "facebook": {
+        "id": "287001047834288_122234922554290861",
+        "url": "https://www.facebook.com/287001047834288_122234922554290861",
+        "fecha": "2026-11-19T18:07:39-05:00"
+      },
+      "instagram": {
+        "id": "18078046652775478",
+        "url": "https://www.instagram.com/p/Df8OYO9m_C6/",
+        "fecha": "2026-11-19T18:08:08-05:00"
+      },
+      "facebook_historia": {
+        "id": "30352907737648339",
+        "url": null,
+        "fecha": "2026-11-19T18:08:12-05:00"
+      },
+      "instagram_historia": {
+        "id": "18131139226892898",
+        "url": null,
+        "fecha": "2026-11-19T18:08:21-05:00"
+      },
+      "facebook_reel": {
+        "id": "29643226758635811",
+        "url": "https://www.facebook.com/reel/29643226758635811",
+        "fecha": "2026-11-19T18:08:30-05:00"
+      },
+      "instagram_reel": {
+        "id": "18140673001709975",
+        "url": "https://www.instagram.com/reel/Df8OcU5gLHd/",
+        "fecha": "2026-11-19T18:09:06-05:00"
+      }
+    }
   }
 ]

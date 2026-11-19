@@ -13,6 +13,9 @@ on:
         description: "Solo mostrar qué se publicaría"
         type: boolean
         default: false
+      id:
+        description: "Opcional: ID de una publicación para sacarla YA (sin esperar su fecha)"
+        default: ""
 
 permissions:
   contents: write
@@ -39,7 +42,12 @@ jobs:
           IG_USER_ID: ${{ vars.IG_USER_ID }}
           REDES: ${{ vars.REDES }}
           GRAPH_VERSION: ${{ vars.GRAPH_VERSION || 'v23.0' }}
-        run: python scripts/publicar.py ${{ inputs.simular && '--simular' || '' }}
+          ID_POST: ${{ inputs.id }}
+        run: |
+          args=""
+          if [ "${{ inputs.simular }}" = "true" ]; then args="--simular"; fi
+          if [ -n "$ID_POST" ]; then args="$args --id $ID_POST"; fi
+          python scripts/publicar.py $args
 
       - name: Guardar el registro de lo publicado
         if: always() && !inputs.simular

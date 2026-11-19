@@ -34,7 +34,7 @@
     .lista { display: grid; gap: 22px; }
     .post { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 24px; padding: 20px; background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 18px; }
     @media (max-width: 820px) { .post { grid-template-columns: 1fr; padding: 14px; } }
-    .medios { display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; border-radius: 12px; }
+    .medios { display: flex; align-items: flex-start; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; border-radius: 12px; }
     .medios img, .medios video { flex: 0 0 100%; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; scroll-snap-align: start; border-radius: 12px; background: var(--navy); }
     .medios video, .medios .vertical { aspect-ratio: 9 / 16; object-fit: contain; }
     .ayuda-medios { margin: 6px 2px 0; font-size: .85rem; color: var(--suave); }

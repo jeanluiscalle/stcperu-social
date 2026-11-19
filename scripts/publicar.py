@@ -236,6 +236,25 @@ def publicar_post(entrada: dict, cfg: dict, redes: list[str], meta: Meta | None,
     return fallos
 
 
+def verificar_conexion(cfg: dict) -> None:
+    """Prueba el token de Meta y el acceso a la Página e Instagram, sin publicar nada."""
+    token = os.environ.get("META_PAGE_TOKEN")
+    if not token:
+        print("::warning::META_PAGE_TOKEN no está configurado.")
+        return
+    meta = Meta(token, os.environ.get("GRAPH_VERSION", "v23.0"))
+    pagina = os.environ.get("FB_PAGE_ID") or cfg.get("fb_page_id")
+    cuenta = os.environ.get("IG_USER_ID") or cfg.get("ig_user_id")
+    try:
+        nombre = meta.de_pagina(pagina).get(pagina, fields="name")["name"]
+        usuario = meta.get(cuenta, fields="username")["username"]
+        cuota = meta.get(f"{cuenta}/content_publishing_limit", fields="quota_usage")["data"][0]["quota_usage"]
+    except (RuntimeError, KeyError, IndexError) as error:
+        sys.exit(f"Conexión con Meta FALLÓ: {error}")
+    print(f"✅ Conexión con Meta correcta: Página «{nombre}» e Instagram @{usuario} "
+          f"({cuota} publicaciones por API en las últimas 24 h).")
+
+
 def main() -> None:
     args = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     args.add_argument("--simular", action="store_true")
@@ -247,6 +266,8 @@ def main() -> None:
     redes = [r.strip() for r in (os.environ.get("REDES") or todas).split(",") if r.strip()]
     indice = leer_json(INDICE) if INDICE.exists() else []
     cola = pendientes(indice, redes, op.id)
+    if op.simular:
+        verificar_conexion(cfg)
     if not cola:
         print("::notice::No hay publicaciones aprobadas para esta hora.")
         return

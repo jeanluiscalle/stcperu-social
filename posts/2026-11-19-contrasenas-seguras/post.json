@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-19-contrasenas-seguras",
+  "tema": "contrasenas-seguras",
+  "formato": "carrusel",
+  "categoria": "Ciberseguridad",
+  "titulo": "Tu contraseña se puede adivinar más rápido de lo que crees",
+  "imagenes": [
+    "posts/2026-11-19-contrasenas-seguras/imagen-1.jpg",
+    "posts/2026-11-19-contrasenas-seguras/imagen-2.jpg",
+    "posts/2026-11-19-contrasenas-seguras/imagen-3.jpg",
+    "posts/2026-11-19-contrasenas-seguras/imagen-4.jpg",
+    "posts/2026-11-19-contrasenas-seguras/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-contrasenas-seguras/historia.jpg",
+  "reel": "posts/2026-11-19-contrasenas-seguras/reel.mp4",
+  "leyenda": {
+    "facebook": "«123456», tu fecha de nacimiento o el nombre de tu mascota… 😬\n\nDesliza 👉 Así protegen sus cuentas los expertos en ciberseguridad. Te toma 10 minutos hoy y te ahorra un gran problema mañana.\n\n1️⃣ Larga y aleatoria: CISA recomienda contraseñas de al menos 16 caracteres, aleatorias y únicas para cada cuenta.\n2️⃣ Usa un gestor: Un administrador de contraseñas las crea, las guarda y las completa por ti. Solo recuerdas una.\n3️⃣ Activa la verificación en 2 pasos: Úsala en toda cuenta que lo permita: aunque roben tu clave, no podrán entrar.\n\n🔖 Guárdalo y compártelo con quien usa la misma clave para todo. ¿Necesitas ayuda para configurarlo en tu negocio? Escríbenos.\n\n📚 Fuente: CISA, «Secure Our World»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABTu%20contrase%C3%B1a%20se%20puede%20adivinar%20m%C3%A1s%20r%C3%A1pido%20de%20lo%20que%20crees%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#contraseñas #ciberseguridad #2FA #Perú #Sullana #STCPerú",
+    "instagram": "«123456», tu fecha de nacimiento o el nombre de tu mascota… 😬\n\nDesliza 👉 Así protegen sus cuentas los expertos en ciberseguridad. Te toma 10 minutos hoy y te ahorra un gran problema mañana.\n\n1️⃣ Larga y aleatoria: CISA recomienda contraseñas de al menos 16 caracteres, aleatorias y únicas para cada cuenta.\n2️⃣ Usa un gestor: Un administrador de contraseñas las crea, las guarda y las completa por ti. Solo recuerdas una.\n3️⃣ Activa la verificación en 2 pasos: Úsala en toda cuenta que lo permita: aunque roben tu clave, no podrán entrar.\n\n🔖 Guárdalo y compártelo con quien usa la misma clave para todo. ¿Necesitas ayuda para configurarlo en tu negocio? Escríbenos.\n\n📚 Fuente: CISA, «Secure Our World»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#contraseñas #ciberseguridad #2FA #Perú #Sullana #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABTu%20contrase%C3%B1a%20se%20puede%20adivinar%20m%C3%A1s%20r%C3%A1pido%20de%20lo%20que%20crees%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.",
+  "datos": [
+    "Larga y aleatoria: CISA recomienda contraseñas de al menos 16 caracteres, aleatorias y únicas para cada cuenta.",
+    "Usa un gestor: Un administrador de contraseñas las crea, las guarda y las completa por ti. Solo recuerdas una.",
+    "Activa la verificación en 2 pasos: Úsala en toda cuenta que lo permita: aunque roben tu clave, no podrán entrar."
+  ],
+  "fuente": "CISA, «Secure Our World»",
+  "fuentes": [
+    "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+  ],
+  "estado": "borrador",
+  "programado": "2026-12-01T19:00-05:00",
+  "creado": "2026-11-19T18:23:34-05:00",
+  "prueba": false,
+  "publicado": {}
+}

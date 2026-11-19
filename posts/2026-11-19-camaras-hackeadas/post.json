@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-19-camaras-hackeadas",
+  "tema": "camaras-hackeadas",
+  "formato": "checklist",
+  "categoria": "Seguridad",
+  "titulo": "Que nadie más vea tus cámaras",
+  "imagenes": [
+    "posts/2026-11-19-camaras-hackeadas/imagen-1.jpg",
+    "posts/2026-11-19-camaras-hackeadas/imagen-2.jpg",
+    "posts/2026-11-19-camaras-hackeadas/imagen-3.jpg",
+    "posts/2026-11-19-camaras-hackeadas/imagen-4.jpg",
+    "posts/2026-11-19-camaras-hackeadas/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-camaras-hackeadas/historia.jpg",
+  "reel": "posts/2026-11-19-camaras-hackeadas/reel.mp4",
+  "leyenda": {
+    "facebook": "Tus cámaras te cuidan… ¿pero quién más las puede estar viendo? 👀\n\nDesliza 👉 Estos son los 3 ajustes que recomiendan CISA y el NCSC del Reino Unido para proteger cámaras conectadas a internet.\n\n1️⃣ Cambia la contraseña de fábrica: Las contraseñas por defecto están publicadas en internet. Usa una larga y única.\n2️⃣ Actualiza el firmware: Las actualizaciones corrigen fallas conocidas. Si tu equipo ya no recibe actualizaciones, considera cambiarlo.\n3️⃣ Revisa el acceso remoto: Verifica quién puede ver tus cámaras desde fuera y desactiva UPnP en el router si no lo usas.\n\nInstalamos y configuramos cámaras en Sullana y Piura, con acceso seguro desde tu celular. ¿Ya cambiaste la clave de las tuyas? 👇\n\n📚 Fuente: CISA, «Secure new internet-connected devices», y NCSC (Reino Unido)\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABQue%20nadie%20m%C3%A1s%20vea%20tus%20c%C3%A1maras%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20instalaci%C3%B3n%20de%20c%C3%A1maras%20de%20seguridad.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#cámarasdeseguridad #seguridad #CCTV #Sullana #Piura #STCPerú",
+    "instagram": "Tus cámaras te cuidan… ¿pero quién más las puede estar viendo? 👀\n\nDesliza 👉 Estos son los 3 ajustes que recomiendan CISA y el NCSC del Reino Unido para proteger cámaras conectadas a internet.\n\n1️⃣ Cambia la contraseña de fábrica: Las contraseñas por defecto están publicadas en internet. Usa una larga y única.\n2️⃣ Actualiza el firmware: Las actualizaciones corrigen fallas conocidas. Si tu equipo ya no recibe actualizaciones, considera cambiarlo.\n3️⃣ Revisa el acceso remoto: Verifica quién puede ver tus cámaras desde fuera y desactiva UPnP en el router si no lo usas.\n\nInstalamos y configuramos cámaras en Sullana y Piura, con acceso seguro desde tu celular. ¿Ya cambiaste la clave de las tuyas? 👇\n\n📚 Fuente: CISA, «Secure new internet-connected devices», y NCSC (Reino Unido)\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#cámarasdeseguridad #seguridad #CCTV #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABQue%20nadie%20m%C3%A1s%20vea%20tus%20c%C3%A1maras%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20instalaci%C3%B3n%20de%20c%C3%A1maras%20de%20seguridad.",
+  "datos": [
+    "Cambia la contraseña de fábrica: Las contraseñas por defecto están publicadas en internet. Usa una larga y única.",
+    "Actualiza el firmware: Las actualizaciones corrigen fallas conocidas. Si tu equipo ya no recibe actualizaciones, considera cambiarlo.",
+    "Revisa el acceso remoto: Verifica quién puede ver tus cámaras desde fuera y desactiva UPnP en el router si no lo usas."
+  ],
+  "fuente": "CISA, «Secure new internet-connected devices», y NCSC (Reino Unido)",
+  "fuentes": [
+    "https://cisa.gov/news-events/alerts/2019/12/31/secure-new-internet-connected-devices",
+    "https://www.ncsc.gov.uk/pdfs/guidance/smart-security-cameras-using-them-safely-in-your-home.pdf"
+  ],
+  "estado": "borrador",
+  "programado": "2026-11-26T19:00-05:00",
+  "creado": "2026-11-19T18:19:19-05:00",
+  "prueba": false,
+  "publicado": {}
+}

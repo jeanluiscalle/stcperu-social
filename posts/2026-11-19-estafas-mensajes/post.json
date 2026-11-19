@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-19-estafas-mensajes",
+  "tema": "estafas-mensajes",
+  "formato": "mito",
+  "categoria": "Ciberseguridad",
+  "titulo": "Así te intentan robar con un mensaje",
+  "imagenes": [
+    "posts/2026-11-19-estafas-mensajes/imagen-1.jpg",
+    "posts/2026-11-19-estafas-mensajes/imagen-2.jpg",
+    "posts/2026-11-19-estafas-mensajes/imagen-3.jpg",
+    "posts/2026-11-19-estafas-mensajes/imagen-4.jpg",
+    "posts/2026-11-19-estafas-mensajes/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-estafas-mensajes/historia.jpg",
+  "reel": "posts/2026-11-19-estafas-mensajes/reel.mp4",
+  "leyenda": {
+    "facebook": "Este mensaje llega todos los días a miles de peruanos… y muchos caen 🚨\n\nDesliza 👉 Son las 3 señales de phishing que enseña CISA, la agencia de ciberseguridad de EE. UU. Aplican a WhatsApp, SMS y correo.\n\n1️⃣ Te apuran: «Tu cuenta será bloqueada hoy». La urgencia es la señal número uno de una estafa.\n2️⃣ El enlace se ve raro: Letras cambiadas o dominios extraños. Ante la duda, no toques el enlace: entra tú mismo a la app oficial.\n3️⃣ Te piden datos o claves: Ninguna entidad seria te pide contraseñas o códigos por mensaje. Activa la verificación en dos pasos.\n\nEnvíaselo a tus papás, abuelos y a ese grupo familiar que necesita verlo 🙏 ¿Te llegó uno así? Cuéntanos 👇\n\n📚 Fuente: CISA, «Recognize and report phishing»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAs%C3%AD%20te%20intentan%20robar%20con%20un%20mensaje%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#estafas #phishing #ciberseguridad #Perú #Sullana #Piura #STCPerú",
+    "instagram": "Este mensaje llega todos los días a miles de peruanos… y muchos caen 🚨\n\nDesliza 👉 Son las 3 señales de phishing que enseña CISA, la agencia de ciberseguridad de EE. UU. Aplican a WhatsApp, SMS y correo.\n\n1️⃣ Te apuran: «Tu cuenta será bloqueada hoy». La urgencia es la señal número uno de una estafa.\n2️⃣ El enlace se ve raro: Letras cambiadas o dominios extraños. Ante la duda, no toques el enlace: entra tú mismo a la app oficial.\n3️⃣ Te piden datos o claves: Ninguna entidad seria te pide contraseñas o códigos por mensaje. Activa la verificación en dos pasos.\n\nEnvíaselo a tus papás, abuelos y a ese grupo familiar que necesita verlo 🙏 ¿Te llegó uno así? Cuéntanos 👇\n\n📚 Fuente: CISA, «Recognize and report phishing»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#estafas #phishing #ciberseguridad #Perú #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAs%C3%AD%20te%20intentan%20robar%20con%20un%20mensaje%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.",
+  "datos": [
+    "Te apuran: «Tu cuenta será bloqueada hoy». La urgencia es la señal número uno de una estafa.",
+    "El enlace se ve raro: Letras cambiadas o dominios extraños. Ante la duda, no toques el enlace: entra tú mismo a la app oficial.",
+    "Te piden datos o claves: Ninguna entidad seria te pide contraseñas o códigos por mensaje. Activa la verificación en dos pasos."
+  ],
+  "fuente": "CISA, «Recognize and report phishing»",
+  "fuentes": [
+    "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+    "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+  ],
+  "estado": "borrador",
+  "programado": "2026-11-27T19:00-05:00",
+  "creado": "2026-11-19T18:20:09-05:00",
+  "prueba": false,
+  "publicado": {}
+}

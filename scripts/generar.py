@@ -300,7 +300,7 @@ def portada_dato(foto, tema, cfg, total):
     degradado(img, c["navy"], 300, H, 40, 250, 0.9)
     d = ImageDraw.Draw(img)
     marca(d, M, 56, cfg)
-    pastilla(d, M, 330, "DESDE 2017", c["cian"], c["navy"])
+    pastilla(d, M, 330, tema.get("pastilla", tema["categoria"]).upper(), c["cian"], c["navy"])
     d.text((M - 8, 380), tema["numero"], font=anton(270), fill=c["cian"])
     y = titular(d, tema["etiqueta"], M, 700, W - 2 * M, (76, 68), 2)
     y += 30

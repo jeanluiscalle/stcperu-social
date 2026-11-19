@@ -174,5 +174,145 @@
         "fecha": "2026-11-19T18:09:06-05:00"
       }
     }
+  },
+  {
+    "id": "2026-11-19-windows-10-sin-soporte",
+    "tema": "windows-10-sin-soporte",
+    "formato": "portada",
+    "titulo": "¿Tu PC sigue con Windows 10? Esto debes saber",
+    "categoria": "Windows",
+    "imagenes": [
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-1.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-2.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-3.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-4.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-windows-10-sin-soporte/historia.jpg",
+    "reel": "posts/2026-11-19-windows-10-sin-soporte/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-25T19:00-05:00",
+    "creado": "2026-11-19T18:18:31-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-camaras-hackeadas",
+    "tema": "camaras-hackeadas",
+    "formato": "checklist",
+    "titulo": "Que nadie más vea tus cámaras",
+    "categoria": "Seguridad",
+    "imagenes": [
+      "posts/2026-11-19-camaras-hackeadas/imagen-1.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-2.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-3.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-4.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-camaras-hackeadas/historia.jpg",
+    "reel": "posts/2026-11-19-camaras-hackeadas/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-26T19:00-05:00",
+    "creado": "2026-11-19T18:19:19-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-estafas-mensajes",
+    "tema": "estafas-mensajes",
+    "formato": "mito",
+    "titulo": "Así te intentan robar con un mensaje",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-19-estafas-mensajes/imagen-1.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-2.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-3.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-4.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-estafas-mensajes/historia.jpg",
+    "reel": "posts/2026-11-19-estafas-mensajes/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-27T19:00-05:00",
+    "creado": "2026-11-19T18:20:09-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-perfil-google-negocio",
+    "tema": "perfil-google-negocio",
+    "formato": "dato",
+    "titulo": "Tu negocio en Google",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-19-perfil-google-negocio/imagen-1.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-2.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-3.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-4.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-perfil-google-negocio/historia.jpg",
+    "reel": "posts/2026-11-19-perfil-google-negocio/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-28T10:00-05:00",
+    "creado": "2026-11-19T18:20:58-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-antes-de-reparar",
+    "tema": "antes-de-reparar",
+    "formato": "checklist",
+    "titulo": "Antes de llevar tu laptop a reparar, haz esto",
+    "categoria": "Consejos",
+    "imagenes": [
+      "posts/2026-11-19-antes-de-reparar/imagen-1.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-2.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-3.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-4.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-antes-de-reparar/historia.jpg",
+    "reel": "posts/2026-11-19-antes-de-reparar/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-29T10:00-05:00",
+    "creado": "2026-11-19T18:21:56-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-facturacion-sunat",
+    "tema": "facturacion-sunat",
+    "formato": "portada",
+    "titulo": "Factura electrónica: lo que todo negocio debe saber",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-19-facturacion-sunat/imagen-1.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-2.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-3.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-4.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-facturacion-sunat/historia.jpg",
+    "reel": "posts/2026-11-19-facturacion-sunat/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-30T19:00-05:00",
+    "creado": "2026-11-19T18:22:44-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-contrasenas-seguras",
+    "tema": "contrasenas-seguras",
+    "formato": "carrusel",
+    "titulo": "Tu contraseña se puede adivinar más rápido de lo que crees",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-19-contrasenas-seguras/imagen-1.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-2.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-3.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-4.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-contrasenas-seguras/historia.jpg",
+    "reel": "posts/2026-11-19-contrasenas-seguras/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-12-01T19:00-05:00",
+    "creado": "2026-11-19T18:23:34-05:00",
+    "publicado": {}
   }
 ]

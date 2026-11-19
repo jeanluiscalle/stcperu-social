@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-19-windows-10-sin-soporte",
+  "tema": "windows-10-sin-soporte",
+  "formato": "portada",
+  "categoria": "Windows",
+  "titulo": "¿Tu PC sigue con Windows 10? Esto debes saber",
+  "imagenes": [
+    "posts/2026-11-19-windows-10-sin-soporte/imagen-1.jpg",
+    "posts/2026-11-19-windows-10-sin-soporte/imagen-2.jpg",
+    "posts/2026-11-19-windows-10-sin-soporte/imagen-3.jpg",
+    "posts/2026-11-19-windows-10-sin-soporte/imagen-4.jpg",
+    "posts/2026-11-19-windows-10-sin-soporte/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-windows-10-sin-soporte/historia.jpg",
+  "reel": "posts/2026-11-19-windows-10-sin-soporte/reel.mp4",
+  "leyenda": {
+    "facebook": "Si tu computadora todavía usa Windows 10, esto te interesa ⚠️\n\nDesliza 👉 Microsoft dejó de darle soporte. Sigue funcionando, pero ya no recibe arreglos de seguridad gratuitos.\n\n1️⃣ Ya no recibe parches: Desde el 14/10/2025 Windows 10 no tiene soporte técnico ni actualizaciones de seguridad gratuitas de Microsoft.\n2️⃣ Revisa si pasa a Windows 11: Usa la app «Comprobación de estado del PC» de Microsoft: te dice si tu equipo es compatible.\n3️⃣ Si no es compatible: Repotenciar (SSD, RAM) o renovar el equipo. Te asesoramos para no gastar de más.\n\nHacemos la migración a Windows 11 con licencia original, en taller (Sullana y Piura) o de forma remota a todo el Perú. Compártelo con quien aún lo usa 👇\n\n📚 Fuente: Soporte de Microsoft, «El soporte de Windows 10 finalizó el 14 de octubre de 2025»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFTu%20PC%20sigue%20con%20Windows%2010%3F%20Esto%20debes%20saber%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20actualizar%20a%20Windows%2011.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#Windows10 #Windows11 #Microsoft #Perú #Sullana #Piura #STCPerú",
+    "instagram": "Si tu computadora todavía usa Windows 10, esto te interesa ⚠️\n\nDesliza 👉 Microsoft dejó de darle soporte. Sigue funcionando, pero ya no recibe arreglos de seguridad gratuitos.\n\n1️⃣ Ya no recibe parches: Desde el 14/10/2025 Windows 10 no tiene soporte técnico ni actualizaciones de seguridad gratuitas de Microsoft.\n2️⃣ Revisa si pasa a Windows 11: Usa la app «Comprobación de estado del PC» de Microsoft: te dice si tu equipo es compatible.\n3️⃣ Si no es compatible: Repotenciar (SSD, RAM) o renovar el equipo. Te asesoramos para no gastar de más.\n\nHacemos la migración a Windows 11 con licencia original, en taller (Sullana y Piura) o de forma remota a todo el Perú. Compártelo con quien aún lo usa 👇\n\n📚 Fuente: Soporte de Microsoft, «El soporte de Windows 10 finalizó el 14 de octubre de 2025»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#Windows10 #Windows11 #Microsoft #Perú #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFTu%20PC%20sigue%20con%20Windows%2010%3F%20Esto%20debes%20saber%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20actualizar%20a%20Windows%2011.",
+  "datos": [
+    "Ya no recibe parches: Desde el 14/10/2025 Windows 10 no tiene soporte técnico ni actualizaciones de seguridad gratuitas de Microsoft.",
+    "Revisa si pasa a Windows 11: Usa la app «Comprobación de estado del PC» de Microsoft: te dice si tu equipo es compatible.",
+    "Si no es compatible: Repotenciar (SSD, RAM) o renovar el equipo. Te asesoramos para no gastar de más."
+  ],
+  "fuente": "Soporte de Microsoft, «El soporte de Windows 10 finalizó el 14 de octubre de 2025»",
+  "fuentes": [
+    "https://support.microsoft.com/en-US/Windows/Deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025"
+  ],
+  "estado": "borrador",
+  "programado": "2026-11-25T19:00-05:00",
+  "creado": "2026-11-19T18:18:31-05:00",
+  "prueba": false,
+  "publicado": {}
+}

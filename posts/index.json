@@ -25,22 +25,6 @@
     }
   },
   {
-    "id": "2026-11-19-epson-boton-apagado",
-    "tema": "epson-boton-apagado",
-    "formato": "mito",
-    "titulo": "El error que seca el cabezal de tu Epson",
-    "categoria": "Impresoras",
-    "imagenes": [
-      "posts/2026-11-19-epson-boton-apagado/imagen.jpg"
-    ],
-    "historia": "posts/2026-11-19-epson-boton-apagado/historia.jpg",
-    "reel": "posts/2026-11-19-epson-boton-apagado/reel.mp4",
-    "estado": "borrador",
-    "programado": "2026-11-21T10:00-05:00",
-    "creado": "2026-11-19T17:26:36-05:00",
-    "publicado": {}
-  },
-  {
     "id": "2026-11-19-laptop-nueva-lenta",
     "tema": "laptop-nueva-lenta",
     "formato": "carrusel",
@@ -64,10 +48,14 @@
     "id": "2026-11-19-pc-armada-checklist",
     "tema": "pc-armada-checklist",
     "formato": "checklist",
-    "titulo": "Antes de comprar una PC armada, revisa estas 3 cosas",
+    "titulo": "Antes de comprar una PC armada, revisa esto",
     "categoria": "PC a medida",
     "imagenes": [
-      "posts/2026-11-19-pc-armada-checklist/imagen.jpg"
+      "posts/2026-11-19-pc-armada-checklist/imagen-1.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-2.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-3.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-4.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-5.jpg"
     ],
     "historia": "posts/2026-11-19-pc-armada-checklist/historia.jpg",
     "reel": "posts/2026-11-19-pc-armada-checklist/reel.mp4",
@@ -80,10 +68,14 @@
     "id": "2026-11-19-stc-1600-atenciones",
     "tema": "stc-1600-atenciones",
     "formato": "dato",
-    "titulo": "Equipos atendidos",
+    "titulo": "Más de 1,600 servicios realizados",
     "categoria": "STC Perú",
     "imagenes": [
-      "posts/2026-11-19-stc-1600-atenciones/imagen.jpg"
+      "posts/2026-11-19-stc-1600-atenciones/imagen-1.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-2.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-3.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-4.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-5.jpg"
     ],
     "historia": "posts/2026-11-19-stc-1600-atenciones/historia.jpg",
     "reel": "posts/2026-11-19-stc-1600-atenciones/reel.mp4",
@@ -99,7 +91,11 @@
     "titulo": "Así se ve una laptop por dentro sin mantenimiento",
     "categoria": "Mantenimiento",
     "imagenes": [
-      "posts/2026-11-19-laptop-polvo-dentro/imagen.jpg"
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-1.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-2.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-3.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-4.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-5.jpg"
     ],
     "historia": "posts/2026-11-19-laptop-polvo-dentro/historia.jpg",
     "reel": "posts/2026-11-19-laptop-polvo-dentro/reel.mp4",
@@ -126,6 +122,26 @@
     "estado": "borrador",
     "programado": "2026-12-03T19:00-05:00",
     "creado": "2026-11-19T17:30:15-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-impresora-cada-cuanto",
+    "tema": "impresora-cada-cuanto",
+    "formato": "mito",
+    "titulo": "¿Cada cuánto darle mantenimiento a tu impresora?",
+    "categoria": "Impresoras",
+    "imagenes": [
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-1.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-2.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-3.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-4.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-impresora-cada-cuanto/historia.jpg",
+    "reel": "posts/2026-11-19-impresora-cada-cuanto/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-21T10:00-05:00",
+    "creado": "2026-11-19T17:46:54-05:00",
     "publicado": {}
   }
 ]

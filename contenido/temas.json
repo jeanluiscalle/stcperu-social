@@ -1,128 +1,269 @@
 [
   {
-    "id": "epson-boton-apagado",
+    "id": "impresora-cada-cuanto",
     "formato": "mito",
     "categoria": "Impresoras",
-    "titulo": "El error que seca el cabezal de tu Epson",
-    "resaltar": ["SECA"],
-    "mito": "Desenchufarla directo no le hace nada.",
-    "puntos": [
-      "Apágala siempre con el botón de encendido.",
-      "Espera a que la luz deje de parpadear y recién desenchúfala.",
-      "Si hubo un corte de luz, préndela y apágala para que el cabezal se tape."
+    "titulo": "¿Cada cuánto darle mantenimiento a tu impresora?",
+    "resaltar": [
+      "MANTENIMIENTO"
     ],
-    "escena": "an Epson EcoTank L4260 ink tank printer (compact black body, ink tanks on the front right with black, yellow, magenta and cyan ink visible) on a real wooden desk in a bright small office in Peru, a finger pressing the power button, natural window light",
-    "gancho": "¿Desenchufas tu impresora sin apagarla? 😬 Así es como muchos cabezales terminan secos.",
-    "contexto": "Si se desconecta mientras está encendida (o se va la luz), el cabezal puede quedar destapado. La tinta se seca, los inyectores se tapan y empiezan las rayas o los colores que no salen.",
-    "cierre": "¿Tú lo hacías bien? Cuéntanos 👇 y compártelo con quien siempre desenchufa todo.",
-    "fuente": "Epson, instrucciones de seguridad y uso",
-    "fuentes": ["https://files.support.epson.com/docid/cpd6/cpd64593/source/printers/source/notices/reference/safety_instructions_general_spc.html"],
-    "servicio": "mantenimiento de impresora Epson",
-    "hashtags": ["#Epson", "#EcoTank", "#L4260", "#impresoras", "#Sullana", "#Piura"]
+    "mito": "Solo se revisa cuando se malogra.",
+    "slides": [
+      {
+        "titulo": "Cada semana",
+        "texto": "Imprime al menos una página a color. Si estuvo días sin usarse, haz un test de inyectores antes de imprimir algo importante."
+      },
+      {
+        "titulo": "Si ves líneas o colores pálidos",
+        "texto": "Haz el test de inyectores y limpia el cabezal solo si salen huecos. Máximo 3 limpiezas seguidas; si no mejora, espera 12 horas."
+      },
+      {
+        "titulo": "Si se atasca o jala 2 hojas",
+        "texto": "Limpia los rodillos de arrastre con un paño apenas húmedo. Si sigue fallando, toca revisión técnica."
+      }
+    ],
+    "escena": "close-up of the paper feed area of an Epson EcoTank L4260 ink tank printer opened on a technician's workbench, rubber pickup rollers visible, precision tools and a microfiber cloth nearby, professional repair workshop in Peru, realistic lighting",
+    "gancho": "Líneas en tus impresiones, papel atascado o colores que no salen… casi siempre avisan antes 🖨️",
+    "contexto": "Desliza 👉 Esto es lo que recomienda Epson para saber cuándo darle mantenimiento a tu impresora de tinta y evitar esos problemas.",
+    "cierre": "🔖 Guárdalo. ¿Ya probaste esto y sigue fallando? Escríbenos: hacemos mantenimiento preventivo a impresoras Epson, Canon, HP y Brother.",
+    "pregunta_cta": "¿Tu impresora ya da señales?",
+    "fuente": "Soporte de Epson (test de inyectores, limpieza de cabezal y alimentación de papel)",
+    "fuentes": [
+      "https://www.epson.eu/en_EU/faq/KA-01531",
+      "https://download4.epson.biz/sec_pubs/l5590_series/useg/en/GUID-FC5ACEF2-3185-4594-ADC8-7E820B569164.htm",
+      "https://epson.com/faq/SPT_C511001UCM~faq-89685"
+    ],
+    "servicio": "mantenimiento preventivo de impresora",
+    "hashtags": [
+      "#impresoras",
+      "#Epson",
+      "#EcoTank",
+      "#mantenimiento",
+      "#Sullana",
+      "#Piura"
+    ]
   },
   {
     "id": "laptop-nueva-lenta",
     "formato": "carrusel",
     "categoria": "Laptops",
     "titulo": "¿Tu laptop nueva ya va lenta? 3 ajustes que recomienda Microsoft",
-    "resaltar": ["LENTA?"],
+    "resaltar": [
+      "LENTA?"
+    ],
     "subtitulo": "Para HP, Lenovo y cualquier laptop con Windows 11.",
     "slides": [
-      {"titulo": "Apaga apps de inicio", "texto": "Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender."},
-      {"titulo": "Modo «Mejor rendimiento»", "texto": "Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería."},
-      {"titulo": "Libera espacio", "texto": "Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales."}
+      {
+        "titulo": "Apaga apps de inicio",
+        "texto": "Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender."
+      },
+      {
+        "titulo": "Modo «Mejor rendimiento»",
+        "texto": "Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería."
+      },
+      {
+        "titulo": "Libera espacio",
+        "texto": "Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales."
+      }
     ],
     "escena": "a modern silver HP 15 inch laptop with an Intel Core Ultra 5 sticker on the palm rest, open on a light wooden desk in a modern apartment in Lima, Peru, warm afternoon window light, coffee cup and notebook nearby, screen showing a clean Windows 11 desktop",
     "gancho": "Laptop nueva, pero a las semanas ya se siente pesada 🐢 Casi siempre no es el equipo: es la configuración.",
     "contexto": "Desliza 👉 Son los 3 ajustes que la propia Microsoft recomienda para mejorar el rendimiento en Windows 11. Te toman 5 minutos.",
     "cierre": "🔖 Guárdalo para cuando lo necesites. ¿Ya lo hiciste y sigue lenta? Ahí entramos nosotros.",
+    "pregunta_cta": "¿Sigue lenta? Te ayudamos",
     "fuente": "Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»",
-    "fuentes": ["https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"],
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
+    ],
     "servicio": "revisión de laptop lenta",
-    "hashtags": ["#laptop", "#Windows11", "#HP", "#Lenovo", "#IntelCoreUltra", "#Sullana", "#Piura"]
+    "hashtags": [
+      "#laptop",
+      "#Windows11",
+      "#HP",
+      "#Lenovo",
+      "#IntelCoreUltra",
+      "#Sullana",
+      "#Piura"
+    ]
   },
   {
     "id": "pc-armada-checklist",
     "formato": "checklist",
     "categoria": "PC a medida",
-    "titulo": "Antes de comprar una PC armada, revisa estas 3 cosas",
-    "resaltar": ["PC", "ARMADA,"],
-    "puntos": [
-      "Fuente certificada 80 Plus, con margen de potencia",
-      "Disco SSD NVMe para el sistema",
-      "2 memorias RAM en dual channel"
+    "titulo": "Antes de comprar una PC armada, revisa esto",
+    "resaltar": [
+      "PC",
+      "ARMADA,"
     ],
-    "detalles": [
-      "Una fuente certificada es más eficiente y protege mejor tus piezas.",
-      "Arranca Windows y abre programas mucho más rápido que un disco mecánico.",
-      "Con 2 módulos la memoria trabaja en doble canal: casi el doble de ancho de banda que con 1."
+    "slides": [
+      {
+        "titulo": "Fuente certificada 80 Plus",
+        "texto": "Más eficiente y protege mejor tus piezas. Que tenga margen de potencia para crecer."
+      },
+      {
+        "titulo": "Disco SSD NVMe",
+        "texto": "Para el sistema: Windows arranca y los programas abren mucho más rápido que con un disco mecánico."
+      },
+      {
+        "titulo": "2 memorias RAM",
+        "texto": "En dual channel la memoria trabaja en doble canal: casi el doble de ancho de banda que con un solo módulo."
+      }
     ],
     "escena": "a real assembled mid-range gaming desktop PC with tempered glass side panel, neatly routed cables, tower CPU cooler and graphics card visible, subtle white and cyan lighting, on a desk in a real bedroom setup in Peru with monitor and keyboard, evening ambient light",
     "gancho": "Una PC puede verse 🔥 por fuera y estar mal armada por dentro.",
-    "contexto": "Antes de pagar, pregunta por estas 3 cosas. Si el vendedor no sabe responder, mejor sigue buscando 😉",
+    "contexto": "Desliza 👉 Antes de pagar, pregunta por estas 3 cosas. Si el vendedor no sabe responder, mejor sigue buscando 😉",
     "cierre": "En STC Perú armamos tu PC a medida (oficina, diseño o gaming), con boleta o factura y garantía. Etiqueta a ese amigo que está por armarse una 👇",
+    "pregunta_cta": "¿Armamos tu PC a medida?",
     "fuente": "Guías de armado de Micro Center, CGDirector y Digital Trends",
-    "fuentes": ["https://www.microcenter.com/site/mc-news/article/building-your-first-pc.aspx", "https://www.cgdirector.com/how-to-build-a-pc/"],
+    "fuentes": [
+      "https://www.microcenter.com/site/mc-news/article/building-your-first-pc.aspx",
+      "https://www.cgdirector.com/how-to-build-a-pc/"
+    ],
     "servicio": "armar una PC a medida",
-    "hashtags": ["#PCGamer", "#PCaMedida", "#Ensamblaje", "#Gaming", "#Sullana", "#Piura"]
+    "hashtags": [
+      "#PCGamer",
+      "#PCaMedida",
+      "#Ensamblaje",
+      "#Gaming",
+      "#Sullana",
+      "#Piura"
+    ]
   },
   {
     "id": "stc-1600-atenciones",
     "formato": "dato",
     "categoria": "STC Perú",
-    "titulo": "Equipos atendidos",
+    "titulo": "Más de 1,600 servicios realizados",
     "numero": "1,600+",
-    "etiqueta": "atenciones con comprobante",
-    "datos": [["680+", "clientes"], ["188", "empresas"], ["1 año", "de garantía"]],
-    "puntos": ["680+ clientes atendidos", "188 empresas confían en nosotros", "Garantía de hasta 1 año"],
+    "etiqueta": "servicios realizados",
+    "datos": [
+      [
+        "680+",
+        "clientes"
+      ],
+      [
+        "188",
+        "empresas"
+      ],
+      [
+        "1 año",
+        "de garantía"
+      ]
+    ],
+    "slides": [
+      {
+        "titulo": "680+ clientes",
+        "texto": "Hogares y negocios de Sullana, Piura y la región que ya optaron por nuestros servicios."
+      },
+      {
+        "titulo": "188 empresas",
+        "texto": "Negocios con RUC que confían su tecnología en nosotros, con boleta o factura en cada trabajo."
+      },
+      {
+        "titulo": "Garantía de hasta 1 año",
+        "texto": "Si algo falla por el servicio que hicimos, lo revisamos y lo solucionamos."
+      }
+    ],
     "escena": "a professional and tidy computer repair workshop in Peru, a technician in a dark polo shirt repairing an open laptop with a precision screwdriver on an antistatic mat, soldering station and organized tools, realistic natural and LED light",
     "gancho": "Desde 2017 cuidamos la tecnología de hogares, negocios e instituciones del norte del Perú 💙",
-    "contexto": "Más de 1,600 atenciones registradas con boleta o factura. Detrás de cada número hay un equipo que volvió a funcionar.",
+    "contexto": "Más de 1,600 servicios realizados. Detrás de cada número hay un equipo que volvió a funcionar.",
     "cierre": "Gracias a cada cliente que nos recomienda. ¿Tu equipo necesita una revisión?",
+    "pregunta_cta": "¿Tu equipo necesita una revisión?",
     "fuente": "Comprobantes emitidos por STC Perú (ago. 2020 – nov. 2026)",
-    "fuentes": ["https://stcperu.com"],
+    "fuentes": [
+      "https://stcperu.com"
+    ],
     "servicio": "servicio técnico",
-    "hashtags": ["#STCPerú", "#ServicioTécnico", "#Sullana", "#Piura", "#Paita", "#Talara"]
+    "hashtags": [
+      "#STCPerú",
+      "#ServicioTécnico",
+      "#Sullana",
+      "#Piura",
+      "#Paita",
+      "#Talara"
+    ]
   },
   {
     "id": "laptop-polvo-dentro",
     "formato": "portada",
     "categoria": "Mantenimiento",
     "titulo": "Así se ve una laptop por dentro sin mantenimiento",
-    "resaltar": ["DENTRO"],
-    "puntos": [
-      "Úsala sobre una superficie dura y plana, nunca en la cama.",
-      "Limpia las rejillas con aire comprimido, en ráfagas cortas.",
-      "¿Se recalienta seguido? Revisa el ventilador a tiempo."
+    "resaltar": [
+      "DENTRO"
+    ],
+    "subtitulo": "El polvo tapa el ventilador, el procesador se calienta y todo va más lento.",
+    "slides": [
+      {
+        "titulo": "Superficie dura y plana",
+        "texto": "Nunca sobre la cama o cojines: tapan las rejillas de ventilación y la laptop se recalienta."
+      },
+      {
+        "titulo": "Limpia las rejillas",
+        "texto": "Con aire comprimido, en ráfagas cortas y con la lata en posición vertical."
+      },
+      {
+        "titulo": "¿Se recalienta seguido?",
+        "texto": "Si pasa cada semana, llévala a revisar: el ventilador puede estar fallando o lleno de polvo por dentro."
+      }
     ],
     "escena": "close-up macro photograph of an opened laptop bottom showing a cooling fan and copper heat pipe clogged with thick grey dust, a technician's gloved hand holding a soft anti-static brush, workshop bench, realistic lighting",
     "gancho": "Si tu laptop se calienta, suena como avión 🌀 o se apaga sola… probablemente está así por dentro 😳",
-    "contexto": "El polvo tapa el ventilador, el procesador se calienta y baja su rendimiento para protegerse. Esto recomienda HP para evitarlo:",
+    "contexto": "Desliza 👉 El polvo tapa el ventilador y el procesador baja su rendimiento para protegerse. Esto recomienda HP para evitarlo:",
     "cierre": "¿Hace cuánto no le das mantenimiento a la tuya? 👇 Nosotros la limpiamos por dentro y cambiamos la pasta térmica.",
+    "pregunta_cta": "¿Le toca mantenimiento a tu laptop?",
     "fuente": "Soporte de HP, «Cómo solucionar el sobrecalentamiento en laptops HP»",
-    "fuentes": ["https://www.hp.com/us-en/shop/tech-takes/how-to-fix-overheating-issues-in-hp-laptops"],
+    "fuentes": [
+      "https://www.hp.com/us-en/shop/tech-takes/how-to-fix-overheating-issues-in-hp-laptops"
+    ],
     "servicio": "mantenimiento preventivo de laptop",
-    "hashtags": ["#mantenimiento", "#laptop", "#sobrecalentamiento", "#Sullana", "#Piura"]
+    "hashtags": [
+      "#mantenimiento",
+      "#laptop",
+      "#sobrecalentamiento",
+      "#Sullana",
+      "#Piura"
+    ]
   },
   {
     "id": "respaldo-3-2-1",
     "formato": "carrusel",
     "categoria": "Seguridad",
     "titulo": "La regla 3-2-1 para no perder nunca tus archivos",
-    "resaltar": ["3-2-1"],
+    "resaltar": [
+      "3-2-1"
+    ],
     "subtitulo": "Fotos, documentos, la contabilidad del negocio: protégelos así.",
     "slides": [
-      {"titulo": "3 copias", "texto": "El archivo original y 2 copias de respaldo."},
-      {"titulo": "2 tipos de almacenamiento", "texto": "Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro."},
-      {"titulo": "1 copia fuera", "texto": "Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones."}
+      {
+        "titulo": "3 copias",
+        "texto": "El archivo original y 2 copias de respaldo."
+      },
+      {
+        "titulo": "2 tipos de almacenamiento",
+        "texto": "Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro."
+      },
+      {
+        "titulo": "1 copia fuera",
+        "texto": "Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones."
+      }
     ],
     "escena": "a laptop connected to a compact external SSD drive on a tidy home office desk in Peru, family photos and business folders nearby, soft morning window light, realistic and warm",
     "gancho": "Un disco que falla, un robo o un virus… y adiós a años de fotos y documentos 💔",
     "contexto": "Desliza 👉 La regla 3-2-1 es la guía de respaldo que recomienda CISA, la agencia de ciberseguridad de EE. UU.",
     "cierre": "🔖 Guárdalo y compártelo con quien tiene todo en una sola computadora. ¿Necesitas ayuda para configurar tus copias automáticas? Escríbenos.",
+    "pregunta_cta": "¿Configuramos tus copias?",
     "fuente": "CISA, «Back up business data»",
-    "fuentes": ["https://www.cisa.gov/back-business-data", "https://www.cisa.gov/back-government-data"],
+    "fuentes": [
+      "https://www.cisa.gov/back-business-data",
+      "https://www.cisa.gov/back-government-data"
+    ],
     "servicio": "configurar copias de seguridad",
-    "hashtags": ["#backup", "#copiadeseguridad", "#ciberseguridad", "#Sullana", "#Piura"]
+    "hashtags": [
+      "#backup",
+      "#copiadeseguridad",
+      "#ciberseguridad",
+      "#Sullana",
+      "#Piura"
+    ]
   }
 ]

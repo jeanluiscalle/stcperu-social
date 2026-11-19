@@ -201,39 +201,47 @@ def check(d, cx: int, cy: int, r: int, fondo, color) -> None:
 
 
 # ================================================================ formatos
-def formato_portada(foto, tema, cfg):
+# Todas las publicaciones son carruseles: portada (con estilo según el formato)
+# + 3 páginas con los 3 datos + página final con el llamado a WhatsApp.
+
+def indicador_deslizar(d, total: int, cfg: dict) -> None:
+    d.text((W - M, H - 92), "DESLIZA  →", font=anton(40), fill=cfg["c"]["cian"], anchor="rm")
+    puntos_carrusel(d, 0, total, H - 52, False, cfg)
+
+
+def portada_foto(foto, tema, cfg, total):
+    """Foto a sangre con titular grande y subtítulo."""
     c = cfg["c"]
     img = cubrir(foto, W, H)
     degradado(img, (0, 0, 0), 0, 260, 150, 0, 1.0)
-    degradado(img, c["navy"], 520, H, 0, 248, 1.15)
+    degradado(img, c["navy"], 470, H, 0, 252, 0.9)
     d = ImageDraw.Draw(img)
     marca(d, M, 56, cfg)
-    pastilla(d, M, 560, tema["categoria"].upper(), c["cian"], c["navy"])
-    y = titular(d, tema["titulo"], M, 630, W - 2 * M, (96, 88, 80, 72), 3, resaltar=tema.get("resaltar", ()),
+    tam = (96, 88, 80, 72)
+    f_sub = figtree(30, "Medium")
+    alto_sub = len(partir(tema.get("subtitulo", ""), f_sub, W - 2 * M, d)) * 40 + 10
+    y = H - 150 - alto_sub - titular(d, tema["titulo"], M, 0, W - 2 * M, tam, 4, dibujar=False)
+    pastilla(d, M, y - 72, tema["categoria"].upper(), c["cian"], c["navy"])
+    y = titular(d, tema["titulo"], M, y, W - 2 * M, tam, 4, resaltar=tema.get("resaltar", ()),
                 color_resaltado=c["cian"])
-    y += 22
-    f = figtree(31, "SemiBold")
-    for i, punto in enumerate(tema["puntos"][:3], start=1):
-        d.ellipse((M, y, M + 48, y + 48), fill=c["cian"])
-        d.text((M + 24, y + 24), str(i), font=anton(30), fill=c["navy"], anchor="mm")
-        y = max(y + 60, parrafo(d, punto, M + 70, y + 6, W - 2 * M - 70, f, (235, 241, 252), 1.25) + 16)
-    boton_whatsapp(d, M, H - 140, cfg, t=32)
-    return [img]
+    if tema.get("subtitulo"):
+        parrafo(d, tema["subtitulo"], M, y + 12, W - 2 * M, f_sub, (220, 229, 245))
+    indicador_deslizar(d, total, cfg)
+    return img
 
 
-def formato_mito(foto, tema, cfg):
+def portada_mito(foto, tema, cfg, total):
+    """Foto arriba, mito tachado y adelanto de la realidad."""
     c = cfg["c"]
     img = Image.new("RGB", (W, H), c["navy"])
-    img.paste(cubrir(foto, W, 700, (0.5, 0.4)), (0, 0))
+    img.paste(cubrir(foto, W, 760, (0.5, 0.4)), (0, 0))
     degradado(img, (0, 0, 0), 0, 220, 140, 0, 1.0)
-    degradado(img, c["navy"], 330, 700, 0, 255, 1.1)
+    degradado(img, c["navy"], 380, 760, 0, 255, 1.1)
     d = ImageDraw.Draw(img)
     marca(d, M, 56, cfg)
-    y = titular(d, tema["titulo"], M, 470, W - 2 * M, (78, 70, 64), 2, resaltar=tema.get("resaltar", ()),
+    y = titular(d, tema["titulo"], M, 560, W - 2 * M, (88, 80, 72), 3, resaltar=tema.get("resaltar", ()),
                 color_resaltado=c["cian"])
-
-    # Tarjeta MITO
-    y += 26
+    y += 20
     f_mito = figtree(34, "SemiBold")
     l_mito = partir(tema["mito"], f_mito, W - 2 * M - 230, d)
     alto = max(120, len(l_mito) * 46 + 50)
@@ -247,123 +255,45 @@ def formato_mito(foto, tema, cfg):
         d.line([(M + 198, ty + 23), (M + 202 + ancho, ty + 23)], fill=c["rojo"], width=4)
         ty += 46
     y += alto + 22
-
-    # Tarjeta REALIDAD
-    f_real = figtree(31, "Medium")
-    bloques = [partir(p, f_real, W - 2 * M - 120, d) for p in tema["puntos"][:3]]
-    alto = 100 + sum(len(b) * 42 + 22 for b in bloques) + 10
-    d.rounded_rectangle((M, y, W - M, y + alto), radius=28, fill=(16, 44, 86))
-    d.rounded_rectangle((M, y, M + 10, y + alto), radius=5, fill=c["cian"])
-    pastilla(d, M + 34, y + 28, "REALIDAD", c["cian"], c["navy"], t=30, pad=(24, 12))
-    ty = y + 104
-    for i, lineas in enumerate(bloques, start=1):
-        d.ellipse((M + 34, ty - 2, M + 78, ty + 42), fill=c["cian"])
-        d.text((M + 56, ty + 20), str(i), font=anton(28), fill=c["navy"], anchor="mm")
-        for linea in lineas:
-            d.text((M + 98, ty), linea, font=f_real, fill=BLANCO)
-            ty += 42
-        ty += 22
-    boton_whatsapp(d, M, H - 132, cfg, t=30, texto=f"¿Tu impresora ya falla? {cfg['whatsapp']}")
-    return [img]
+    d.rounded_rectangle((M, y, W - M, y + 110), radius=28, fill=(16, 44, 86))
+    d.rounded_rectangle((M, y, M + 10, y + 110), radius=5, fill=c["cian"])
+    x = pastilla(d, M + 34, y + 28, "REALIDAD", c["cian"], c["navy"], t=30, pad=(24, 12))
+    d.text((x + 24, y + 55), "3 datos que sí debes saber", font=figtree(32, "SemiBold"), fill=BLANCO, anchor="lm")
+    indicador_deslizar(d, total, cfg)
+    return img
 
 
-def formato_carrusel(foto, tema, cfg):
-    c = cfg["c"]
-    total = len(tema["slides"]) + 2
-    paginas = []
-
-    # 1. Portada
-    img = cubrir(foto, W, H)
-    degradado(img, (0, 0, 0), 0, 260, 150, 0, 1.0)
-    degradado(img, c["navy"], 470, H, 0, 252, 0.9)
-    d = ImageDraw.Draw(img)
-    marca(d, M, 56, cfg)
-    tam = (96, 88, 80, 72)
-    f_sub = figtree(30, "Medium")
-    alto_sub = len(partir(tema.get("subtitulo", ""), f_sub, W - 2 * M, d)) * 40 + 10
-    y = H - 140 - alto_sub - titular(d, tema["titulo"], M, 0, W - 2 * M, tam, 4, dibujar=False)
-    pastilla(d, M, y - 72, tema["categoria"].upper(), c["cian"], c["navy"])
-    y = titular(d, tema["titulo"], M, y, W - 2 * M, tam, 4, resaltar=tema.get("resaltar", ()),
-                color_resaltado=c["cian"])
-    if tema.get("subtitulo"):
-        parrafo(d, tema["subtitulo"], M, y + 12, W - 2 * M, f_sub, (220, 229, 245))
-    d.text((W - M, H - 88), "DESLIZA  →", font=anton(40), fill=c["cian"], anchor="rm")
-    puntos_carrusel(d, 0, total, H - 50, False, cfg)
-    paginas.append(img)
-
-    # 2..n. Consejos
-    focos = [(0.15, 0.3), (0.85, 0.5), (0.5, 0.75), (0.3, 0.55), (0.7, 0.2)]
-    for i, slide in enumerate(tema["slides"], start=1):
-        img = Image.new("RGB", (W, H), c["claro"])
-        foto_slide = cubrir(foto.resize((foto.width * 2, foto.height * 2)), W - 2 * M, 560, focos[(i - 1) % len(focos)])
-        foto_slide, mascara = redondear(foto_slide, 40)
-        img.paste(foto_slide, (M, 150), mascara)
-        d = ImageDraw.Draw(img)
-        marca(d, M, 52, cfg, claro=True)
-        d.text((W - M, 74), f"{i}/{len(tema['slides'])}", font=figtree(28, "Bold"), fill=(110, 125, 155), anchor="rm")
-        # Número grande que se monta sobre la foto
-        num = f"{i:02d}"
-        f_num = anton(170)
-        d.rounded_rectangle((M + 30, 620, M + 30 + d.textlength(num, font=f_num) + 50, 830), radius=30, fill=c["navy"])
-        d.text((M + 55, 618), num, font=f_num, fill=c["cian"])
-        y = titular(d, slide["titulo"], M, 880, W - 2 * M, (76, 68, 60), 2, color=c["navy"])
-        parrafo(d, slide["texto"], M, y + 18, W - 2 * M, figtree(36, "Medium"), (52, 66, 98))
-        puntos_carrusel(d, i, total, H - 60, True, cfg)
-        paginas.append(img)
-
-    # Última: llamado a la acción
-    img = cubrir(foto, W, H, (0.5, 0.5)).filter(ImageFilter.GaussianBlur(18))
-    velo(img, c["navy"], 225)
-    d = ImageDraw.Draw(img)
-    marca(d, M, 56, cfg)
-    y = titular(d, "¿Necesitas ayuda con tu equipo?", M, 380, W - 2 * M, (110, 100), 3, resaltar=("AYUDA",),
-                color_resaltado=c["cian"], alinear="centro")
-    y = parrafo(d, "Te respondemos por WhatsApp con un diagnóstico claro antes de reparar.", M + 40, y + 20,
-                W - 2 * M - 80, figtree(34, "Medium"), (220, 229, 245), alinear="centro")
-    f = figtree(40, "Bold")
-    ancho = d.textlength(f"Escríbenos: {cfg['whatsapp']}", font=f) + 82 + 40
-    boton_whatsapp(d, int((W - ancho) / 2), y + 50, cfg, t=40)
-    d.text((W / 2, y + 215), cfg["web"], font=figtree(32, "SemiBold"), fill=c["cian"], anchor="ma")
-    d.text((W / 2, H - 150), "GUÁRDALO  ·  COMPÁRTELO", font=anton(44), fill=BLANCO, anchor="ma")
-    puntos_carrusel(d, total - 1, total, H - 60, False, cfg)
-    paginas.append(img)
-    return paginas
-
-
-def formato_checklist(foto, tema, cfg):
+def portada_checklist(foto, tema, cfg, total):
+    """Foto arriba y tarjeta clara con los 3 puntos a revisar."""
     c = cfg["c"]
     img = Image.new("RGB", (W, H), c["navy"])
-    img.paste(cubrir(foto, W, 760, (0.5, 0.45)), (0, 0))
+    img.paste(cubrir(foto, W, 780, (0.5, 0.45)), (0, 0))
     degradado(img, (0, 0, 0), 0, 240, 150, 0, 1.0)
-    degradado(img, c["navy"], 300, 760, 0, 255, 1.3)
+    degradado(img, c["navy"], 320, 780, 0, 255, 1.3)
     d = ImageDraw.Draw(img)
     marca(d, M, 56, cfg)
-    f, f_det = figtree(34, "Bold"), figtree(26, "Medium")
-    detalles = tema.get("detalles", [""] * 3)
-    bloques = [(partir(p, f, W - 2 * M - 140, d), partir(dt, f_det, W - 2 * M - 140, d))
-               for p, dt in zip(tema["puntos"][:3], detalles)]
-    alto = 40 + sum(len(a) * 42 + len(b) * 34 + 30 for a, b in bloques)
-    tam = (84, 76, 68)
-    alto_titulo = titular(d, tema["titulo"], M, 0, W - 2 * M, tam, 3, dibujar=False)
-    y = H - 170 - alto - 24 - alto_titulo
+    f = figtree(36, "Bold")
+    titulos = [sl["titulo"] for sl in tema["slides"][:3]]
+    bloques = [partir(t, f, W - 2 * M - 140, d) for t in titulos]
+    alto = 36 + sum(len(b) * 46 + 30 for b in bloques)
+    tam = (88, 80, 72)
+    fondo = H - 160 - alto
+    y = fondo - 26 - titular(d, tema["titulo"], M, 0, W - 2 * M, tam, 3, dibujar=False)
     titular(d, tema["titulo"], M, y, W - 2 * M, tam, 3, resaltar=tema.get("resaltar", ()), color_resaltado=c["cian"])
-    y = H - 170 - alto
-    d.rounded_rectangle((M, y, W - M, y + alto), radius=34, fill=c["claro"])
-    ty = y + 26
-    for titulo_l, det_l in bloques:
+    d.rounded_rectangle((M, fondo, W - M, fondo + alto), radius=34, fill=c["claro"])
+    ty = fondo + 28
+    for lineas in bloques:
         check(d, M + 58, ty + 22, 24, c["cian"], c["navy"])
-        for linea in titulo_l:
+        for linea in lineas:
             d.text((M + 104, ty), linea, font=f, fill=c["navy"])
-            ty += 42
-        for linea in det_l:
-            d.text((M + 104, ty), linea, font=f_det, fill=(74, 88, 115))
-            ty += 34
+            ty += 46
         ty += 30
-    boton_whatsapp(d, M, H - 140, cfg, t=32, texto=f"Armamos la tuya: {cfg['whatsapp']}")
-    return [img]
+    indicador_deslizar(d, total, cfg)
+    return img
 
 
-def formato_dato(foto, tema, cfg):
+def portada_dato(foto, tema, cfg, total):
+    """Cifra gigante sobre la foto y 3 mini datos."""
     c = cfg["c"]
     img = cubrir(foto, W, H)
     velo(img, c["navy"], 150)
@@ -372,9 +302,8 @@ def formato_dato(foto, tema, cfg):
     marca(d, M, 56, cfg)
     pastilla(d, M, 330, "DESDE 2017", c["cian"], c["navy"])
     d.text((M - 8, 380), tema["numero"], font=anton(270), fill=c["cian"])
-    y = titular(d, tema["etiqueta"], M, 700, W - 2 * M, (72,), 2)
-    # Mini datos
-    y += 40
+    y = titular(d, tema["etiqueta"], M, 700, W - 2 * M, (76, 68), 2)
+    y += 30
     ancho = (W - 2 * M - 2 * 24) // 3
     for i, (valor, texto) in enumerate(tema["datos"]):
         x = M + i * (ancho + 24)
@@ -382,17 +311,67 @@ def formato_dato(foto, tema, cfg):
         d.rounded_rectangle((x, y, x + ancho, y + 170), radius=26, outline=(120, 150, 200), width=2)
         d.text((x + ancho / 2, y + 30), valor, font=anton(64), fill=BLANCO, anchor="ma")
         d.text((x + ancho / 2, y + 118), texto, font=figtree(28, "Medium"), fill=(210, 222, 242), anchor="ma")
-    boton_whatsapp(d, M, H - 140, cfg, t=32)
-    return [img]
+    indicador_deslizar(d, total, cfg)
+    return img
 
 
-FORMATOS = {
-    "portada": formato_portada,
-    "mito": formato_mito,
-    "carrusel": formato_carrusel,
-    "checklist": formato_checklist,
-    "dato": formato_dato,
+def pagina_dato(foto, tema, cfg, i: int, slide: dict, total: int):
+    c = cfg["c"]
+    focos = [(0.15, 0.3), (0.85, 0.5), (0.5, 0.75)]
+    img = Image.new("RGB", (W, H), c["claro"])
+    foto_slide = cubrir(foto.resize((foto.width * 2, foto.height * 2)), W - 2 * M, 560, focos[(i - 1) % 3])
+    foto_slide, mascara = redondear(foto_slide, 40)
+    img.paste(foto_slide, (M, 150), mascara)
+    d = ImageDraw.Draw(img)
+    marca(d, M, 52, cfg, claro=True)
+    d.text((W - M, 74), f"{i}/3", font=figtree(28, "Bold"), fill=(110, 125, 155), anchor="rm")
+    num = f"{i:02d}"
+    f_num = anton(170)
+    d.rounded_rectangle((M + 30, 620, M + 30 + d.textlength(num, font=f_num) + 50, 830), radius=30, fill=c["navy"])
+    d.text((M + 55, 618), num, font=f_num, fill=c["cian"])
+    y = titular(d, slide["titulo"], M, 870, W - 2 * M, (76, 68, 60), 2, color=c["navy"])
+    parrafo(d, slide["texto"], M, y + 12, W - 2 * M, figtree(35, "Medium"), (52, 66, 98))
+    d.text((M, H - 52), f"WhatsApp {cfg['whatsapp']}", font=figtree(26, "Bold"), fill=(16, 120, 70), anchor="lm")
+    puntos_carrusel(d, i, total, H - 60, True, cfg)
+    return img
+
+
+def pagina_cta(foto, tema, cfg, total: int):
+    c = cfg["c"]
+    img = cubrir(foto, W, H, (0.5, 0.5)).filter(ImageFilter.GaussianBlur(18))
+    velo(img, c["navy"], 225)
+    d = ImageDraw.Draw(img)
+    marca(d, M, 56, cfg)
+    pregunta = tema.get("pregunta_cta", "¿Necesitas ayuda con tu equipo?")
+    y = titular(d, pregunta, M, 360, W - 2 * M, (110, 100, 90), 3, resaltar=("AYUDA",),
+                color_resaltado=c["cian"], alinear="centro")
+    y = parrafo(d, "Te respondemos por WhatsApp con un diagnóstico claro antes de reparar.", M + 40, y + 10,
+                W - 2 * M - 80, figtree(34, "Medium"), (220, 229, 245), alinear="centro")
+    f = figtree(40, "Bold")
+    ancho = d.textlength(f"Escríbenos: {cfg['whatsapp']}", font=f) + 82 + 40
+    boton_whatsapp(d, int((W - ancho) / 2), y + 50, cfg, t=40)
+    d.text((W / 2, y + 215), cfg["web"], font=figtree(32, "SemiBold"), fill=c["cian"], anchor="ma")
+    d.text((W / 2, H - 150), "GUÁRDALO  ·  COMPÁRTELO", font=anton(44), fill=BLANCO, anchor="ma")
+    puntos_carrusel(d, total - 1, total, H - 60, False, cfg)
+    return img
+
+
+PORTADAS = {
+    "portada": portada_foto,
+    "carrusel": portada_foto,
+    "mito": portada_mito,
+    "checklist": portada_checklist,
+    "dato": portada_dato,
 }
+
+
+def armar(foto, tema, cfg) -> list[Image.Image]:
+    slides = tema["slides"][:3]
+    total = len(slides) + 2
+    paginas = [PORTADAS[tema["formato"]](foto, tema, cfg, total)]
+    paginas += [pagina_dato(foto, tema, cfg, i, sl, total) for i, sl in enumerate(slides, start=1)]
+    paginas.append(pagina_cta(foto, tema, cfg, total))
+    return paginas
 
 
 # ================================================================ foto IA
@@ -445,9 +424,7 @@ def enlace_whatsapp(cfg: dict, tema: dict) -> str:
 
 
 def tres_datos(tema: dict) -> list[str]:
-    if tema.get("slides"):
-        return [f"{s['titulo']}: {s['texto']}" for s in tema["slides"]]
-    return list(tema["puntos"])
+    return [f"{s['titulo']}: {s['texto']}" for s in tema["slides"][:3]]
 
 
 def leyendas(tema: dict, cfg: dict) -> dict:
@@ -537,7 +514,7 @@ def crear_reel(cuadros: list[Image.Image], destino: Path) -> None:
 
 
 def producir(foto: Image.Image, tema: dict, cfg: dict, destino: Path) -> dict:
-    paginas = FORMATOS[tema["formato"]](foto, tema, cfg)
+    paginas = armar(foto, tema, cfg)
     verticales = [vertical(p, foto, cfg) for p in paginas]
     verticales[0].save(destino / "historia.jpg", "JPEG", quality=90, optimize=True, progressive=True)
     crear_reel(verticales, destino / "reel.mp4")

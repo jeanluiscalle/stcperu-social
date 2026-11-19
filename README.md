@@ -22,12 +22,12 @@ En **Settings** del repositorio:
 | Pages → Build and deployment → Source | **GitHub Actions** |
 | Actions → General → Workflow permissions | **Read and write** y marcar **Allow GitHub Actions to create and approve pull requests** |
 | Secrets and variables → Actions → **Secrets** | `OPENAI_API_KEY`, `META_PAGE_TOKEN` |
-| Secrets and variables → Actions → **Variables** | `FB_PAGE_ID`, `IG_USER_ID` |
 
 Variables opcionales:
 
 | Variable | Para qué | Por defecto |
 |---|---|---|
+| `FB_PAGE_ID` / `IG_USER_ID` | otra Página o cuenta | los de `contenido/config.json` |
 | `APROBACION_MANUAL` | `false` = se publican sin revisión | revisión con PR |
 | `REDES` | `facebook`, `instagram` o ambas | `facebook,instagram` |
 | `MODELO_IMAGEN` / `CALIDAD_IMAGEN` | modelo y calidad de OpenAI | `gpt-image-1.5` / `medium` |

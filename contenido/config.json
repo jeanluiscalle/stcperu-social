@@ -7,6 +7,8 @@
   "facebook": "https://www.facebook.com/profile.php?id=61558317887061",
   "ciudades": "Sullana y Piura",
   "colores": {"navy": "#0A1B3D", "cian": "#2BD9EC", "rojo": "#B42318", "claro": "#F3F6FA"},
+  "fb_page_id": "287001047834288",
+  "ig_user_id": "17841402365775650",
   "base_url": "https://jeanluiscalle.github.io/stcperu-social",
   "modelo_imagen": "gpt-image-1.5",
   "calidad_imagen": "medium"

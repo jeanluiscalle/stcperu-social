@@ -6,9 +6,10 @@ publicado en alguna red y la sube usando la Graph API de Meta. La imagen debe
 estar ya visible en GitHub Pages (Instagram la descarga desde esa URL).
 
 Variables de entorno (en GitHub: Settings → Secrets and variables → Actions):
-  META_PAGE_TOKEN   token de acceso de la Página (secreto)
-  FB_PAGE_ID        ID de la Página de Facebook
-  IG_USER_ID        ID de la cuenta profesional de Instagram
+  META_PAGE_TOKEN   token de acceso de la Página (secreto); también acepta
+                    un token de usuario con permisos sobre la Página
+  FB_PAGE_ID        opcional, ID de la Página (por defecto el de config.json)
+  IG_USER_ID        opcional, ID de Instagram (por defecto el de config.json)
   REDES             opcional, por defecto "facebook,instagram"
   GRAPH_VERSION     opcional, por defecto "v23.0"
   BASE_URL          opcional, por defecto el de contenido/config.json
@@ -44,16 +45,25 @@ def guardar_json(ruta: Path, datos) -> None:
 
 
 class Meta:
-    def __init__(self, token: str, version: str):
-        self.token, self.base = token, f"https://graph.facebook.com/{version}"
+    def __init__(self, token: str, version: str, token_en_parametro: bool = False):
+        self.base = f"https://graph.facebook.com/{version}"
+        # El token va en la cabecera; el de Página derivado va como parámetro para que
+        # tenga prioridad aunque un proxy añada su propia cabecera Authorization.
+        self.cabeceras = {} if token_en_parametro else {"Authorization": f"Bearer {token}"}
+        self.extra = {"access_token": token} if token_en_parametro else {}
 
     def post(self, ruta: str, **datos) -> dict:
-        r = requests.post(f"{self.base}/{ruta}", data={**datos, "access_token": self.token}, timeout=120)
+        r = requests.post(f"{self.base}/{ruta}", data={**datos, **self.extra}, headers=self.cabeceras, timeout=120)
         return self._revisar(r)
 
     def get(self, ruta: str, **params) -> dict:
-        r = requests.get(f"{self.base}/{ruta}", params={**params, "access_token": self.token}, timeout=60)
+        r = requests.get(f"{self.base}/{ruta}", params={**params, **self.extra}, headers=self.cabeceras, timeout=60)
         return self._revisar(r)
+
+    def de_pagina(self, pagina: str) -> "Meta":
+        """Cliente con el token de la Página (sirve tanto si el secreto es token de usuario como de página)."""
+        token = self.get(pagina, fields="access_token").get("access_token")
+        return Meta(token, self.base.rsplit("/", 1)[1], token_en_parametro=True) if token else self
 
     @staticmethod
     def _revisar(r: requests.Response) -> dict:
@@ -65,7 +75,7 @@ class Meta:
 
 
 def publicar_facebook(meta: Meta, pagina: str, url: str, texto: str) -> str:
-    respuesta = meta.post(f"{pagina}/photos", url=url, caption=texto, published="true")
+    respuesta = meta.de_pagina(pagina).post(f"{pagina}/photos", url=url, caption=texto, published="true")
     return respuesta.get("post_id") or respuesta["id"]
 
 
@@ -79,6 +89,15 @@ def publicar_instagram(meta: Meta, cuenta: str, url: str, texto: str) -> str:
             raise RuntimeError(f"Instagram no pudo procesar la imagen (estado {estado}).")
         time.sleep(5)
     return meta.post(f"{cuenta}/media_publish", creation_id=contenedor)["id"]
+
+
+def url_imagen(base: str, ruta: str) -> str:
+    """URL pública de la imagen: GitHub Pages si ya está activo; si no, el archivo directo del repo."""
+    principal = f"{base}/{ruta}"
+    if imagen_visible(principal):
+        return principal
+    repo = os.environ.get("GITHUB_REPOSITORY", "jeanluiscalle/stcperu-social")
+    return f"https://raw.githubusercontent.com/{repo}/main/{ruta}"
 
 
 def imagen_visible(url: str) -> bool:
@@ -105,7 +124,7 @@ def main() -> None:
         return
 
     base = (os.environ.get("BASE_URL") or config["base_url"]).rstrip("/")
-    url = f"{base}/{pendiente['imagen']}"
+    url = url_imagen(base, pendiente["imagen"])
     ruta_post = RAIZ / "posts" / pendiente["id"] / "post.json"
     post = leer_json(ruta_post)
     print(f"Siguiente: {post['titulo']}\nImagen: {url}")
@@ -123,8 +142,8 @@ def main() -> None:
 
     meta = Meta(token, os.environ.get("GRAPH_VERSION", "v23.0"))
     destinos = {
-        "facebook": (os.environ.get("FB_PAGE_ID"), publicar_facebook),
-        "instagram": (os.environ.get("IG_USER_ID"), publicar_instagram),
+        "facebook": (os.environ.get("FB_PAGE_ID") or config.get("fb_page_id"), publicar_facebook),
+        "instagram": (os.environ.get("IG_USER_ID") or config.get("ig_user_id"), publicar_instagram),
     }
     fallos = []
     for red in redes:

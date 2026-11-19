@@ -88,7 +88,7 @@
       .then((r) => (r.ok ? r.json() : []))
       .catch(() => [])
       .then((posts) => {
-        const visibles = posts.filter((p) => !p.prueba).reverse();
+        const visibles = posts.filter((p) => !p.prueba && p.estado === "publicado").reverse();
         if (!visibles.length) {
           lista.innerHTML = '<p class="vacio">Pronto publicaremos nuevos consejos.</p>';
           return;
@@ -96,14 +96,13 @@
         lista.innerHTML = visibles.map((p) => {
           const publicado = p.publicado && (p.publicado.instagram || p.publicado.facebook);
           const dia = fecha(publicado ? publicado.fecha : p.creado);
-          const puntos = (p.puntos || []).map((x) => `<li>${texto(x)}</li>`).join("");
+          const portada = (p.imagenes && p.imagenes[0]) || p.imagen;
           const servicio = encodeURIComponent(`Hola STC Perú, quiero cotizar: ${p.servicio || p.titulo}`);
           return `<article class="tarjeta">
-            <img src="${texto(p.imagen)}" alt="${texto(p.titulo)}" loading="lazy" width="1080" height="1350" />
+            <img src="${texto(portada)}" alt="${texto(p.titulo)}" loading="lazy" width="1080" height="1350" />
             <div class="cuerpo">
               <div class="meta"><span class="etiqueta">${texto(p.categoria)}</span><time>${dia}</time></div>
               <h2>${texto(p.titulo)}</h2>
-              <ol>${puntos}</ol>
               <a class="mas" href="https://wa.me/51930372417?text=${servicio}" target="_blank" rel="noopener">¿Necesitas ayuda? Escríbenos →</a>
             </div>
           </article>`;

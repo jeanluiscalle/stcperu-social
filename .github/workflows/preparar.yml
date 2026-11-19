@@ -1,6 +1,7 @@
 name: Preparar publicaciones
 
-# Domingo 6:13 p.m. (hora de Perú) genera las 3 publicaciones de la semana.
+# Domingo 6:13 p.m. (hora de Perú) genera los borradores de la semana siguiente.
+# Quedan en el panel (panel.html) para aprobarlos con el workflow «Aprobar publicaciones».
 on:
   schedule:
     - cron: "13 23 * * 0"
@@ -15,7 +16,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: contenido
@@ -31,6 +31,7 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - run: command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
 
       - name: Generar imágenes y textos
         id: generar
@@ -47,36 +48,16 @@ jobs:
             python scripts/generar.py --cantidad "$CANTIDAD"
           fi
 
-      # Por defecto se abre un Pull Request: al aprobarlo (Merge) quedan listas para publicarse.
-      # Con la variable APROBACION_MANUAL=false se guardan directo y se publican solas.
-      - name: Guardar o pedir aprobación
+      - name: Guardar borradores
         env:
-          GH_TOKEN: ${{ github.token }}
           TITULOS: ${{ steps.generar.outputs.titulos }}
         run: |
           git config user.name "stcperu-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ "${{ vars.APROBACION_MANUAL }}" = "false" ]; then
-            git add posts && git commit -m "Nuevas publicaciones: $TITULOS" && git push
-            exit 0
-          fi
-          rama="contenido/$(date -u +%Y%m%d-%H%M)"
-          git switch -c "$rama"
-          git add posts && git commit -m "Nuevas publicaciones: $TITULOS"
-          git push -u origin "$rama"
-          {
-            echo "Publicaciones listas para revisar: **$TITULOS**"
-            echo
-            echo "Revisa las imágenes en *Files changed*. Si están bien, pulsa **Merge pull request** y se publicarán en los próximos horarios (mar 12:30 p.m., jue 7:00 p.m., sáb 10:00 a.m.)."
-            echo "Si alguna no te gusta, cierra el PR y vuelve a ejecutar «Preparar publicaciones»."
-          } > cuerpo.md
-          gh pr create --title "Revisar: $TITULOS" --body-file cuerpo.md --base main --head "$rama"
+          git add posts && git commit -m "Nuevos borradores: $TITULOS" && git push
 
   desplegar:
     needs: preparar
-    if: vars.APROBACION_MANUAL == 'false'
     uses: ./.github/workflows/pages.yml
     permissions:
-      contents: read
-      pages: write
-      id-token: write
+      contents: write

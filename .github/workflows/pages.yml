@@ -1,5 +1,6 @@
-name: Blog (GitHub Pages)
+name: Blog y panel (GitHub Pages)
 
+# Publica el contenido de main en la rama gh-pages (la que sirve GitHub Pages).
 on:
   push:
     branches: [main]
@@ -7,9 +8,7 @@ on:
   workflow_call:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -18,16 +17,16 @@ concurrency:
 jobs:
   desplegar:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - id: deploy
-        uses: actions/deploy-pages@v4
+      - name: Subir a gh-pages
+        run: |
+          rm -rf .github
+          git config user.name "stcperu-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan pages-tmp
+          git add -A
+          git commit -qm "Despliegue $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -f origin HEAD:gh-pages

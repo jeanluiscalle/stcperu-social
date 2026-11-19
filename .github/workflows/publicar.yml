@@ -37,7 +37,7 @@ jobs:
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
           IG_USER_ID: ${{ vars.IG_USER_ID }}
-          REDES: ${{ vars.REDES || 'facebook,instagram' }}
+          REDES: ${{ vars.REDES }}
           GRAPH_VERSION: ${{ vars.GRAPH_VERSION || 'v23.0' }}
         run: python scripts/publicar.py ${{ inputs.simular && '--simular' || '' }}
 
@@ -54,6 +54,4 @@ jobs:
     if: always() && !inputs.simular
     uses: ./.github/workflows/pages.yml
     permissions:
-      contents: read
-      pages: write
-      id-token: write
+      contents: write

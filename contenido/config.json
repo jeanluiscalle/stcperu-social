@@ -6,10 +6,32 @@
   "instagram": "https://www.instagram.com/stcperu.eirl/",
   "facebook": "https://www.facebook.com/profile.php?id=61558317887061",
   "ciudades": "Sullana y Piura",
-  "colores": {"navy": "#0A1B3D", "cian": "#2BD9EC", "rojo": "#B42318", "claro": "#F3F6FA"},
+  "colores": {
+    "navy": "#0A1B3D",
+    "cian": "#2BD9EC",
+    "rojo": "#B42318",
+    "claro": "#F3F6FA",
+    "verde": "#25D366"
+  },
   "fb_page_id": "287001047834288",
   "ig_user_id": "17841402365775650",
   "base_url": "https://jeanluiscalle.github.io/stcperu-social",
-  "modelo_imagen": "gpt-image-1.5",
-  "calidad_imagen": "medium"
+  "modelo_imagen": "gpt-image-2",
+  "calidad_imagen": "medium",
+  "horarios": [
+    [
+      5,
+      "10:00"
+    ],
+    [
+      1,
+      "12:30"
+    ],
+    [
+      3,
+      "19:00"
+    ]
+  ],
+  "whatsapp_numero": "51930372417",
+  "verde_whatsapp": "#25D366"
 }

@@ -1,0 +1,57 @@
+name: Aprobar publicaciones
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "IDs separados por coma, o «todos» para aprobar todos los borradores"
+        default: "todos"
+      accion:
+        description: "Qué hacer"
+        type: choice
+        options: [aprobar, descartar, borrador]
+        default: aprobar
+      fecha:
+        description: "Opcional: nueva fecha (AAAA-MM-DDTHH:MM, hora de Perú). Solo con un ID."
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contenido
+  cancel-in-progress: false
+
+jobs:
+  aprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Cambiar estado
+        env:
+          IDS: ${{ inputs.ids }}
+          ACCION: ${{ inputs.accion }}
+          FECHA: ${{ inputs.fecha }}
+        run: |
+          if [ -n "$FECHA" ]; then
+            python scripts/aprobar.py $IDS --accion "$ACCION" --fecha "$FECHA"
+          else
+            python scripts/aprobar.py $IDS --accion "$ACCION"
+          fi
+      - name: Guardar
+        run: |
+          git config user.name "stcperu-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts && git commit -m "Estado de publicaciones: $ACCION $IDS" && git push
+        env:
+          IDS: ${{ inputs.ids }}
+          ACCION: ${{ inputs.accion }}
+
+  desplegar:
+    needs: aprobar
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: write

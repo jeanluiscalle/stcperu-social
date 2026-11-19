@@ -1,0 +1,59 @@
+[
+  {
+    "id": "2026-11-19-impresora-3-cosas",
+    "tema": "impresora-3-cosas",
+    "titulo": "3 cosas que nunca debes olvidar en tu impresora",
+    "categoria": "Impresoras",
+    "puntos": [
+      "Mantenla libre de polvo: tápala cuando no la uses.",
+      "Usa tintas originales o de buena calidad.",
+      "Imprime al menos una vez por semana para que no se seque el cabezal."
+    ],
+    "servicio": "Reparación de impresoras",
+    "imagen": "posts/2026-11-19-impresora-3-cosas/imagen.jpg",
+    "creado": "2026-11-19T16:46:20-05:00",
+    "prueba": false,
+    "publicado": {
+      "facebook": null,
+      "instagram": null
+    }
+  },
+  {
+    "id": "2026-11-19-laptop-lenta",
+    "tema": "laptop-lenta",
+    "titulo": "¿Tu laptop está lenta? Revisa esto",
+    "categoria": "Computadoras",
+    "puntos": [
+      "Desinstala programas que ya no usas.",
+      "Revisa que el disco no esté lleno.",
+      "Un SSD puede hacerla hasta varias veces más rápida."
+    ],
+    "servicio": "Repotenciación de equipos",
+    "imagen": "posts/2026-11-19-laptop-lenta/imagen.jpg",
+    "creado": "2026-11-19T16:46:34-05:00",
+    "prueba": false,
+    "publicado": {
+      "facebook": null,
+      "instagram": null
+    }
+  },
+  {
+    "id": "2026-11-19-pc-calor",
+    "tema": "pc-calor",
+    "titulo": "El calor es el enemigo de tu computadora",
+    "categoria": "Computadoras",
+    "puntos": [
+      "No la uses sobre la cama o cojines: tapa la ventilación.",
+      "Límpiala por dentro al menos una vez al año.",
+      "Si el ventilador suena fuerte, es señal de alerta."
+    ],
+    "servicio": "Mantenimiento preventivo",
+    "imagen": "posts/2026-11-19-pc-calor/imagen.jpg",
+    "creado": "2026-11-19T16:46:47-05:00",
+    "prueba": false,
+    "publicado": {
+      "facebook": null,
+      "instagram": null
+    }
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "marca": "STC Perú",
+  "web": "stcperu.com",
+  "whatsapp": "930 372 417",
+  "whatsapp_link": "https://wa.me/51930372417",
+  "ciudades": "Sullana y Piura",
+  "colores": {"navy": "#0A1B3D", "cian": "#2BD9EC", "rojo": "#B42318", "claro": "#F3F6FA"},
+  "base_url": "https://jeanluiscalle.github.io/stcperu-social",
+  "modelo_imagen": "gpt-image-1.5",
+  "calidad_imagen": "medium"
+}

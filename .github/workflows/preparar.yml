@@ -1,0 +1,82 @@
+name: Preparar publicaciones
+
+# Domingo 6:13 p.m. (hora de Perú) genera las 3 publicaciones de la semana.
+on:
+  schedule:
+    - cron: "13 23 * * 0"
+  workflow_dispatch:
+    inputs:
+      cantidad:
+        description: "Cuántas publicaciones generar"
+        default: "3"
+      tema:
+        description: "ID de un tema concreto (opcional)"
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: contenido
+  cancel-in-progress: false
+
+jobs:
+  preparar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Generar imágenes y textos
+        id: generar
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MODELO_IMAGEN: ${{ vars.MODELO_IMAGEN }}
+          CALIDAD_IMAGEN: ${{ vars.CALIDAD_IMAGEN }}
+          TEMA: ${{ inputs.tema }}
+          CANTIDAD: ${{ inputs.cantidad || '3' }}
+        run: |
+          if [ -n "$TEMA" ]; then
+            python scripts/generar.py --tema "$TEMA"
+          else
+            python scripts/generar.py --cantidad "$CANTIDAD"
+          fi
+
+      # Por defecto se abre un Pull Request: al aprobarlo (Merge) quedan listas para publicarse.
+      # Con la variable APROBACION_MANUAL=false se guardan directo y se publican solas.
+      - name: Guardar o pedir aprobación
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITULOS: ${{ steps.generar.outputs.titulos }}
+        run: |
+          git config user.name "stcperu-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "${{ vars.APROBACION_MANUAL }}" = "false" ]; then
+            git add posts && git commit -m "Nuevas publicaciones: $TITULOS" && git push
+            exit 0
+          fi
+          rama="contenido/$(date -u +%Y%m%d-%H%M)"
+          git switch -c "$rama"
+          git add posts && git commit -m "Nuevas publicaciones: $TITULOS"
+          git push -u origin "$rama"
+          {
+            echo "Publicaciones listas para revisar: **$TITULOS**"
+            echo
+            echo "Revisa las imágenes en *Files changed*. Si están bien, pulsa **Merge pull request** y se publicarán en los próximos horarios (mar 12:30 p.m., jue 7:00 p.m., sáb 10:00 a.m.)."
+            echo "Si alguna no te gusta, cierra el PR y vuelve a ejecutar «Preparar publicaciones»."
+          } > cuerpo.md
+          gh pr create --title "Revisar: $TITULOS" --body-file cuerpo.md --base main --head "$rama"
+
+  desplegar:
+    needs: preparar
+    if: vars.APROBACION_MANUAL == 'false'
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write

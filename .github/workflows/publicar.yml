@@ -1,12 +1,11 @@
 name: Publicar en redes
 
-# Horarios en hora de Perú (UTC-5): mar 12:27 p.m., jue 6:57 p.m., sáb 9:57 a.m.
+# Una publicación diaria (hora de Perú, UTC-5): lun-vie 6:57 p.m. y sáb-dom 9:57 a.m.
 # (GitHub puede retrasar unos minutos; por eso se programan un poco antes).
 on:
   schedule:
-    - cron: "27 17 * * 2"
-    - cron: "57 23 * * 4"
-    - cron: "57 14 * * 6"
+    - cron: "57 23 * * 1-5"
+    - cron: "57 14 * * 0,6"
   workflow_dispatch:
     inputs:
       simular:

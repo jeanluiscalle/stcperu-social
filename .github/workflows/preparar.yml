@@ -1,6 +1,6 @@
 name: Preparar publicaciones
 
-# Domingo 6:13 p.m. (hora de Perú) genera los borradores de la semana siguiente.
+# Domingo 6:13 p.m. (hora de Perú) genera los 7 borradores de la semana siguiente.
 # Quedan en el panel (panel.html) para aprobarlos con el workflow «Aprobar publicaciones».
 on:
   schedule:
@@ -9,7 +9,7 @@ on:
     inputs:
       cantidad:
         description: "Cuántas publicaciones generar"
-        default: "3"
+        default: "7"
       tema:
         description: "ID de un tema concreto (opcional)"
         default: ""
@@ -40,7 +40,7 @@ jobs:
           MODELO_IMAGEN: ${{ vars.MODELO_IMAGEN }}
           CALIDAD_IMAGEN: ${{ vars.CALIDAD_IMAGEN }}
           TEMA: ${{ inputs.tema }}
-          CANTIDAD: ${{ inputs.cantidad || '3' }}
+          CANTIDAD: ${{ inputs.cantidad || '7' }}
         run: |
           if [ -n "$TEMA" ]; then
             python scripts/generar.py --tema "$TEMA"

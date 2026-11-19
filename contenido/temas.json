@@ -265,5 +265,309 @@
       "#Sullana",
       "#Piura"
     ]
+  },
+  {
+    "id": "windows-10-sin-soporte",
+    "formato": "portada",
+    "categoria": "Windows",
+    "titulo": "¿Tu PC sigue con Windows 10? Esto debes saber",
+    "resaltar": [
+      "WINDOWS",
+      "10?"
+    ],
+    "subtitulo": "Microsoft terminó su soporte el 14 de octubre de 2025.",
+    "slides": [
+      {
+        "titulo": "Ya no recibe parches",
+        "texto": "Desde el 14/10/2025 Windows 10 no tiene soporte técnico ni actualizaciones de seguridad gratuitas de Microsoft."
+      },
+      {
+        "titulo": "Revisa si pasa a Windows 11",
+        "texto": "Usa la app «Comprobación de estado del PC» de Microsoft: te dice si tu equipo es compatible."
+      },
+      {
+        "titulo": "Si no es compatible",
+        "texto": "Repotenciar (SSD, RAM) o renovar el equipo. Te asesoramos para no gastar de más."
+      }
+    ],
+    "escena": "an older desktop computer monitor on an office desk in Peru showing a generic blue operating system upgrade screen, a modern laptop next to it, natural office light, realistic",
+    "gancho": "Si tu computadora todavía usa Windows 10, esto te interesa ⚠️",
+    "contexto": "Desliza 👉 Microsoft dejó de darle soporte. Sigue funcionando, pero ya no recibe arreglos de seguridad gratuitos.",
+    "cierre": "Hacemos la migración a Windows 11 con licencia original, en taller (Sullana y Piura) o de forma remota a todo el Perú. Compártelo con quien aún lo usa 👇",
+    "pregunta_cta": "¿Migramos tu PC a Windows 11?",
+    "fuente": "Soporte de Microsoft, «El soporte de Windows 10 finalizó el 14 de octubre de 2025»",
+    "fuentes": [
+      "https://support.microsoft.com/en-US/Windows/Deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025"
+    ],
+    "servicio": "actualizar a Windows 11",
+    "hashtags": [
+      "#Windows10",
+      "#Windows11",
+      "#Microsoft",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "camaras-hackeadas",
+    "formato": "checklist",
+    "categoria": "Seguridad",
+    "titulo": "Que nadie más vea tus cámaras",
+    "resaltar": [
+      "CÁMARAS"
+    ],
+    "slides": [
+      {
+        "titulo": "Cambia la contraseña de fábrica",
+        "texto": "Las contraseñas por defecto están publicadas en internet. Usa una larga y única."
+      },
+      {
+        "titulo": "Actualiza el firmware",
+        "texto": "Las actualizaciones corrigen fallas conocidas. Si tu equipo ya no recibe actualizaciones, considera cambiarlo."
+      },
+      {
+        "titulo": "Revisa el acceso remoto",
+        "texto": "Verifica quién puede ver tus cámaras desde fuera y desactiva UPnP en el router si no lo usas."
+      }
+    ],
+    "escena": "a modern dome security camera mounted on the ceiling corner of a small shop entrance in Peru, and a smartphone in the foreground showing a live security camera grid view, evening light, realistic",
+    "gancho": "Tus cámaras te cuidan… ¿pero quién más las puede estar viendo? 👀",
+    "contexto": "Desliza 👉 Estos son los 3 ajustes que recomiendan CISA y el NCSC del Reino Unido para proteger cámaras conectadas a internet.",
+    "cierre": "Instalamos y configuramos cámaras en Sullana y Piura, con acceso seguro desde tu celular. ¿Ya cambiaste la clave de las tuyas? 👇",
+    "pregunta_cta": "¿Revisamos tus cámaras?",
+    "fuente": "CISA, «Secure new internet-connected devices», y NCSC (Reino Unido)",
+    "fuentes": [
+      "https://cisa.gov/news-events/alerts/2019/12/31/secure-new-internet-connected-devices",
+      "https://www.ncsc.gov.uk/pdfs/guidance/smart-security-cameras-using-them-safely-in-your-home.pdf"
+    ],
+    "servicio": "instalación de cámaras de seguridad",
+    "hashtags": [
+      "#cámarasdeseguridad",
+      "#seguridad",
+      "#CCTV",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "estafas-mensajes",
+    "formato": "mito",
+    "categoria": "Ciberseguridad",
+    "titulo": "Así te intentan robar con un mensaje",
+    "resaltar": [
+      "ROBAR"
+    ],
+    "mito": "Si dice que es del banco, es del banco.",
+    "slides": [
+      {
+        "titulo": "Te apuran",
+        "texto": "«Tu cuenta será bloqueada hoy». La urgencia es la señal número uno de una estafa."
+      },
+      {
+        "titulo": "El enlace se ve raro",
+        "texto": "Letras cambiadas o dominios extraños. Ante la duda, no toques el enlace: entra tú mismo a la app oficial."
+      },
+      {
+        "titulo": "Te piden datos o claves",
+        "texto": "Ninguna entidad seria te pide contraseñas o códigos por mensaje. Activa la verificación en dos pasos."
+      }
+    ],
+    "escena": "a person's hands holding a smartphone showing a generic suspicious text message notification with a warning feel, laptop on a desk in a home in Peru, moody realistic light, no real brand logos",
+    "gancho": "Este mensaje llega todos los días a miles de peruanos… y muchos caen 🚨",
+    "contexto": "Desliza 👉 Son las 3 señales de phishing que enseña CISA, la agencia de ciberseguridad de EE. UU. Aplican a WhatsApp, SMS y correo.",
+    "cierre": "Envíaselo a tus papás, abuelos y a ese grupo familiar que necesita verlo 🙏 ¿Te llegó uno así? Cuéntanos 👇",
+    "pregunta_cta": "¿Dudas si un mensaje es real?",
+    "fuente": "CISA, «Recognize and report phishing»",
+    "fuentes": [
+      "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#estafas",
+      "#phishing",
+      "#ciberseguridad",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "perfil-google-negocio",
+    "formato": "dato",
+    "categoria": "Negocios",
+    "titulo": "Tu negocio en Google",
+    "numero": "70%",
+    "etiqueta": "más probable que te visiten",
+    "datos": [
+      [
+        "2.7x",
+        "más confianza"
+      ],
+      [
+        "Gratis",
+        "Perfil de Google"
+      ],
+      [
+        "24/7",
+        "tu web vende"
+      ]
+    ],
+    "slides": [
+      {
+        "titulo": "Perfil de Empresa completo",
+        "texto": "Google indica que los clientes tienen 70 % más probabilidad de visitar un negocio con su perfil completo."
+      },
+      {
+        "titulo": "Horarios, teléfono y fotos",
+        "texto": "Según Google, un perfil completo hace 2.7 veces más probable que te consideren un negocio confiable."
+      },
+      {
+        "titulo": "Suma una página web",
+        "texto": "Tu web con botón de WhatsApp trabaja por ti las 24 horas y te ayuda a aparecer en Google."
+      }
+    ],
+    "escena": "a small business owner in Peru standing proudly at the counter of their shop, holding a smartphone showing a map search with a business listing, warm realistic light, no real logos",
+    "gancho": "Si tu negocio no aparece en Google, tus clientes están encontrando a tu competencia 📍",
+    "contexto": "Desliza 👉 Datos del propio Google sobre por qué un perfil completo y una web marcan la diferencia.",
+    "cierre": "Diseñamos tu página web y configuramos tu Perfil de Empresa en Google, en todo el Perú y de forma remota. Etiqueta a un emprendedor 👇",
+    "pregunta_cta": "¿Hacemos tu página web?",
+    "fuente": "Google, ayuda de Perfil de Empresa",
+    "fuentes": [
+      "https://support.google.com/business/answer/10515606"
+    ],
+    "servicio": "diseño de página web y Perfil de Google",
+    "hashtags": [
+      "#páginaweb",
+      "#emprendedores",
+      "#negociosperú",
+      "#GoogleMaps",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "antes-de-reparar",
+    "formato": "checklist",
+    "categoria": "Consejos",
+    "titulo": "Antes de llevar tu laptop a reparar, haz esto",
+    "resaltar": [
+      "LAPTOP"
+    ],
+    "slides": [
+      {
+        "titulo": "Respalda tus archivos",
+        "texto": "Copia fotos y documentos importantes antes de entregarla. Así no dependes de nadie."
+      },
+      {
+        "titulo": "Cierra sesiones sensibles",
+        "texto": "Banca, correo y redes: cierra sesión o protege esa información antes de entregar el equipo."
+      },
+      {
+        "titulo": "Pide diagnóstico y comprobante",
+        "texto": "Exige el detalle de la falla, el precio antes de reparar y boleta o factura con garantía."
+      }
+    ],
+    "escena": "a laptop on a desk next to an external hard drive copying files, a notepad with a checklist and a pen, home office in Peru, soft daylight, realistic",
+    "gancho": "El error más común al llevar una laptop al técnico… y cómo evitarlo 💻",
+    "contexto": "Desliza 👉 3 pasos que recomiendan Lenovo Perú y especialistas para proteger tu información y tu dinero.",
+    "cierre": "En STC Perú no empezamos nada sin tu aprobación: diagnóstico claro, comprobante y garantía de hasta 1 año. Guárdalo 🔖",
+    "pregunta_cta": "¿Tu laptop necesita revisión?",
+    "fuente": "Lenovo Perú, La República y la política de atención de STC Perú",
+    "fuentes": [
+      "https://www.lenovo.com/pe/es/glosario/laptop-no-enciende/",
+      "https://larepublica.pe/tecnologia/2020/11/24/como-proteger-tu-informacion-en-caso-lleves-tu-computadora-a-reparar"
+    ],
+    "servicio": "reparación de laptop",
+    "hashtags": [
+      "#laptop",
+      "#reparación",
+      "#consejos",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "facturacion-sunat",
+    "formato": "portada",
+    "categoria": "Negocios",
+    "titulo": "Factura electrónica: lo que todo negocio debe saber",
+    "resaltar": [
+      "ELECTRÓNICA:"
+    ],
+    "subtitulo": "La emisión electrónica ya es la regla para casi todos los contribuyentes.",
+    "slides": [
+      {
+        "titulo": "Casi todos están obligados",
+        "texto": "Según SUNAT, la mayoría de contribuyentes debe emitir comprobantes electrónicos, salvo excepciones como el Nuevo RUS."
+      },
+      {
+        "titulo": "Desde que sacas tu RUC",
+        "texto": "SUNAT designa como emisores electrónicos a los nuevos contribuyentes desde su inscripción en el RUC."
+      },
+      {
+        "titulo": "Valida cada comprobante",
+        "texto": "Tu boleta o factura electrónica debe ser enviada y aceptada por SUNAT o un OSE autorizado."
+      }
+    ],
+    "escena": "a small store counter in Peru with a computer showing a point of sale screen, a thermal receipt printer printing a receipt and a barcode scanner, realistic bright light, no real logos",
+    "gancho": "¿Todavía emites boletas en papel? Esto te interesa 🧾",
+    "contexto": "Desliza 👉 Lo esencial sobre comprobantes electrónicos según SUNAT. Revisa siempre la norma vigente en cpe.sunat.gob.pe.",
+    "cierre": "Vendemos, instalamos y configuramos tu sistema de facturación electrónica con los equipos, y te capacitamos. Atendemos en todo el Perú 🇵🇪",
+    "pregunta_cta": "¿Implementamos tu facturación?",
+    "fuente": "SUNAT, portal de comprobantes de pago electrónicos",
+    "fuentes": [
+      "https://cpe.sunat.gob.pe/informacion_general/obligados_cpe",
+      "https://www.gob.pe/institucion/sunat/noticias/1398485-contribuyentes-seran-designados-como-emisores-electronicos-desde-que-se-inscriban-en-el-ruc"
+    ],
+    "servicio": "sistema de facturación electrónica",
+    "hashtags": [
+      "#facturaciónelectrónica",
+      "#SUNAT",
+      "#emprendedores",
+      "#negociosperú",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "contrasenas-seguras",
+    "formato": "carrusel",
+    "categoria": "Ciberseguridad",
+    "titulo": "Tu contraseña se puede adivinar más rápido de lo que crees",
+    "resaltar": [
+      "CONTRASEÑA"
+    ],
+    "subtitulo": "3 hábitos que recomienda CISA para proteger tus cuentas.",
+    "slides": [
+      {
+        "titulo": "Larga y aleatoria",
+        "texto": "CISA recomienda contraseñas de al menos 16 caracteres, aleatorias y únicas para cada cuenta."
+      },
+      {
+        "titulo": "Usa un gestor",
+        "texto": "Un administrador de contraseñas las crea, las guarda y las completa por ti. Solo recuerdas una."
+      },
+      {
+        "titulo": "Activa la verificación en 2 pasos",
+        "texto": "Úsala en toda cuenta que lo permita: aunque roben tu clave, no podrán entrar."
+      }
+    ],
+    "escena": "close-up of a laptop keyboard and a smartphone showing a generic two-step verification code screen, a padlock-shaped desk object nearby, modern office in Peru, cool realistic light, no real logos",
+    "gancho": "«123456», tu fecha de nacimiento o el nombre de tu mascota… 😬",
+    "contexto": "Desliza 👉 Así protegen sus cuentas los expertos en ciberseguridad. Te toma 10 minutos hoy y te ahorra un gran problema mañana.",
+    "cierre": "🔖 Guárdalo y compártelo con quien usa la misma clave para todo. ¿Necesitas ayuda para configurarlo en tu negocio? Escríbenos.",
+    "pregunta_cta": "¿Protegemos las cuentas de tu negocio?",
+    "fuente": "CISA, «Secure Our World»",
+    "fuentes": [
+      "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#contraseñas",
+      "#ciberseguridad",
+      "#2FA",
+      "#Perú",
+      "#Sullana"
+    ]
   }
 ]

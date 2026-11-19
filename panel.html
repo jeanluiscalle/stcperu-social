@@ -64,6 +64,11 @@
     .id { font-family: ui-monospace, monospace; font-size: .82rem; background: var(--fondo); padding: 2px 6px; border-radius: 6px; }
     .vacio { color: var(--suave); padding: 20px; border: 1px dashed var(--borde); border-radius: 14px; }
     .copiado { color: var(--verde); font-weight: 600; font-size: .9rem; align-self: center; }
+    .descargas { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: rgba(37, 211, 102, .1); border: 1px solid rgba(37, 211, 102, .35); }
+    .descargas strong { display: block; margin-bottom: 8px; font-size: .95rem; }
+    .descargas .fila { display: flex; flex-wrap: wrap; gap: 8px; }
+    .btn.wa { background: #25D366; color: #fff; }
+    .btn.wa.borde { background: transparent; color: var(--texto); border: 1px solid #25D366; }
   </style>
 </head>
 <body>
@@ -107,6 +112,16 @@
       const momento = p.estado === "publicado"
         ? `Publicada el ${fecha((publicado.instagram || publicado.facebook || {}).fecha || p.programado)}`
         : `Programada para el ${fecha(p.programado)}`;
+      const nombre = (ruta) => `stcperu-${p.id}-${ruta.split("/").pop()}`;
+      const descargas = (p.historia || p.reel) ? `
+        <div class="descargas">
+          <strong>📲 Para tu estado de WhatsApp (y TikTok)</strong>
+          <div class="fila">
+            ${p.historia ? `<a class="btn wa" href="${esc(p.historia)}" download="${esc(nombre(p.historia))}">Descargar imagen</a>` : ""}
+            ${p.reel ? `<a class="btn wa borde" href="${esc(p.reel)}" download="${esc(nombre(p.reel))}">Descargar video</a>` : ""}
+            <button class="btn wa borde" type="button" data-copiar-texto="${esc(p.id)}">Copiar texto</button>
+          </div>
+        </div>` : "";
       const acciones = p.estado === "publicado" ? "" : `
         <div class="acciones">
           <button class="btn primario" type="button" data-copiar="${esc(p.id)}">Copiar ID</button>
@@ -114,6 +129,7 @@
           <span class="copiado" hidden>ID copiado ✓</span>
         </div>`;
       const leyenda = p.leyenda || {};
+      LEYENDAS[p.id] = leyenda.instagram || leyenda.facebook || "";
       return `<article class="post">
         <div>
           <div class="medios">${imagenes}${historia}${reel}</div>
@@ -129,6 +145,7 @@
           <details><summary>Texto para Instagram</summary><pre>${esc(leyenda.instagram)}</pre></details>
           <div class="redes">${redes}</div>
           <p class="fuente">ID: <span class="id">${esc(p.id)}</span></p>
+          ${descargas}
           ${acciones}
         </div>
       </article>`;
@@ -151,7 +168,15 @@
       }).join("");
     }
 
+    const LEYENDAS = {};
     document.addEventListener("click", async (ev) => {
+      const textoBtn = ev.target.closest("[data-copiar-texto]");
+      if (textoBtn) {
+        try { await navigator.clipboard.writeText(LEYENDAS[textoBtn.dataset.copiarTexto] || ""); textoBtn.textContent = "Texto copiado ✓"; }
+        catch { textoBtn.textContent = "No se pudo copiar"; }
+        setTimeout(() => { textoBtn.textContent = "Copiar texto"; }, 2000);
+        return;
+      }
       const boton = ev.target.closest("[data-copiar]");
       if (!boton) return;
       try { await navigator.clipboard.writeText(boton.dataset.copiar); } catch { /* el ID sigue visible */ }

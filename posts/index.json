@@ -2,64 +2,130 @@
   {
     "id": "2026-11-19-impresora-3-cosas",
     "tema": "impresora-3-cosas",
+    "formato": "clasico",
     "titulo": "3 cosas que nunca debes olvidar en tu impresora",
     "categoria": "Impresoras",
-    "puntos": [
-      "Mantenla libre de polvo: tápala cuando no la uses.",
-      "Usa tintas originales o de buena calidad.",
-      "Imprime al menos una vez por semana para que no se seque el cabezal."
+    "imagenes": [
+      "posts/2026-11-19-impresora-3-cosas/imagen.jpg"
     ],
-    "servicio": "Reparación de impresoras",
-    "imagen": "posts/2026-11-19-impresora-3-cosas/imagen.jpg",
+    "estado": "publicado",
+    "programado": "2026-11-19T17:11",
     "creado": "2026-11-19T16:46:20-05:00",
-    "prueba": false,
     "publicado": {
       "facebook": {
         "id": "287001047834288_122234918036290861",
-        "fecha": "2026-11-19T17:11:30-05:00"
+        "fecha": "2026-11-19T17:11:30-05:00",
+        "url": "https://www.facebook.com/287001047834288_122234918036290861"
       },
       "instagram": {
         "id": "18341394394302694",
-        "fecha": "2026-11-19T17:11:39-05:00"
+        "fecha": "2026-11-19T17:11:39-05:00",
+        "url": "https://www.instagram.com/p/Df8H6ohiY_2/"
       }
     }
   },
   {
-    "id": "2026-11-19-laptop-lenta",
-    "tema": "laptop-lenta",
-    "titulo": "¿Tu laptop está lenta? Revisa esto",
-    "categoria": "Computadoras",
-    "puntos": [
-      "Desinstala programas que ya no usas.",
-      "Revisa que el disco no esté lleno.",
-      "Un SSD puede hacerla hasta varias veces más rápida."
+    "id": "2026-11-19-epson-boton-apagado",
+    "tema": "epson-boton-apagado",
+    "formato": "mito",
+    "titulo": "El error que seca el cabezal de tu Epson",
+    "categoria": "Impresoras",
+    "imagenes": [
+      "posts/2026-11-19-epson-boton-apagado/imagen.jpg"
     ],
-    "servicio": "Repotenciación de equipos",
-    "imagen": "posts/2026-11-19-laptop-lenta/imagen.jpg",
-    "creado": "2026-11-19T16:46:34-05:00",
-    "prueba": false,
-    "publicado": {
-      "facebook": null,
-      "instagram": null
-    }
+    "historia": "posts/2026-11-19-epson-boton-apagado/historia.jpg",
+    "reel": "posts/2026-11-19-epson-boton-apagado/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-21T10:00-05:00",
+    "creado": "2026-11-19T17:26:36-05:00",
+    "publicado": {}
   },
   {
-    "id": "2026-11-19-pc-calor",
-    "tema": "pc-calor",
-    "titulo": "El calor es el enemigo de tu computadora",
-    "categoria": "Computadoras",
-    "puntos": [
-      "No la uses sobre la cama o cojines: tapa la ventilación.",
-      "Límpiala por dentro al menos una vez al año.",
-      "Si el ventilador suena fuerte, es señal de alerta."
+    "id": "2026-11-19-laptop-nueva-lenta",
+    "tema": "laptop-nueva-lenta",
+    "formato": "carrusel",
+    "titulo": "¿Tu laptop nueva ya va lenta? 3 ajustes que recomienda Microsoft",
+    "categoria": "Laptops",
+    "imagenes": [
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-1.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-2.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-3.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-4.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-5.jpg"
     ],
-    "servicio": "Mantenimiento preventivo",
-    "imagen": "posts/2026-11-19-pc-calor/imagen.jpg",
-    "creado": "2026-11-19T16:46:47-05:00",
-    "prueba": false,
-    "publicado": {
-      "facebook": null,
-      "instagram": null
-    }
+    "historia": "posts/2026-11-19-laptop-nueva-lenta/historia.jpg",
+    "reel": "posts/2026-11-19-laptop-nueva-lenta/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-24T12:30-05:00",
+    "creado": "2026-11-19T17:26:44-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-pc-armada-checklist",
+    "tema": "pc-armada-checklist",
+    "formato": "checklist",
+    "titulo": "Antes de comprar una PC armada, revisa estas 3 cosas",
+    "categoria": "PC a medida",
+    "imagenes": [
+      "posts/2026-11-19-pc-armada-checklist/imagen.jpg"
+    ],
+    "historia": "posts/2026-11-19-pc-armada-checklist/historia.jpg",
+    "reel": "posts/2026-11-19-pc-armada-checklist/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-26T19:00-05:00",
+    "creado": "2026-11-19T17:28:34-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-stc-1600-atenciones",
+    "tema": "stc-1600-atenciones",
+    "formato": "dato",
+    "titulo": "Equipos atendidos",
+    "categoria": "STC Perú",
+    "imagenes": [
+      "posts/2026-11-19-stc-1600-atenciones/imagen.jpg"
+    ],
+    "historia": "posts/2026-11-19-stc-1600-atenciones/historia.jpg",
+    "reel": "posts/2026-11-19-stc-1600-atenciones/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-28T10:00-05:00",
+    "creado": "2026-11-19T17:29:06-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-laptop-polvo-dentro",
+    "tema": "laptop-polvo-dentro",
+    "formato": "portada",
+    "titulo": "Así se ve una laptop por dentro sin mantenimiento",
+    "categoria": "Mantenimiento",
+    "imagenes": [
+      "posts/2026-11-19-laptop-polvo-dentro/imagen.jpg"
+    ],
+    "historia": "posts/2026-11-19-laptop-polvo-dentro/historia.jpg",
+    "reel": "posts/2026-11-19-laptop-polvo-dentro/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-12-01T12:30-05:00",
+    "creado": "2026-11-19T17:29:42-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-respaldo-3-2-1",
+    "tema": "respaldo-3-2-1",
+    "formato": "carrusel",
+    "titulo": "La regla 3-2-1 para no perder nunca tus archivos",
+    "categoria": "Seguridad",
+    "imagenes": [
+      "posts/2026-11-19-respaldo-3-2-1/imagen-1.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-2.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-3.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-4.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-respaldo-3-2-1/historia.jpg",
+    "reel": "posts/2026-11-19-respaldo-3-2-1/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-12-03T19:00-05:00",
+    "creado": "2026-11-19T17:30:15-05:00",
+    "publicado": {}
   }
 ]

@@ -124,10 +124,11 @@ def publicar_ig_historia(meta: Meta, cuenta: str, url: str, _texto: str) -> dict
     return {"id": meta.post(f"{cuenta}/media_publish", creation_id=contenedor)["id"], "url": None}
 
 
-def publicar_ig_reel(meta: Meta, cuenta: str, url: str, texto: str) -> dict:
-    # share_to_feed=false: el post del feed ya existe; el reel solo aparece en la pestaña Reels.
+def publicar_ig_reel(meta: Meta, cuenta: str, url: str, texto: str, al_feed: bool = False) -> dict:
+    # Para carruseles el reel va solo a la pestaña Reels (el post del feed ya existe);
+    # para publicaciones de video, el reel también aparece en el feed.
     contenedor = meta.post(f"{cuenta}/media", media_type="REELS", video_url=url, caption=texto,
-                           share_to_feed="false")["id"]
+                           share_to_feed="true" if al_feed else "false")["id"]
     esperar_contenedor(meta, contenedor, intentos=72)
     ident = meta.post(f"{cuenta}/media_publish", creation_id=contenedor)["id"]
     try:
@@ -202,13 +203,15 @@ def publicar_post(entrada: dict, cfg: dict, redes: list[str], meta: Meta | None,
     cuenta = os.environ.get("IG_USER_ID") or cfg.get("ig_user_id")
     historia = post.get("historia")
     reel = post.get("reel")
+    es_video = post.get("tipo") == "video"
     destinos = {
-        "facebook": (pagina, publicar_facebook, urls, "facebook"),
-        "instagram": (cuenta, publicar_instagram, urls, "instagram"),
+        "facebook": (pagina, publicar_facebook, urls or None, "facebook"),
+        "instagram": (cuenta, publicar_instagram, urls or None, "instagram"),
         "facebook_historia": (pagina, publicar_fb_historia, historia, "facebook"),
         "instagram_historia": (cuenta, publicar_ig_historia, historia, "instagram"),
         "facebook_reel": (pagina, publicar_fb_reel, reel, "facebook"),
-        "instagram_reel": (cuenta, publicar_ig_reel, reel, "instagram"),
+        "instagram_reel": (cuenta, (lambda m, c, u, t: publicar_ig_reel(m, c, u, t, al_feed=True)) if es_video
+                           else publicar_ig_reel, reel, "instagram"),
     }
     post.setdefault("publicado", {})
     fallos = []

@@ -99,12 +99,16 @@
     function tarjeta(p) {
       const imagenes = (p.imagenes || []).map((src, i) => `<img src="${esc(src)}" alt="Imagen ${i + 1} de ${esc(p.titulo)}" loading="lazy" />`).join("");
       const historia = p.historia ? `<img class="vertical" src="${esc(p.historia)}" alt="Historia" loading="lazy" />` : "";
-      const reel = p.reel ? `<video src="${esc(p.reel)}" controls muted playsinline preload="none" poster="${esc(p.historia || "")}"></video>` : "";
-      const piezas = [`${(p.imagenes || []).length > 1 ? (p.imagenes.length + " imágenes (carrusel)") : "1 imagen"}`, p.historia && "historia", p.reel && "reel"].filter(Boolean).join(" · ");
+      const reel = p.reel ? `<video src="${esc(p.reel)}" controls muted playsinline preload="none" poster="${esc(p.portada || p.historia || "")}"></video>` : "";
+      const n = (p.imagenes || []).length;
+      const piezas = p.tipo === "video"
+        ? "Video propio (reel en Facebook e Instagram, también en el feed)"
+        : [n > 1 ? `${n} imágenes (carrusel)` : "1 imagen", p.historia && "historia", p.reel && "reel"].filter(Boolean).join(" · ") + " — desliza para ver todo";
       const datos = (p.datos || []).map((d) => `<li>${esc(d)}</li>`).join("");
       const fuentes = (p.fuentes || []).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">enlace ${i + 1}</a>`).join(", ");
       const publicado = p.publicado || {};
       const redes = Object.entries(REDES).map(([k, nombre]) => {
+        if (p.tipo === "video" && !k.endsWith("_reel")) return "";
         const r = publicado[k];
         if (!r) return p.estado === "publicado" ? "" : `<span>${nombre}</span>`;
         return r.url ? `<a class="ok" href="${esc(r.url)}" target="_blank" rel="noopener">✓ ${nombre}</a>` : `<span class="ok">✓ ${nombre}</span>`;
@@ -133,7 +137,7 @@
       return `<article class="post">
         <div>
           <div class="medios">${imagenes}${historia}${reel}</div>
-          <p class="ayuda-medios">${piezas} — desliza para ver todo</p>
+          <p class="ayuda-medios">${piezas}</p>
         </div>
         <div>
           <div class="cabeza"><span class="estado ${esc(p.estado)}">${ESTADOS[p.estado] || esc(p.estado)}</span><span>${esc(p.categoria)} · formato ${esc(p.formato)}</span></div>

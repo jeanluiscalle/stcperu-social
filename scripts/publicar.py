@@ -256,6 +256,16 @@ def verificar_conexion(cfg: dict) -> None:
         sys.exit(f"Conexión con Meta FALLÓ: {error}")
     print(f"✅ Conexión con Meta correcta: Página «{nombre}» e Instagram @{usuario} "
           f"({cuota} publicaciones por API en las últimas 24 h).")
+    try:
+        info = meta.get("debug_token", input_token=token)["data"]
+        vence = info.get("expires_at") or 0
+        if vence == 0:
+            print("✅ El token NO caduca (token de página permanente).")
+        else:
+            fecha = datetime.fromtimestamp(vence, PERU).strftime("%d/%m/%Y %H:%M")
+            print(f"::warning::El token caduca el {fecha} (hora de Perú). Usa un token de página permanente.")
+    except (RuntimeError, KeyError):
+        print("No se pudo consultar la caducidad del token.")
 
 
 def main() -> None:

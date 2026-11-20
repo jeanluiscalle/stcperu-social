@@ -27,9 +27,40 @@
   "fuentes": [
     "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
   ],
-  "estado": "aprobado",
+  "estado": "publicado",
   "programado": "2026-11-20T07:30-05:00",
   "creado": "2026-11-20T07:22:47-05:00",
   "prueba": false,
-  "publicado": {}
+  "publicado": {
+    "facebook": {
+      "id": "287001047834288_122234986406290861",
+      "url": "https://www.facebook.com/287001047834288_122234986406290861",
+      "fecha": "2026-11-20T07:54:49-05:00"
+    },
+    "instagram": {
+      "id": "18653639323014405",
+      "url": "https://www.instagram.com/p/Df9tC2ljkGd/",
+      "fecha": "2026-11-20T07:55:22-05:00"
+    },
+    "facebook_historia": {
+      "id": "1178758284843846",
+      "url": null,
+      "fecha": "2026-11-20T07:55:26-05:00"
+    },
+    "instagram_historia": {
+      "id": "18081628331583651",
+      "url": null,
+      "fecha": "2026-11-20T07:55:37-05:00"
+    },
+    "facebook_reel": {
+      "id": "2785221305227752",
+      "url": "https://www.facebook.com/reel/2785221305227752",
+      "fecha": "2026-11-20T07:55:48-05:00"
+    },
+    "instagram_reel": {
+      "id": "18099855527448815",
+      "url": "https://www.instagram.com/reel/Df9tHuHjMJc/",
+      "fecha": "2026-11-20T07:56:23-05:00"
+    }
+  }
 }

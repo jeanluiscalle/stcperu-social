@@ -447,16 +447,18 @@ def leyendas(tema: dict, cfg: dict) -> dict:
 
 # ================================================================ calendario
 def siguiente_horario(cfg: dict, ocupados: list[datetime]) -> datetime:
-    ocupados = [o if o.tzinfo else o.replace(tzinfo=PERU) for o in ocupados]
-    desde = max([datetime.now(PERU) + timedelta(hours=12)] + ocupados)
-    dia = desde.replace(second=0, microsecond=0)
-    for _ in range(0, 24 * 15):
-        for semana, hora in cfg["horarios"]:
+    """Primer horario libre (según cfg["horarios"]) a partir de dentro de 2 horas."""
+    tomados = {(o if o.tzinfo else o.replace(tzinfo=PERU)).strftime("%Y-%m-%dT%H:%M") for o in ocupados}
+    desde = datetime.now(PERU) + timedelta(hours=2)
+    dia = desde.replace(hour=0, minute=0, second=0, microsecond=0)
+    for _ in range(60):
+        horas = sorted(hora for semana, hora in cfg["horarios"] if semana == dia.weekday())
+        for hora in horas:
             h, mi = map(int, hora.split(":"))
             candidato = dia.replace(hour=h, minute=mi)
-            if candidato.weekday() == semana and candidato > desde:
+            if candidato > desde and candidato.strftime("%Y-%m-%dT%H:%M") not in tomados:
                 return candidato
-        dia = (dia + timedelta(days=1)).replace(hour=0, minute=0)
+        dia += timedelta(days=1)
     raise RuntimeError("No se encontró horario libre")
 
 

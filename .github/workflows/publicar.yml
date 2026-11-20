@@ -1,13 +1,14 @@
 name: Publicar en redes
 
-# Hora de Perú (UTC-5): carrusel diario lun-vie 6:57 p.m. y sáb-dom 9:57 a.m.;
-# reels de video a las 12:27 p.m. (publica lo aprobado cuya hora ya llegó).
+# Hora de Perú (UTC-5): buenos días 5:57 a.m. todos los días; carrusel lun-vie 6:57 p.m.
+# y sáb-dom 9:57 a.m.; reels de video 12:27 p.m. (publica lo aprobado cuya hora ya llegó).
 # GitHub puede retrasar unos minutos; por eso se programan un poco antes.
 on:
   schedule:
     - cron: "57 23 * * 1-5"
     - cron: "57 14 * * 0,6"
     - cron: "27 17 * * *"
+    - cron: "57 10 * * *"
   workflow_dispatch:
     inputs:
       simular:

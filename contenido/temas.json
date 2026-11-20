@@ -612,5 +612,252 @@
       "#Sullana",
       "#Piura"
     ]
+  },
+  {
+    "id": "atajos-windows",
+    "formato": "carrusel",
+    "categoria": "Productividad",
+    "titulo": "3 atajos de Windows que te ahorran tiempo todos los días",
+    "resaltar": [
+      "ATAJOS"
+    ],
+    "subtitulo": "Buenos días ☀️ Empieza la jornada trabajando más rápido.",
+    "slides": [
+      {
+        "titulo": "Windows + V",
+        "texto": "Abre el historial del portapapeles: pega cualquier cosa que copiaste antes. Actívalo en Configuración → Sistema → Portapapeles."
+      },
+      {
+        "titulo": "Windows + Shift + S",
+        "texto": "Captura solo la parte de la pantalla que necesitas, lista para pegar en WhatsApp o un correo."
+      },
+      {
+        "titulo": "Windows + L",
+        "texto": "Bloquea tu PC al instante cuando te levantas del escritorio. Tu información queda protegida."
+      }
+    ],
+    "escena": "close-up of hands typing on a laptop keyboard in a bright modern office in Peru early in the morning, sunlight, coffee cup, shallow depth of field, realistic",
+    "gancho": "Buenos días ☀️ ¿Sabías que con 2 teclas puedes ahorrarte minutos cada día?",
+    "contexto": "Desliza 👉 3 atajos oficiales de Microsoft que casi nadie usa y que te hacen la jornada más fácil.",
+    "cierre": "🔖 Guárdalo y compártelo con tu equipo de trabajo. ¿Cuál no conocías? 👇",
+    "pregunta_cta": "¿Tu PC no rinde como debería?",
+    "fuente": "Soporte de Microsoft, «Métodos abreviados de teclado de Windows»",
+    "fuentes": [
+      "https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts"
+    ],
+    "servicio": "soporte para mi computadora",
+    "hashtags": [
+      "#BuenosDías",
+      "#Windows",
+      "#productividad",
+      "#atajos",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "bateria-laptop",
+    "formato": "checklist",
+    "categoria": "Buenos días",
+    "titulo": "Haz que la batería de tu laptop dure más años",
+    "resaltar": [
+      "BATERÍA"
+    ],
+    "slides": [
+      {
+        "titulo": "Evita el calor",
+        "texto": "HP recomienda usarla a temperatura ambiente: nunca en el auto, al sol ni cargando sobre la cama o cojines."
+      },
+      {
+        "titulo": "No la dejes llegar a 0 %",
+        "texto": "Las descargas completas frecuentes desgastan la batería. Cárgala antes de que se agote."
+      },
+      {
+        "titulo": "No siempre al 100 %",
+        "texto": "Tenerla todo el día al 100 % también la desgasta. Si tu laptop tiene «límite de carga» o «Battery Health», actívalo."
+      }
+    ],
+    "escena": "a laptop on a wooden desk near a window in the morning with a battery charging indicator glowing on screen, the original charger neatly placed, warm sunrise light, home office in Peru, realistic",
+    "gancho": "Buenos días ☀️ ¿Tu laptop ya no aguanta ni 2 horas sin cargador? 🔋",
+    "contexto": "Desliza 👉 3 hábitos que recomienda HP para cuidar la batería de tu laptop (sirven para cualquier marca).",
+    "cierre": "Si la batería ya está hinchada o dura muy poco, no la sigas usando: te la revisamos y cambiamos. ¿Cuánto te dura a ti? 👇",
+    "pregunta_cta": "¿Tu batería ya no aguanta?",
+    "fuente": "HP, guía de batería de laptops",
+    "fuentes": [
+      "https://www.hp.com/us-en/tech-takes/laptops/glossary/battery.html",
+      "https://hp.com/au-en/shop/tech-takes/post/hp-laptop-battery-life-tips"
+    ],
+    "servicio": "cambio o revisión de batería de laptop",
+    "hashtags": [
+      "#BuenosDías",
+      "#laptop",
+      "#batería",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "respaldo-whatsapp",
+    "formato": "mito",
+    "categoria": "Buenos días",
+    "titulo": "¿Perdiste el celular? Que no se vayan tus chats",
+    "resaltar": [
+      "CHATS"
+    ],
+    "mito": "Mis chats de WhatsApp se guardan solos.",
+    "slides": [
+      {
+        "titulo": "Activa la copia",
+        "texto": "WhatsApp → Ajustes → Chats → Copia de seguridad. Elige Google Drive (Android) o iCloud (iPhone)."
+      },
+      {
+        "titulo": "Que sea automática",
+        "texto": "Programa la copia diaria o semanal, y conéctate a Wi-Fi para que no gaste tus datos."
+      },
+      {
+        "titulo": "Protégela",
+        "texto": "Activa la copia cifrada de extremo a extremo para que nadie más pueda leerla."
+      }
+    ],
+    "escena": "a smartphone on a wooden table next to morning coffee showing a generic cloud backup progress screen, soft sunrise light, home in Peru, realistic, no real app logos",
+    "gancho": "Buenos días ☀️ Si hoy pierdes tu celular… ¿recuperas tus chats de trabajo? 📱",
+    "contexto": "Desliza 👉 Así se configura la copia de seguridad oficial de WhatsApp. Toma 2 minutos.",
+    "cierre": "Compártelo con quien tiene todo su negocio en WhatsApp 🙏 ¿Ya tenías la copia activada? 👇",
+    "pregunta_cta": "¿Te ayudamos a respaldar tu información?",
+    "fuente": "Centro de ayuda de WhatsApp (copias de seguridad)",
+    "fuentes": [
+      "https://faq.whatsapp.com/481135090640375",
+      "https://faq.whatsapp.com/1180414079177245"
+    ],
+    "servicio": "respaldo de información",
+    "hashtags": [
+      "#BuenosDías",
+      "#WhatsApp",
+      "#backup",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "wifi-publico",
+    "formato": "checklist",
+    "categoria": "Ciberseguridad",
+    "titulo": "¿Usas Wi-Fi público? Cuida esto",
+    "resaltar": [
+      "WI-FI"
+    ],
+    "slides": [
+      {
+        "titulo": "Sin contraseña = no es seguro",
+        "texto": "La FTC advierte que una red que no pide contraseña no es segura."
+      },
+      {
+        "titulo": "Busca el candado (https)",
+        "texto": "Entra solo a sitios con https. Evita la banca y los pagos en redes públicas."
+      },
+      {
+        "titulo": "Cierra sesión al terminar",
+        "texto": "No te quedes conectado a tus cuentas. Para uso frecuente, una VPN cifra tu conexión."
+      }
+    ],
+    "escena": "a person using a laptop at a cafe table in a Peruvian city in the morning, a phone beside, people blurred in background, natural light, realistic, no real logos",
+    "gancho": "Buenos días ☀️ El Wi-Fi gratis del café sale caro si no tomas precauciones ☕",
+    "contexto": "Desliza 👉 3 recomendaciones de la FTC (Comisión Federal de Comercio de EE. UU.) para conectarte de forma segura.",
+    "cierre": "Envíaselo a quien trabaja desde cafés o aeropuertos ✈️ ¿Te conectas a redes públicas? 👇",
+    "pregunta_cta": "¿Protegemos los equipos de tu negocio?",
+    "fuente": "FTC, consejos para usar redes Wi-Fi públicas",
+    "fuentes": [
+      "https://www.ftc.gov/news-events/news/press-releases/2011/02/ftc-offers-tips-wise-use-wi-fi-networks",
+      "https://consumer.ftc.gov/node/298664"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#BuenosDías",
+      "#WiFi",
+      "#ciberseguridad",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "sunat-mensajes-falsos",
+    "formato": "mito",
+    "categoria": "Negocios",
+    "titulo": "¿Te llegó un mensaje de la SUNAT? Revisa esto",
+    "resaltar": [
+      "SUNAT?"
+    ],
+    "mito": "Si dice SUNAT, el enlace es seguro.",
+    "slides": [
+      {
+        "titulo": "No envía enlaces ni adjuntos",
+        "texto": "SUNAT informa que no envía enlaces, adjuntos ni pide depósitos por correo, SMS o WhatsApp."
+      },
+      {
+        "titulo": "Revisa tu Buzón Electrónico",
+        "texto": "Si dudas, entra tú mismo a SUNAT Operaciones en Línea: las notificaciones reales llegan a tu buzón."
+      },
+      {
+        "titulo": "Reporta",
+        "texto": "Usa los canales oficiales de SUNAT. Nunca compartas tu Clave SOL ni pagues «deudas» por mensaje."
+      }
+    ],
+    "escena": "a small business owner at a desk in Peru in the morning looking carefully at a laptop email inbox with a generic suspicious email and a warning feel, receipts and calculator on desk, realistic, no real logos",
+    "gancho": "Buenos días ☀️ «Tienes una deuda pendiente, paga aquí»… ¡Cuidado! 🚨",
+    "contexto": "Desliza 👉 Lo que SUNAT advierte sobre los mensajes falsos que llegan a contribuyentes y emprendedores.",
+    "cierre": "Compártelo con tu contador y con todo emprendedor que conozcas 🙏 ¿Te llegó uno así? 👇",
+    "pregunta_cta": "¿Proteges la información de tu negocio?",
+    "fuente": "SUNAT, avisos sobre comunicaciones fraudulentas",
+    "fuentes": [
+      "https://www.sunat.gob.pe/mensajes/mayo/2026/aviso-ti-050526.html",
+      "https://www.sunat.gob.pe/mensajes/octubre/2019/aviso-ti-041019.html"
+    ],
+    "servicio": "seguridad informática para mi negocio",
+    "hashtags": [
+      "#BuenosDías",
+      "#SUNAT",
+      "#emprendedores",
+      "#estafas",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "limpiar-pantalla",
+    "formato": "portada",
+    "categoria": "Buenos días",
+    "titulo": "Así se limpia la pantalla de tu laptop (sin dañarla)",
+    "resaltar": [
+      "PANTALLA"
+    ],
+    "subtitulo": "Buenos días ☀️ Empieza la semana con tu equipo impecable.",
+    "slides": [
+      {
+        "titulo": "Apágala y desconéctala",
+        "texto": "HP recomienda apagar el equipo y desconectarlo antes de limpiar."
+      },
+      {
+        "titulo": "Paño de microfibra húmedo",
+        "texto": "Humedece el paño (no la pantalla). HP sugiere 70 % alcohol isopropílico y 30 % agua; nunca rocíes directo."
+      },
+      {
+        "titulo": "Nada de papel ni químicos",
+        "texto": "Evita papel toalla, amoníaco, acetona y lejía: rayan o dañan la pantalla."
+      }
+    ],
+    "escena": "hands gently wiping a laptop screen with a grey microfiber cloth on a clean desk, early morning light, office in Peru, realistic, shallow depth of field",
+    "gancho": "Buenos días ☀️ ¿Limpias tu pantalla con papel o con el polo? 😬",
+    "contexto": "Desliza 👉 Así recomienda HP limpiar la pantalla de tu laptop sin rayarla ni dañarla.",
+    "cierre": "🔖 Guárdalo para tu próxima limpieza. Y si tu laptop necesita limpieza por dentro, ahí entramos nosotros.",
+    "pregunta_cta": "¿Mantenimiento completo para tu laptop?",
+    "fuente": "HP, cuidado y limpieza de laptops",
+    "fuentes": [
+      "https://www.hp.com/us-en/tech-takes/laptops/glossary/cleaning-care.html",
+      "https://www.support.hp.com/us-en/document/ish_4507286-4416682-16"
+    ],
+    "servicio": "mantenimiento de laptop",
+    "hashtags": [
+      "#BuenosDías",
+      "#laptop",
+      "#limpieza",
+      "#Sullana",
+      "#Piura"
+    ]
   }
 ]

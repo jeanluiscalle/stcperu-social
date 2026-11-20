@@ -23,6 +23,7 @@ import base64
 import io
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -101,7 +102,12 @@ def redondear(img: Image.Image, radio: int) -> tuple[Image.Image, Image.Image]:
     return img, mascara
 
 
+EMOJIS = re.compile("[\U00010000-\U0010FFFF\u2600-\u27BF\uFE0F\u200D]")
+
+
 def partir(texto: str, fuente, ancho: int, d: ImageDraw.ImageDraw) -> list[str]:
+    """Divide en líneas; quita emojis (las fuentes de la marca no los tienen)."""
+    texto = re.sub(r"\s+", " ", EMOJIS.sub("", texto)).strip()
     lineas, actual = [], ""
     for palabra in texto.split():
         prueba = f"{actual} {palabra}".strip()

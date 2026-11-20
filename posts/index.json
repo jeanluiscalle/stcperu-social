@@ -494,5 +494,125 @@
     "programado": "2026-11-20T07:30-05:00",
     "creado": "2026-11-20T07:22:47-05:00",
     "publicado": {}
+  },
+  {
+    "id": "2026-11-20-atajos-windows",
+    "tema": "atajos-windows",
+    "formato": "carrusel",
+    "titulo": "3 atajos de Windows que te ahorran tiempo todos los días",
+    "categoria": "Productividad",
+    "imagenes": [
+      "posts/2026-11-20-atajos-windows/imagen-1.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-2.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-3.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-4.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-atajos-windows/historia.jpg",
+    "reel": "posts/2026-11-20-atajos-windows/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-21T06:00-05:00",
+    "creado": "2026-11-20T07:26:56-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-bateria-laptop",
+    "tema": "bateria-laptop",
+    "formato": "checklist",
+    "titulo": "Haz que la batería de tu laptop dure más años",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-bateria-laptop/imagen-1.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-2.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-3.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-4.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-bateria-laptop/historia.jpg",
+    "reel": "posts/2026-11-20-bateria-laptop/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-22T06:00-05:00",
+    "creado": "2026-11-20T07:27:42-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-respaldo-whatsapp",
+    "tema": "respaldo-whatsapp",
+    "formato": "mito",
+    "titulo": "¿Perdiste el celular? Que no se vayan tus chats",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-respaldo-whatsapp/imagen-1.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-2.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-3.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-4.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-respaldo-whatsapp/historia.jpg",
+    "reel": "posts/2026-11-20-respaldo-whatsapp/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-23T06:00-05:00",
+    "creado": "2026-11-20T07:28:31-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-wifi-publico",
+    "tema": "wifi-publico",
+    "formato": "checklist",
+    "titulo": "¿Usas Wi-Fi público? Cuida esto",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-20-wifi-publico/imagen-1.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-2.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-3.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-4.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-wifi-publico/historia.jpg",
+    "reel": "posts/2026-11-20-wifi-publico/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-24T06:00-05:00",
+    "creado": "2026-11-20T07:29:24-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-sunat-mensajes-falsos",
+    "tema": "sunat-mensajes-falsos",
+    "formato": "mito",
+    "titulo": "¿Te llegó un mensaje de la SUNAT? Revisa esto",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-1.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-2.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-3.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-4.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-sunat-mensajes-falsos/historia.jpg",
+    "reel": "posts/2026-11-20-sunat-mensajes-falsos/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-25T06:00-05:00",
+    "creado": "2026-11-20T07:30:13-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-limpiar-pantalla",
+    "tema": "limpiar-pantalla",
+    "formato": "portada",
+    "titulo": "Así se limpia la pantalla de tu laptop (sin dañarla)",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-limpiar-pantalla/imagen-1.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-2.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-3.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-4.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-limpiar-pantalla/historia.jpg",
+    "reel": "posts/2026-11-20-limpiar-pantalla/reel.mp4",
+    "estado": "borrador",
+    "programado": "2026-11-26T06:00-05:00",
+    "creado": "2026-11-20T07:31:01-05:00",
+    "publicado": {}
   }
 ]

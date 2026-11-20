@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-20-bateria-laptop",
+  "tema": "bateria-laptop",
+  "formato": "checklist",
+  "categoria": "Buenos días",
+  "titulo": "Haz que la batería de tu laptop dure más años",
+  "imagenes": [
+    "posts/2026-11-20-bateria-laptop/imagen-1.jpg",
+    "posts/2026-11-20-bateria-laptop/imagen-2.jpg",
+    "posts/2026-11-20-bateria-laptop/imagen-3.jpg",
+    "posts/2026-11-20-bateria-laptop/imagen-4.jpg",
+    "posts/2026-11-20-bateria-laptop/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-20-bateria-laptop/historia.jpg",
+  "reel": "posts/2026-11-20-bateria-laptop/reel.mp4",
+  "leyenda": {
+    "facebook": "Buenos días ☀️ ¿Tu laptop ya no aguanta ni 2 horas sin cargador? 🔋\n\nDesliza 👉 3 hábitos que recomienda HP para cuidar la batería de tu laptop (sirven para cualquier marca).\n\n1️⃣ Evita el calor: HP recomienda usarla a temperatura ambiente: nunca en el auto, al sol ni cargando sobre la cama o cojines.\n2️⃣ No la dejes llegar a 0 %: Las descargas completas frecuentes desgastan la batería. Cárgala antes de que se agote.\n3️⃣ No siempre al 100 %: Tenerla todo el día al 100 % también la desgasta. Si tu laptop tiene «límite de carga» o «Battery Health», actívalo.\n\nSi la batería ya está hinchada o dura muy poco, no la sigas usando: te la revisamos y cambiamos. ¿Cuánto te dura a ti? 👇\n\n📚 Fuente: HP, guía de batería de laptops\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABHaz%20que%20la%20bater%C3%ADa%20de%20tu%20laptop%20dure%20m%C3%A1s%20a%C3%B1os%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20cambio%20o%20revisi%C3%B3n%20de%20bater%C3%ADa%20de%20laptop.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #laptop #batería #Sullana #Piura #STCPerú",
+    "instagram": "Buenos días ☀️ ¿Tu laptop ya no aguanta ni 2 horas sin cargador? 🔋\n\nDesliza 👉 3 hábitos que recomienda HP para cuidar la batería de tu laptop (sirven para cualquier marca).\n\n1️⃣ Evita el calor: HP recomienda usarla a temperatura ambiente: nunca en el auto, al sol ni cargando sobre la cama o cojines.\n2️⃣ No la dejes llegar a 0 %: Las descargas completas frecuentes desgastan la batería. Cárgala antes de que se agote.\n3️⃣ No siempre al 100 %: Tenerla todo el día al 100 % también la desgasta. Si tu laptop tiene «límite de carga» o «Battery Health», actívalo.\n\nSi la batería ya está hinchada o dura muy poco, no la sigas usando: te la revisamos y cambiamos. ¿Cuánto te dura a ti? 👇\n\n📚 Fuente: HP, guía de batería de laptops\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #laptop #batería #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABHaz%20que%20la%20bater%C3%ADa%20de%20tu%20laptop%20dure%20m%C3%A1s%20a%C3%B1os%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20cambio%20o%20revisi%C3%B3n%20de%20bater%C3%ADa%20de%20laptop.",
+  "datos": [
+    "Evita el calor: HP recomienda usarla a temperatura ambiente: nunca en el auto, al sol ni cargando sobre la cama o cojines.",
+    "No la dejes llegar a 0 %: Las descargas completas frecuentes desgastan la batería. Cárgala antes de que se agote.",
+    "No siempre al 100 %: Tenerla todo el día al 100 % también la desgasta. Si tu laptop tiene «límite de carga» o «Battery Health», actívalo."
+  ],
+  "fuente": "HP, guía de batería de laptops",
+  "fuentes": [
+    "https://www.hp.com/us-en/tech-takes/laptops/glossary/battery.html",
+    "https://hp.com/au-en/shop/tech-takes/post/hp-laptop-battery-life-tips"
+  ],
+  "estado": "borrador",
+  "programado": "2026-11-22T06:00-05:00",
+  "creado": "2026-11-20T07:27:42-05:00",
+  "prueba": false,
+  "publicado": {}
+}

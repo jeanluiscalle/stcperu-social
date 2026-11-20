@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-20-wifi-publico",
+  "tema": "wifi-publico",
+  "formato": "checklist",
+  "categoria": "Ciberseguridad",
+  "titulo": "¿Usas Wi-Fi público? Cuida esto",
+  "imagenes": [
+    "posts/2026-11-20-wifi-publico/imagen-1.jpg",
+    "posts/2026-11-20-wifi-publico/imagen-2.jpg",
+    "posts/2026-11-20-wifi-publico/imagen-3.jpg",
+    "posts/2026-11-20-wifi-publico/imagen-4.jpg",
+    "posts/2026-11-20-wifi-publico/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-20-wifi-publico/historia.jpg",
+  "reel": "posts/2026-11-20-wifi-publico/reel.mp4",
+  "leyenda": {
+    "facebook": "Buenos días ☀️ El Wi-Fi gratis del café sale caro si no tomas precauciones ☕\n\nDesliza 👉 3 recomendaciones de la FTC (Comisión Federal de Comercio de EE. UU.) para conectarte de forma segura.\n\n1️⃣ Sin contraseña = no es seguro: La FTC advierte que una red que no pide contraseña no es segura.\n2️⃣ Busca el candado (https): Entra solo a sitios con https. Evita la banca y los pagos en redes públicas.\n3️⃣ Cierra sesión al terminar: No te quedes conectado a tus cuentas. Para uso frecuente, una VPN cifra tu conexión.\n\nEnvíaselo a quien trabaja desde cafés o aeropuertos ✈️ ¿Te conectas a redes públicas? 👇\n\n📚 Fuente: FTC, consejos para usar redes Wi-Fi públicas\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFUsas%20Wi-Fi%20p%C3%BAblico%3F%20Cuida%20esto%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #WiFi #ciberseguridad #Perú #STCPerú",
+    "instagram": "Buenos días ☀️ El Wi-Fi gratis del café sale caro si no tomas precauciones ☕\n\nDesliza 👉 3 recomendaciones de la FTC (Comisión Federal de Comercio de EE. UU.) para conectarte de forma segura.\n\n1️⃣ Sin contraseña = no es seguro: La FTC advierte que una red que no pide contraseña no es segura.\n2️⃣ Busca el candado (https): Entra solo a sitios con https. Evita la banca y los pagos en redes públicas.\n3️⃣ Cierra sesión al terminar: No te quedes conectado a tus cuentas. Para uso frecuente, una VPN cifra tu conexión.\n\nEnvíaselo a quien trabaja desde cafés o aeropuertos ✈️ ¿Te conectas a redes públicas? 👇\n\n📚 Fuente: FTC, consejos para usar redes Wi-Fi públicas\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #WiFi #ciberseguridad #Perú #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFUsas%20Wi-Fi%20p%C3%BAblico%3F%20Cuida%20esto%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20seguridad%20inform%C3%A1tica.",
+  "datos": [
+    "Sin contraseña = no es seguro: La FTC advierte que una red que no pide contraseña no es segura.",
+    "Busca el candado (https): Entra solo a sitios con https. Evita la banca y los pagos en redes públicas.",
+    "Cierra sesión al terminar: No te quedes conectado a tus cuentas. Para uso frecuente, una VPN cifra tu conexión."
+  ],
+  "fuente": "FTC, consejos para usar redes Wi-Fi públicas",
+  "fuentes": [
+    "https://www.ftc.gov/news-events/news/press-releases/2011/02/ftc-offers-tips-wise-use-wi-fi-networks",
+    "https://consumer.ftc.gov/node/298664"
+  ],
+  "estado": "borrador",
+  "programado": "2026-11-24T06:00-05:00",
+  "creado": "2026-11-20T07:29:24-05:00",
+  "prueba": false,
+  "publicado": {}
+}

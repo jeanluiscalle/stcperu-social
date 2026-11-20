@@ -190,7 +190,7 @@
     ],
     "historia": "posts/2026-11-19-windows-10-sin-soporte/historia.jpg",
     "reel": "posts/2026-11-19-windows-10-sin-soporte/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-25T19:00-05:00",
     "creado": "2026-11-19T18:18:31-05:00",
     "publicado": {}
@@ -210,7 +210,7 @@
     ],
     "historia": "posts/2026-11-19-camaras-hackeadas/historia.jpg",
     "reel": "posts/2026-11-19-camaras-hackeadas/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-26T19:00-05:00",
     "creado": "2026-11-19T18:19:19-05:00",
     "publicado": {}
@@ -230,7 +230,7 @@
     ],
     "historia": "posts/2026-11-19-estafas-mensajes/historia.jpg",
     "reel": "posts/2026-11-19-estafas-mensajes/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-27T19:00-05:00",
     "creado": "2026-11-19T18:20:09-05:00",
     "publicado": {}
@@ -250,7 +250,7 @@
     ],
     "historia": "posts/2026-11-19-perfil-google-negocio/historia.jpg",
     "reel": "posts/2026-11-19-perfil-google-negocio/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-28T10:00-05:00",
     "creado": "2026-11-19T18:20:58-05:00",
     "publicado": {}
@@ -270,7 +270,7 @@
     ],
     "historia": "posts/2026-11-19-antes-de-reparar/historia.jpg",
     "reel": "posts/2026-11-19-antes-de-reparar/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-29T10:00-05:00",
     "creado": "2026-11-19T18:21:56-05:00",
     "publicado": {}
@@ -290,7 +290,7 @@
     ],
     "historia": "posts/2026-11-19-facturacion-sunat/historia.jpg",
     "reel": "posts/2026-11-19-facturacion-sunat/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-30T19:00-05:00",
     "creado": "2026-11-19T18:22:44-05:00",
     "publicado": {}
@@ -310,7 +310,7 @@
     ],
     "historia": "posts/2026-11-19-contrasenas-seguras/historia.jpg",
     "reel": "posts/2026-11-19-contrasenas-seguras/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-01T19:00-05:00",
     "creado": "2026-11-19T18:23:34-05:00",
     "publicado": {}
@@ -326,7 +326,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-nueva-o-repotencio/reel.mp4",
     "portada": "posts/2026-11-19-video-nueva-o-repotencio/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-21T12:30-05:00",
     "creado": "2026-11-19T18:57:38-05:00",
     "publicado": {}
@@ -342,7 +342,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-ocurrencias-del-tecnico/reel.mp4",
     "portada": "posts/2026-11-19-video-ocurrencias-del-tecnico/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-23T12:30-05:00",
     "creado": "2026-11-19T18:58:00-05:00",
     "publicado": {}
@@ -358,7 +358,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-antivirus-eset-original/reel.mp4",
     "portada": "posts/2026-11-19-video-antivirus-eset-original/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-25T12:30-05:00",
     "creado": "2026-11-19T18:58:20-05:00",
     "publicado": {}
@@ -374,7 +374,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-la-de-ventas-y-el-tecnico/reel.mp4",
     "portada": "posts/2026-11-19-video-la-de-ventas-y-el-tecnico/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-27T12:30-05:00",
     "creado": "2026-11-19T18:58:28-05:00",
     "publicado": {}
@@ -390,7 +390,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-arreglamos-tu-impresora/reel.mp4",
     "portada": "posts/2026-11-19-video-arreglamos-tu-impresora/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-29T12:30-05:00",
     "creado": "2026-11-19T18:58:39-05:00",
     "publicado": {}
@@ -406,7 +406,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-tecnico-tutorial-youtube/reel.mp4",
     "portada": "posts/2026-11-19-video-tecnico-tutorial-youtube/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-01T12:30-05:00",
     "creado": "2026-11-19T18:59:01-05:00",
     "publicado": {}
@@ -422,7 +422,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-practicantes-cancion-favorita/reel.mp4",
     "portada": "posts/2026-11-19-video-practicantes-cancion-favorita/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-03T12:30-05:00",
     "creado": "2026-11-19T18:59:11-05:00",
     "publicado": {}
@@ -438,7 +438,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-disco-1tb-alexa/reel.mp4",
     "portada": "posts/2026-11-19-video-disco-1tb-alexa/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-05T12:30-05:00",
     "creado": "2026-11-19T18:59:25-05:00",
     "publicado": {}
@@ -454,7 +454,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-jefe-audio-puntual/reel.mp4",
     "portada": "posts/2026-11-19-video-jefe-audio-puntual/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-07T12:30-05:00",
     "creado": "2026-11-19T18:59:45-05:00",
     "publicado": {}
@@ -470,7 +470,7 @@
     "historia": null,
     "reel": "posts/2026-11-19-video-creatividad-sin-limites/reel.mp4",
     "portada": "posts/2026-11-19-video-creatividad-sin-limites/portada.jpg",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-12-09T12:30-05:00",
     "creado": "2026-11-19T18:59:55-05:00",
     "publicado": {}
@@ -510,7 +510,7 @@
     ],
     "historia": "posts/2026-11-20-atajos-windows/historia.jpg",
     "reel": "posts/2026-11-20-atajos-windows/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-21T06:00-05:00",
     "creado": "2026-11-20T07:26:56-05:00",
     "publicado": {}
@@ -530,7 +530,7 @@
     ],
     "historia": "posts/2026-11-20-bateria-laptop/historia.jpg",
     "reel": "posts/2026-11-20-bateria-laptop/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-22T06:00-05:00",
     "creado": "2026-11-20T07:27:42-05:00",
     "publicado": {}
@@ -550,7 +550,7 @@
     ],
     "historia": "posts/2026-11-20-respaldo-whatsapp/historia.jpg",
     "reel": "posts/2026-11-20-respaldo-whatsapp/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-23T06:00-05:00",
     "creado": "2026-11-20T07:28:31-05:00",
     "publicado": {}
@@ -570,7 +570,7 @@
     ],
     "historia": "posts/2026-11-20-wifi-publico/historia.jpg",
     "reel": "posts/2026-11-20-wifi-publico/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-24T06:00-05:00",
     "creado": "2026-11-20T07:29:24-05:00",
     "publicado": {}
@@ -590,7 +590,7 @@
     ],
     "historia": "posts/2026-11-20-sunat-mensajes-falsos/historia.jpg",
     "reel": "posts/2026-11-20-sunat-mensajes-falsos/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-25T06:00-05:00",
     "creado": "2026-11-20T07:30:13-05:00",
     "publicado": {}
@@ -610,7 +610,7 @@
     ],
     "historia": "posts/2026-11-20-limpiar-pantalla/historia.jpg",
     "reel": "posts/2026-11-20-limpiar-pantalla/reel.mp4",
-    "estado": "borrador",
+    "estado": "aprobado",
     "programado": "2026-11-26T06:00-05:00",
     "creado": "2026-11-20T07:31:01-05:00",
     "publicado": {}

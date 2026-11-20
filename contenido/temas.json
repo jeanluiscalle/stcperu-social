@@ -571,5 +571,46 @@
       "#Perú",
       "#Sullana"
     ]
+  },
+  {
+    "id": "buenos-dias-pc-al-100",
+    "formato": "checklist",
+    "categoria": "Buenos días",
+    "titulo": "Antes de empezar a trabajar, haz esto en tu PC",
+    "resaltar": [
+      "PC"
+    ],
+    "slides": [
+      {
+        "titulo": "Reinicia de vez en cuando",
+        "texto": "Microsoft recomienda reiniciar: libera memoria, cierra procesos colgados y termina de instalar actualizaciones."
+      },
+      {
+        "titulo": "Instala las actualizaciones",
+        "texto": "Configuración → Windows Update. Corrigen fallas y mejoran la seguridad y el rendimiento."
+      },
+      {
+        "titulo": "Haz un examen rápido",
+        "texto": "Seguridad de Windows → Protección antivirus → Examen rápido. Detecta malware que pone lento tu equipo."
+      }
+    ],
+    "escena": "an early morning office in northern Peru, golden sunrise light coming through the window, a laptop just opened on a clean desk next to a steaming cup of coffee and a notebook, calm and optimistic atmosphere, realistic",
+    "gancho": "Buenos días ☀️ Empieza el día con tu computadora al 100 %.",
+    "contexto": "Desliza 👉 3 hábitos que recomienda Microsoft para que tu PC no te deje mal en plena jornada. Te toman 5 minutos con el primer café ☕",
+    "cierre": "¡Que tengas un excelente día! Si tu equipo igual va lento o se traba, escríbenos: en taller (Sullana y Piura) o remoto a todo el Perú. Comparte con tu equipo de trabajo 👇",
+    "pregunta_cta": "¿Tu PC no arranca bien el día?",
+    "fuente": "Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»",
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
+    ],
+    "servicio": "mantenimiento de mi computadora",
+    "hashtags": [
+      "#BuenosDías",
+      "#productividad",
+      "#Windows",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
   }
 ]

@@ -474,5 +474,25 @@
     "programado": "2026-12-09T12:30-05:00",
     "creado": "2026-11-19T18:59:55-05:00",
     "publicado": {}
+  },
+  {
+    "id": "2026-11-20-buenos-dias-pc-al-100",
+    "tema": "buenos-dias-pc-al-100",
+    "formato": "checklist",
+    "titulo": "Antes de empezar a trabajar, haz esto en tu PC",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-1.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-2.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-3.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-4.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-buenos-dias-pc-al-100/historia.jpg",
+    "reel": "posts/2026-11-20-buenos-dias-pc-al-100/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-20T07:30-05:00",
+    "creado": "2026-11-20T07:22:47-05:00",
+    "publicado": {}
   }
 ]

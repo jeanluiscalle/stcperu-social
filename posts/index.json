@@ -1,0 +1,649 @@
+[
+  {
+    "id": "2026-11-19-impresora-3-cosas",
+    "tema": "impresora-3-cosas",
+    "formato": "clasico",
+    "titulo": "3 cosas que nunca debes olvidar en tu impresora",
+    "categoria": "Impresoras",
+    "imagenes": [
+      "posts/2026-11-19-impresora-3-cosas/imagen.jpg"
+    ],
+    "estado": "publicado",
+    "programado": "2026-11-19T17:11",
+    "creado": "2026-11-19T16:46:20-05:00",
+    "publicado": {
+      "facebook": {
+        "id": "287001047834288_122234918036290861",
+        "fecha": "2026-11-19T17:11:30-05:00",
+        "url": "https://www.facebook.com/287001047834288_122234918036290861"
+      },
+      "instagram": {
+        "id": "18341394394302694",
+        "fecha": "2026-11-19T17:11:39-05:00",
+        "url": "https://www.instagram.com/p/Df8H6ohiY_2/"
+      }
+    }
+  },
+  {
+    "id": "2026-11-19-laptop-nueva-lenta",
+    "tema": "laptop-nueva-lenta",
+    "formato": "carrusel",
+    "titulo": "¿Tu laptop nueva ya va lenta? 3 ajustes que recomienda Microsoft",
+    "categoria": "Laptops",
+    "imagenes": [
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-1.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-2.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-3.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-4.jpg",
+      "posts/2026-11-19-laptop-nueva-lenta/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-laptop-nueva-lenta/historia.jpg",
+    "reel": "posts/2026-11-19-laptop-nueva-lenta/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-20T19:00-05:00",
+    "creado": "2026-11-19T17:26:44-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-pc-armada-checklist",
+    "tema": "pc-armada-checklist",
+    "formato": "checklist",
+    "titulo": "Antes de comprar una PC armada, revisa esto",
+    "categoria": "PC a medida",
+    "imagenes": [
+      "posts/2026-11-19-pc-armada-checklist/imagen-1.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-2.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-3.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-4.jpg",
+      "posts/2026-11-19-pc-armada-checklist/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-pc-armada-checklist/historia.jpg",
+    "reel": "posts/2026-11-19-pc-armada-checklist/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-21T10:00-05:00",
+    "creado": "2026-11-19T17:28:34-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-stc-1600-atenciones",
+    "tema": "stc-1600-atenciones",
+    "formato": "dato",
+    "titulo": "Más de 1,600 servicios realizados",
+    "categoria": "STC Perú",
+    "imagenes": [
+      "posts/2026-11-19-stc-1600-atenciones/imagen-1.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-2.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-3.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-4.jpg",
+      "posts/2026-11-19-stc-1600-atenciones/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-stc-1600-atenciones/historia.jpg",
+    "reel": "posts/2026-11-19-stc-1600-atenciones/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-22T10:00-05:00",
+    "creado": "2026-11-19T17:29:06-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-laptop-polvo-dentro",
+    "tema": "laptop-polvo-dentro",
+    "formato": "portada",
+    "titulo": "Así se ve una laptop por dentro sin mantenimiento",
+    "categoria": "Mantenimiento",
+    "imagenes": [
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-1.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-2.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-3.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-4.jpg",
+      "posts/2026-11-19-laptop-polvo-dentro/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-laptop-polvo-dentro/historia.jpg",
+    "reel": "posts/2026-11-19-laptop-polvo-dentro/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-23T19:00-05:00",
+    "creado": "2026-11-19T17:29:42-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-respaldo-3-2-1",
+    "tema": "respaldo-3-2-1",
+    "formato": "carrusel",
+    "titulo": "La regla 3-2-1 para no perder nunca tus archivos",
+    "categoria": "Seguridad",
+    "imagenes": [
+      "posts/2026-11-19-respaldo-3-2-1/imagen-1.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-2.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-3.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-4.jpg",
+      "posts/2026-11-19-respaldo-3-2-1/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-respaldo-3-2-1/historia.jpg",
+    "reel": "posts/2026-11-19-respaldo-3-2-1/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-24T19:00-05:00",
+    "creado": "2026-11-19T17:30:15-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-impresora-cada-cuanto",
+    "tema": "impresora-cada-cuanto",
+    "formato": "mito",
+    "titulo": "¿Cada cuánto darle mantenimiento a tu impresora?",
+    "categoria": "Impresoras",
+    "imagenes": [
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-1.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-2.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-3.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-4.jpg",
+      "posts/2026-11-19-impresora-cada-cuanto/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-impresora-cada-cuanto/historia.jpg",
+    "reel": "posts/2026-11-19-impresora-cada-cuanto/reel.mp4",
+    "estado": "publicado",
+    "programado": "2026-11-21T10:00-05:00",
+    "creado": "2026-11-19T17:46:54-05:00",
+    "publicado": {
+      "facebook": {
+        "id": "287001047834288_122234922554290861",
+        "url": "https://www.facebook.com/287001047834288_122234922554290861",
+        "fecha": "2026-11-19T18:07:39-05:00"
+      },
+      "instagram": {
+        "id": "18078046652775478",
+        "url": "https://www.instagram.com/p/Df8OYO9m_C6/",
+        "fecha": "2026-11-19T18:08:08-05:00"
+      },
+      "facebook_historia": {
+        "id": "30352907737648339",
+        "url": null,
+        "fecha": "2026-11-19T18:08:12-05:00"
+      },
+      "instagram_historia": {
+        "id": "18131139226892898",
+        "url": null,
+        "fecha": "2026-11-19T18:08:21-05:00"
+      },
+      "facebook_reel": {
+        "id": "29643226758635811",
+        "url": "https://www.facebook.com/reel/29643226758635811",
+        "fecha": "2026-11-19T18:08:30-05:00"
+      },
+      "instagram_reel": {
+        "id": "18140673001709975",
+        "url": "https://www.instagram.com/reel/Df8OcU5gLHd/",
+        "fecha": "2026-11-19T18:09:06-05:00"
+      }
+    }
+  },
+  {
+    "id": "2026-11-19-windows-10-sin-soporte",
+    "tema": "windows-10-sin-soporte",
+    "formato": "portada",
+    "titulo": "¿Tu PC sigue con Windows 10? Esto debes saber",
+    "categoria": "Windows",
+    "imagenes": [
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-1.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-2.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-3.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-4.jpg",
+      "posts/2026-11-19-windows-10-sin-soporte/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-windows-10-sin-soporte/historia.jpg",
+    "reel": "posts/2026-11-19-windows-10-sin-soporte/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-25T19:00-05:00",
+    "creado": "2026-11-19T18:18:31-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-camaras-hackeadas",
+    "tema": "camaras-hackeadas",
+    "formato": "checklist",
+    "titulo": "Que nadie más vea tus cámaras",
+    "categoria": "Seguridad",
+    "imagenes": [
+      "posts/2026-11-19-camaras-hackeadas/imagen-1.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-2.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-3.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-4.jpg",
+      "posts/2026-11-19-camaras-hackeadas/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-camaras-hackeadas/historia.jpg",
+    "reel": "posts/2026-11-19-camaras-hackeadas/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-26T19:00-05:00",
+    "creado": "2026-11-19T18:19:19-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-estafas-mensajes",
+    "tema": "estafas-mensajes",
+    "formato": "mito",
+    "titulo": "Así te intentan robar con un mensaje",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-19-estafas-mensajes/imagen-1.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-2.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-3.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-4.jpg",
+      "posts/2026-11-19-estafas-mensajes/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-estafas-mensajes/historia.jpg",
+    "reel": "posts/2026-11-19-estafas-mensajes/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-27T19:00-05:00",
+    "creado": "2026-11-19T18:20:09-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-perfil-google-negocio",
+    "tema": "perfil-google-negocio",
+    "formato": "dato",
+    "titulo": "Tu negocio en Google",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-19-perfil-google-negocio/imagen-1.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-2.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-3.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-4.jpg",
+      "posts/2026-11-19-perfil-google-negocio/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-perfil-google-negocio/historia.jpg",
+    "reel": "posts/2026-11-19-perfil-google-negocio/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-28T10:00-05:00",
+    "creado": "2026-11-19T18:20:58-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-antes-de-reparar",
+    "tema": "antes-de-reparar",
+    "formato": "checklist",
+    "titulo": "Antes de llevar tu laptop a reparar, haz esto",
+    "categoria": "Consejos",
+    "imagenes": [
+      "posts/2026-11-19-antes-de-reparar/imagen-1.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-2.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-3.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-4.jpg",
+      "posts/2026-11-19-antes-de-reparar/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-antes-de-reparar/historia.jpg",
+    "reel": "posts/2026-11-19-antes-de-reparar/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-29T10:00-05:00",
+    "creado": "2026-11-19T18:21:56-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-facturacion-sunat",
+    "tema": "facturacion-sunat",
+    "formato": "portada",
+    "titulo": "Factura electrónica: lo que todo negocio debe saber",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-19-facturacion-sunat/imagen-1.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-2.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-3.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-4.jpg",
+      "posts/2026-11-19-facturacion-sunat/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-facturacion-sunat/historia.jpg",
+    "reel": "posts/2026-11-19-facturacion-sunat/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-30T19:00-05:00",
+    "creado": "2026-11-19T18:22:44-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-contrasenas-seguras",
+    "tema": "contrasenas-seguras",
+    "formato": "carrusel",
+    "titulo": "Tu contraseña se puede adivinar más rápido de lo que crees",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-19-contrasenas-seguras/imagen-1.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-2.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-3.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-4.jpg",
+      "posts/2026-11-19-contrasenas-seguras/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-19-contrasenas-seguras/historia.jpg",
+    "reel": "posts/2026-11-19-contrasenas-seguras/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-12-01T19:00-05:00",
+    "creado": "2026-11-19T18:23:34-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-nueva-o-repotencio",
+    "tema": "video-nueva-o-repotencio",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "¿Computadora nueva o repotencio la que tengo?",
+    "categoria": "Computadoras",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-nueva-o-repotencio/reel.mp4",
+    "portada": "posts/2026-11-19-video-nueva-o-repotencio/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-11-21T12:30-05:00",
+    "creado": "2026-11-19T18:57:38-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-ocurrencias-del-tecnico",
+    "tema": "video-ocurrencias-del-tecnico",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "Cuando las ocurrencias del técnico no tienen límites",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-ocurrencias-del-tecnico/reel.mp4",
+    "portada": "posts/2026-11-19-video-ocurrencias-del-tecnico/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-11-23T12:30-05:00",
+    "creado": "2026-11-19T18:58:00-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-antivirus-eset-original",
+    "tema": "video-antivirus-eset-original",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "Protege tu computadora con antivirus original",
+    "categoria": "Software",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-antivirus-eset-original/reel.mp4",
+    "portada": "posts/2026-11-19-video-antivirus-eset-original/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-11-25T12:30-05:00",
+    "creado": "2026-11-19T18:58:20-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-la-de-ventas-y-el-tecnico",
+    "tema": "video-la-de-ventas-y-el-tecnico",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "«No te preocupes, el técnico lo resuelve rapidísimo»",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-la-de-ventas-y-el-tecnico/reel.mp4",
+    "portada": "posts/2026-11-19-video-la-de-ventas-y-el-tecnico/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-11-27T12:30-05:00",
+    "creado": "2026-11-19T18:58:28-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-arreglamos-tu-impresora",
+    "tema": "video-arreglamos-tu-impresora",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "No podemos arreglar tu vida, pero sí tu impresora",
+    "categoria": "Impresoras",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-arreglamos-tu-impresora/reel.mp4",
+    "portada": "posts/2026-11-19-video-arreglamos-tu-impresora/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-11-29T12:30-05:00",
+    "creado": "2026-11-19T18:58:39-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-tecnico-tutorial-youtube",
+    "tema": "video-tecnico-tutorial-youtube",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "El técnico reparando la PC con un tutorial de YouTube",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-tecnico-tutorial-youtube/reel.mp4",
+    "portada": "posts/2026-11-19-video-tecnico-tutorial-youtube/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-12-01T12:30-05:00",
+    "creado": "2026-11-19T18:59:01-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-practicantes-cancion-favorita",
+    "tema": "video-practicantes-cancion-favorita",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "Capacitando a los practicantes… y suena su canción favorita",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-practicantes-cancion-favorita/reel.mp4",
+    "portada": "posts/2026-11-19-video-practicantes-cancion-favorita/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-12-03T12:30-05:00",
+    "creado": "2026-11-19T18:59:11-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-disco-1tb-alexa",
+    "tema": "video-disco-1tb-alexa",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "Vino por un disco de 1TB y le dijeron que se lo pida a Alexa",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-disco-1tb-alexa/reel.mp4",
+    "portada": "posts/2026-11-19-video-disco-1tb-alexa/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-12-05T12:30-05:00",
+    "creado": "2026-11-19T18:59:25-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-jefe-audio-puntual",
+    "tema": "video-jefe-audio-puntual",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "Cuando el jefe manda un audio puntual",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-jefe-audio-puntual/reel.mp4",
+    "portada": "posts/2026-11-19-video-jefe-audio-puntual/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-12-07T12:30-05:00",
+    "creado": "2026-11-19T18:59:45-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-19-video-creatividad-sin-limites",
+    "tema": "video-creatividad-sin-limites",
+    "tipo": "video",
+    "formato": "video",
+    "titulo": "La creatividad no tiene límites",
+    "categoria": "Humor",
+    "imagenes": [],
+    "historia": null,
+    "reel": "posts/2026-11-19-video-creatividad-sin-limites/reel.mp4",
+    "portada": "posts/2026-11-19-video-creatividad-sin-limites/portada.jpg",
+    "estado": "aprobado",
+    "programado": "2026-12-09T12:30-05:00",
+    "creado": "2026-11-19T18:59:55-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-buenos-dias-pc-al-100",
+    "tema": "buenos-dias-pc-al-100",
+    "formato": "checklist",
+    "titulo": "Antes de empezar a trabajar, haz esto en tu PC",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-1.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-2.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-3.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-4.jpg",
+      "posts/2026-11-20-buenos-dias-pc-al-100/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-buenos-dias-pc-al-100/historia.jpg",
+    "reel": "posts/2026-11-20-buenos-dias-pc-al-100/reel.mp4",
+    "estado": "publicado",
+    "programado": "2026-11-20T07:30-05:00",
+    "creado": "2026-11-20T07:22:47-05:00",
+    "publicado": {
+      "facebook": {
+        "id": "287001047834288_122234986406290861",
+        "url": "https://www.facebook.com/287001047834288_122234986406290861",
+        "fecha": "2026-11-20T07:54:49-05:00"
+      },
+      "instagram": {
+        "id": "18653639323014405",
+        "url": "https://www.instagram.com/p/Df9tC2ljkGd/",
+        "fecha": "2026-11-20T07:55:22-05:00"
+      },
+      "facebook_historia": {
+        "id": "1178758284843846",
+        "url": null,
+        "fecha": "2026-11-20T07:55:26-05:00"
+      },
+      "instagram_historia": {
+        "id": "18081628331583651",
+        "url": null,
+        "fecha": "2026-11-20T07:55:37-05:00"
+      },
+      "facebook_reel": {
+        "id": "2785221305227752",
+        "url": "https://www.facebook.com/reel/2785221305227752",
+        "fecha": "2026-11-20T07:55:48-05:00"
+      },
+      "instagram_reel": {
+        "id": "18099855527448815",
+        "url": "https://www.instagram.com/reel/Df9tHuHjMJc/",
+        "fecha": "2026-11-20T07:56:23-05:00"
+      }
+    }
+  },
+  {
+    "id": "2026-11-20-atajos-windows",
+    "tema": "atajos-windows",
+    "formato": "carrusel",
+    "titulo": "3 atajos de Windows que te ahorran tiempo todos los días",
+    "categoria": "Productividad",
+    "imagenes": [
+      "posts/2026-11-20-atajos-windows/imagen-1.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-2.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-3.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-4.jpg",
+      "posts/2026-11-20-atajos-windows/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-atajos-windows/historia.jpg",
+    "reel": "posts/2026-11-20-atajos-windows/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-21T06:00-05:00",
+    "creado": "2026-11-20T07:26:56-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-bateria-laptop",
+    "tema": "bateria-laptop",
+    "formato": "checklist",
+    "titulo": "Haz que la batería de tu laptop dure más años",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-bateria-laptop/imagen-1.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-2.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-3.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-4.jpg",
+      "posts/2026-11-20-bateria-laptop/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-bateria-laptop/historia.jpg",
+    "reel": "posts/2026-11-20-bateria-laptop/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-22T06:00-05:00",
+    "creado": "2026-11-20T07:27:42-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-respaldo-whatsapp",
+    "tema": "respaldo-whatsapp",
+    "formato": "mito",
+    "titulo": "¿Perdiste el celular? Que no se vayan tus chats",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-respaldo-whatsapp/imagen-1.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-2.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-3.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-4.jpg",
+      "posts/2026-11-20-respaldo-whatsapp/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-respaldo-whatsapp/historia.jpg",
+    "reel": "posts/2026-11-20-respaldo-whatsapp/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-23T06:00-05:00",
+    "creado": "2026-11-20T07:28:31-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-wifi-publico",
+    "tema": "wifi-publico",
+    "formato": "checklist",
+    "titulo": "¿Usas Wi-Fi público? Cuida esto",
+    "categoria": "Ciberseguridad",
+    "imagenes": [
+      "posts/2026-11-20-wifi-publico/imagen-1.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-2.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-3.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-4.jpg",
+      "posts/2026-11-20-wifi-publico/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-wifi-publico/historia.jpg",
+    "reel": "posts/2026-11-20-wifi-publico/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-24T06:00-05:00",
+    "creado": "2026-11-20T07:29:24-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-sunat-mensajes-falsos",
+    "tema": "sunat-mensajes-falsos",
+    "formato": "mito",
+    "titulo": "¿Te llegó un mensaje de la SUNAT? Revisa esto",
+    "categoria": "Negocios",
+    "imagenes": [
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-1.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-2.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-3.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-4.jpg",
+      "posts/2026-11-20-sunat-mensajes-falsos/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-sunat-mensajes-falsos/historia.jpg",
+    "reel": "posts/2026-11-20-sunat-mensajes-falsos/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-25T06:00-05:00",
+    "creado": "2026-11-20T07:30:13-05:00",
+    "publicado": {}
+  },
+  {
+    "id": "2026-11-20-limpiar-pantalla",
+    "tema": "limpiar-pantalla",
+    "formato": "portada",
+    "titulo": "Así se limpia la pantalla de tu laptop (sin dañarla)",
+    "categoria": "Buenos días",
+    "imagenes": [
+      "posts/2026-11-20-limpiar-pantalla/imagen-1.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-2.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-3.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-4.jpg",
+      "posts/2026-11-20-limpiar-pantalla/imagen-5.jpg"
+    ],
+    "historia": "posts/2026-11-20-limpiar-pantalla/historia.jpg",
+    "reel": "posts/2026-11-20-limpiar-pantalla/reel.mp4",
+    "estado": "aprobado",
+    "programado": "2026-11-26T06:00-05:00",
+    "creado": "2026-11-20T07:31:01-05:00",
+    "publicado": {}
+  }
+]

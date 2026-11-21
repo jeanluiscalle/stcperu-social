@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-19-facturacion-sunat",
+  "tema": "facturacion-sunat",
+  "formato": "portada",
+  "categoria": "Negocios",
+  "titulo": "Factura electrónica: lo que todo negocio debe saber",
+  "imagenes": [
+    "posts/2026-11-19-facturacion-sunat/imagen-1.jpg",
+    "posts/2026-11-19-facturacion-sunat/imagen-2.jpg",
+    "posts/2026-11-19-facturacion-sunat/imagen-3.jpg",
+    "posts/2026-11-19-facturacion-sunat/imagen-4.jpg",
+    "posts/2026-11-19-facturacion-sunat/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-facturacion-sunat/historia.jpg",
+  "reel": "posts/2026-11-19-facturacion-sunat/reel.mp4",
+  "leyenda": {
+    "facebook": "¿Todavía emites boletas en papel? Esto te interesa 🧾\n\nDesliza 👉 Lo esencial sobre comprobantes electrónicos según SUNAT. Revisa siempre la norma vigente en cpe.sunat.gob.pe.\n\n1️⃣ Casi todos están obligados: Según SUNAT, la mayoría de contribuyentes debe emitir comprobantes electrónicos, salvo excepciones como el Nuevo RUS.\n2️⃣ Desde que sacas tu RUC: SUNAT designa como emisores electrónicos a los nuevos contribuyentes desde su inscripción en el RUC.\n3️⃣ Valida cada comprobante: Tu boleta o factura electrónica debe ser enviada y aceptada por SUNAT o un OSE autorizado.\n\nVendemos, instalamos y configuramos tu sistema de facturación electrónica con los equipos, y te capacitamos. Atendemos en todo el Perú 🇵🇪\n\n📚 Fuente: SUNAT, portal de comprobantes de pago electrónicos\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABFactura%20electr%C3%B3nica%3A%20lo%20que%20todo%20negocio%20debe%20saber%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20sistema%20de%20facturaci%C3%B3n%20electr%C3%B3nica.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#facturaciónelectrónica #SUNAT #emprendedores #negociosperú #Perú #STCPerú",
+    "instagram": "¿Todavía emites boletas en papel? Esto te interesa 🧾\n\nDesliza 👉 Lo esencial sobre comprobantes electrónicos según SUNAT. Revisa siempre la norma vigente en cpe.sunat.gob.pe.\n\n1️⃣ Casi todos están obligados: Según SUNAT, la mayoría de contribuyentes debe emitir comprobantes electrónicos, salvo excepciones como el Nuevo RUS.\n2️⃣ Desde que sacas tu RUC: SUNAT designa como emisores electrónicos a los nuevos contribuyentes desde su inscripción en el RUC.\n3️⃣ Valida cada comprobante: Tu boleta o factura electrónica debe ser enviada y aceptada por SUNAT o un OSE autorizado.\n\nVendemos, instalamos y configuramos tu sistema de facturación electrónica con los equipos, y te capacitamos. Atendemos en todo el Perú 🇵🇪\n\n📚 Fuente: SUNAT, portal de comprobantes de pago electrónicos\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#facturaciónelectrónica #SUNAT #emprendedores #negociosperú #Perú #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABFactura%20electr%C3%B3nica%3A%20lo%20que%20todo%20negocio%20debe%20saber%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20sistema%20de%20facturaci%C3%B3n%20electr%C3%B3nica.",
+  "datos": [
+    "Casi todos están obligados: Según SUNAT, la mayoría de contribuyentes debe emitir comprobantes electrónicos, salvo excepciones como el Nuevo RUS.",
+    "Desde que sacas tu RUC: SUNAT designa como emisores electrónicos a los nuevos contribuyentes desde su inscripción en el RUC.",
+    "Valida cada comprobante: Tu boleta o factura electrónica debe ser enviada y aceptada por SUNAT o un OSE autorizado."
+  ],
+  "fuente": "SUNAT, portal de comprobantes de pago electrónicos",
+  "fuentes": [
+    "https://cpe.sunat.gob.pe/informacion_general/obligados_cpe",
+    "https://www.gob.pe/institucion/sunat/noticias/1398485-contribuyentes-seran-designados-como-emisores-electronicos-desde-que-se-inscriban-en-el-ruc"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-30T19:00-05:00",
+  "creado": "2026-11-19T18:22:44-05:00",
+  "prueba": false,
+  "publicado": {}
+}

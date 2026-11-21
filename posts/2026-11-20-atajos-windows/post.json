@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-20-atajos-windows",
+  "tema": "atajos-windows",
+  "formato": "carrusel",
+  "categoria": "Productividad",
+  "titulo": "3 atajos de Windows que te ahorran tiempo todos los días",
+  "imagenes": [
+    "posts/2026-11-20-atajos-windows/imagen-1.jpg",
+    "posts/2026-11-20-atajos-windows/imagen-2.jpg",
+    "posts/2026-11-20-atajos-windows/imagen-3.jpg",
+    "posts/2026-11-20-atajos-windows/imagen-4.jpg",
+    "posts/2026-11-20-atajos-windows/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-20-atajos-windows/historia.jpg",
+  "reel": "posts/2026-11-20-atajos-windows/reel.mp4",
+  "leyenda": {
+    "facebook": "Buenos días ☀️ ¿Sabías que con 2 teclas puedes ahorrarte minutos cada día?\n\nDesliza 👉 3 atajos oficiales de Microsoft que casi nadie usa y que te hacen la jornada más fácil.\n\n1️⃣ Windows + V: Abre el historial del portapapeles: pega cualquier cosa que copiaste antes. Actívalo en Configuración → Sistema → Portapapeles.\n2️⃣ Windows + Shift + S: Captura solo la parte de la pantalla que necesitas, lista para pegar en WhatsApp o un correo.\n3️⃣ Windows + L: Bloquea tu PC al instante cuando te levantas del escritorio. Tu información queda protegida.\n\n🔖 Guárdalo y compártelo con tu equipo de trabajo. ¿Cuál no conocías? 👇\n\n📚 Fuente: Soporte de Microsoft, «Métodos abreviados de teclado de Windows»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB3%20atajos%20de%20Windows%20que%20te%20ahorran%20tiempo%20todos%20los%20d%C3%ADas%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20soporte%20para%20mi%20computadora.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #Windows #productividad #atajos #Perú #STCPerú",
+    "instagram": "Buenos días ☀️ ¿Sabías que con 2 teclas puedes ahorrarte minutos cada día?\n\nDesliza 👉 3 atajos oficiales de Microsoft que casi nadie usa y que te hacen la jornada más fácil.\n\n1️⃣ Windows + V: Abre el historial del portapapeles: pega cualquier cosa que copiaste antes. Actívalo en Configuración → Sistema → Portapapeles.\n2️⃣ Windows + Shift + S: Captura solo la parte de la pantalla que necesitas, lista para pegar en WhatsApp o un correo.\n3️⃣ Windows + L: Bloquea tu PC al instante cuando te levantas del escritorio. Tu información queda protegida.\n\n🔖 Guárdalo y compártelo con tu equipo de trabajo. ¿Cuál no conocías? 👇\n\n📚 Fuente: Soporte de Microsoft, «Métodos abreviados de teclado de Windows»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #Windows #productividad #atajos #Perú #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB3%20atajos%20de%20Windows%20que%20te%20ahorran%20tiempo%20todos%20los%20d%C3%ADas%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20soporte%20para%20mi%20computadora.",
+  "datos": [
+    "Windows + V: Abre el historial del portapapeles: pega cualquier cosa que copiaste antes. Actívalo en Configuración → Sistema → Portapapeles.",
+    "Windows + Shift + S: Captura solo la parte de la pantalla que necesitas, lista para pegar en WhatsApp o un correo.",
+    "Windows + L: Bloquea tu PC al instante cuando te levantas del escritorio. Tu información queda protegida."
+  ],
+  "fuente": "Soporte de Microsoft, «Métodos abreviados de teclado de Windows»",
+  "fuentes": [
+    "https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-21T06:00-05:00",
+  "creado": "2026-11-20T07:26:56-05:00",
+  "prueba": false,
+  "publicado": {}
+}

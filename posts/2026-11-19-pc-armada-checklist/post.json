@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-19-pc-armada-checklist",
+  "tema": "pc-armada-checklist",
+  "formato": "checklist",
+  "categoria": "PC a medida",
+  "titulo": "Antes de comprar una PC armada, revisa esto",
+  "imagenes": [
+    "posts/2026-11-19-pc-armada-checklist/imagen-1.jpg",
+    "posts/2026-11-19-pc-armada-checklist/imagen-2.jpg",
+    "posts/2026-11-19-pc-armada-checklist/imagen-3.jpg",
+    "posts/2026-11-19-pc-armada-checklist/imagen-4.jpg",
+    "posts/2026-11-19-pc-armada-checklist/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-pc-armada-checklist/historia.jpg",
+  "reel": "posts/2026-11-19-pc-armada-checklist/reel.mp4",
+  "leyenda": {
+    "facebook": "Una PC puede verse 🔥 por fuera y estar mal armada por dentro.\n\nDesliza 👉 Antes de pagar, pregunta por estas 3 cosas. Si el vendedor no sabe responder, mejor sigue buscando 😉\n\n1️⃣ Fuente certificada 80 Plus: Más eficiente y protege mejor tus piezas. Que tenga margen de potencia para crecer.\n2️⃣ Disco SSD NVMe: Para el sistema: Windows arranca y los programas abren mucho más rápido que con un disco mecánico.\n3️⃣ 2 memorias RAM: En dual channel la memoria trabaja en doble canal: casi el doble de ancho de banda que con un solo módulo.\n\nEn STC Perú armamos tu PC a medida (oficina, diseño o gaming), con boleta o factura y garantía. Etiqueta a ese amigo que está por armarse una 👇\n\n📚 Fuente: Guías de armado de Micro Center, CGDirector y Digital Trends\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAntes%20de%20comprar%20una%20PC%20armada%2C%20revisa%20esto%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20armar%20una%20PC%20a%20medida.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#PCGamer #PCaMedida #Ensamblaje #Gaming #Sullana #Piura #STCPerú",
+    "instagram": "Una PC puede verse 🔥 por fuera y estar mal armada por dentro.\n\nDesliza 👉 Antes de pagar, pregunta por estas 3 cosas. Si el vendedor no sabe responder, mejor sigue buscando 😉\n\n1️⃣ Fuente certificada 80 Plus: Más eficiente y protege mejor tus piezas. Que tenga margen de potencia para crecer.\n2️⃣ Disco SSD NVMe: Para el sistema: Windows arranca y los programas abren mucho más rápido que con un disco mecánico.\n3️⃣ 2 memorias RAM: En dual channel la memoria trabaja en doble canal: casi el doble de ancho de banda que con un solo módulo.\n\nEn STC Perú armamos tu PC a medida (oficina, diseño o gaming), con boleta o factura y garantía. Etiqueta a ese amigo que está por armarse una 👇\n\n📚 Fuente: Guías de armado de Micro Center, CGDirector y Digital Trends\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#PCGamer #PCaMedida #Ensamblaje #Gaming #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAntes%20de%20comprar%20una%20PC%20armada%2C%20revisa%20esto%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20armar%20una%20PC%20a%20medida.",
+  "datos": [
+    "Fuente certificada 80 Plus: Más eficiente y protege mejor tus piezas. Que tenga margen de potencia para crecer.",
+    "Disco SSD NVMe: Para el sistema: Windows arranca y los programas abren mucho más rápido que con un disco mecánico.",
+    "2 memorias RAM: En dual channel la memoria trabaja en doble canal: casi el doble de ancho de banda que con un solo módulo."
+  ],
+  "fuente": "Guías de armado de Micro Center, CGDirector y Digital Trends",
+  "fuentes": [
+    "https://www.microcenter.com/site/mc-news/article/building-your-first-pc.aspx",
+    "https://www.cgdirector.com/how-to-build-a-pc/"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-21T10:00-05:00",
+  "creado": "2026-11-19T17:28:34-05:00",
+  "prueba": false,
+  "publicado": {}
+}

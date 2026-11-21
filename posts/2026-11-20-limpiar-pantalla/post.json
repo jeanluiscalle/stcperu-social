@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-20-limpiar-pantalla",
+  "tema": "limpiar-pantalla",
+  "formato": "portada",
+  "categoria": "Buenos días",
+  "titulo": "Así se limpia la pantalla de tu laptop (sin dañarla)",
+  "imagenes": [
+    "posts/2026-11-20-limpiar-pantalla/imagen-1.jpg",
+    "posts/2026-11-20-limpiar-pantalla/imagen-2.jpg",
+    "posts/2026-11-20-limpiar-pantalla/imagen-3.jpg",
+    "posts/2026-11-20-limpiar-pantalla/imagen-4.jpg",
+    "posts/2026-11-20-limpiar-pantalla/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-20-limpiar-pantalla/historia.jpg",
+  "reel": "posts/2026-11-20-limpiar-pantalla/reel.mp4",
+  "leyenda": {
+    "facebook": "Buenos días ☀️ ¿Limpias tu pantalla con papel o con el polo? 😬\n\nDesliza 👉 Así recomienda HP limpiar la pantalla de tu laptop sin rayarla ni dañarla.\n\n1️⃣ Apágala y desconéctala: HP recomienda apagar el equipo y desconectarlo antes de limpiar.\n2️⃣ Paño de microfibra húmedo: Humedece el paño (no la pantalla). HP sugiere 70 % alcohol isopropílico y 30 % agua; nunca rocíes directo.\n3️⃣ Nada de papel ni químicos: Evita papel toalla, amoníaco, acetona y lejía: rayan o dañan la pantalla.\n\n🔖 Guárdalo para tu próxima limpieza. Y si tu laptop necesita limpieza por dentro, ahí entramos nosotros.\n\n📚 Fuente: HP, cuidado y limpieza de laptops\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAs%C3%AD%20se%20limpia%20la%20pantalla%20de%20tu%20laptop%20%28sin%20da%C3%B1arla%29%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20mantenimiento%20de%20laptop.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #laptop #limpieza #Sullana #Piura #STCPerú",
+    "instagram": "Buenos días ☀️ ¿Limpias tu pantalla con papel o con el polo? 😬\n\nDesliza 👉 Así recomienda HP limpiar la pantalla de tu laptop sin rayarla ni dañarla.\n\n1️⃣ Apágala y desconéctala: HP recomienda apagar el equipo y desconectarlo antes de limpiar.\n2️⃣ Paño de microfibra húmedo: Humedece el paño (no la pantalla). HP sugiere 70 % alcohol isopropílico y 30 % agua; nunca rocíes directo.\n3️⃣ Nada de papel ni químicos: Evita papel toalla, amoníaco, acetona y lejía: rayan o dañan la pantalla.\n\n🔖 Guárdalo para tu próxima limpieza. Y si tu laptop necesita limpieza por dentro, ahí entramos nosotros.\n\n📚 Fuente: HP, cuidado y limpieza de laptops\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #laptop #limpieza #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABAs%C3%AD%20se%20limpia%20la%20pantalla%20de%20tu%20laptop%20%28sin%20da%C3%B1arla%29%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20mantenimiento%20de%20laptop.",
+  "datos": [
+    "Apágala y desconéctala: HP recomienda apagar el equipo y desconectarlo antes de limpiar.",
+    "Paño de microfibra húmedo: Humedece el paño (no la pantalla). HP sugiere 70 % alcohol isopropílico y 30 % agua; nunca rocíes directo.",
+    "Nada de papel ni químicos: Evita papel toalla, amoníaco, acetona y lejía: rayan o dañan la pantalla."
+  ],
+  "fuente": "HP, cuidado y limpieza de laptops",
+  "fuentes": [
+    "https://www.hp.com/us-en/tech-takes/laptops/glossary/cleaning-care.html",
+    "https://www.support.hp.com/us-en/document/ish_4507286-4416682-16"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-26T06:00-05:00",
+  "creado": "2026-11-20T07:31:01-05:00",
+  "prueba": false,
+  "publicado": {}
+}

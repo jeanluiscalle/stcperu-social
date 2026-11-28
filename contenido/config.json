@@ -1,0 +1,81 @@
+{
+  "marca": "STC Perú",
+  "web": "stcperu.com",
+  "whatsapp": "930 372 417",
+  "whatsapp_link": "https://wa.me/51930372417",
+  "instagram": "https://www.instagram.com/stcperu.eirl/",
+  "facebook": "https://www.facebook.com/profile.php?id=61558317887061",
+  "ciudades": "Sullana y Piura",
+  "colores": {
+    "navy": "#0A1B3D",
+    "cian": "#2BD9EC",
+    "rojo": "#B42318",
+    "claro": "#F3F6FA",
+    "verde": "#25D366"
+  },
+  "fb_page_id": "287001047834288",
+  "ig_user_id": "17841402365775650",
+  "base_url": "https://jeanluiscalle.github.io/stcperu-social",
+  "modelo_imagen": "gpt-image-2",
+  "calidad_imagen": "medium",
+  "horarios": [
+    [
+      0,
+      "06:00"
+    ],
+    [
+      1,
+      "06:00"
+    ],
+    [
+      2,
+      "06:00"
+    ],
+    [
+      3,
+      "06:00"
+    ],
+    [
+      4,
+      "06:00"
+    ],
+    [
+      5,
+      "06:00"
+    ],
+    [
+      6,
+      "06:00"
+    ],
+    [
+      0,
+      "19:00"
+    ],
+    [
+      1,
+      "19:00"
+    ],
+    [
+      2,
+      "19:00"
+    ],
+    [
+      3,
+      "19:00"
+    ],
+    [
+      4,
+      "19:00"
+    ],
+    [
+      5,
+      "10:00"
+    ],
+    [
+      6,
+      "10:00"
+    ]
+  ],
+  "whatsapp_numero": "51930372417",
+  "verde_whatsapp": "#25D366"
+}

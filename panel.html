@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calendario de publicaciones · STC Perú</title>
+  <meta name="robots" content="noindex" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0A1B3D; --cian: #2BD9EC; --rojo: #B42318; --verde: #128C4B;
+      --fondo: #F3F6FA; --tarjeta: #FFFFFF; --texto: #0A1B3D; --suave: #4A5873; --borde: #D5DDEA;
+      --display: "Anton", Impact, sans-serif; --body: "Figtree", system-ui, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --fondo: #07142E; --tarjeta: #0F2552; --texto: #EEF3FC; --suave: #A9B6CF; --borde: #1E3768; --verde: #35C97A; }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--fondo); color: var(--texto); font: 400 1rem/1.55 var(--body); -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    .wrap { width: min(1180px, 100% - 32px); margin-inline: auto; }
+    header { background: var(--navy); color: #fff; padding-block: 28px 32px; }
+    header .logo { font: 400 1.4rem/1 var(--display); color: var(--cian); }
+    header h1 { margin: 10px 0 6px; font: 400 clamp(2rem, 5vw, 3rem)/1.05 var(--display); text-transform: uppercase; }
+    header p { margin: 0; color: #C8D4EB; max-width: 70ch; }
+    .resumen { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .resumen span { padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,.1); font-weight: 600; font-size: .95rem; }
+    .como { margin-top: 18px; padding: 14px 16px; border-radius: 14px; background: rgba(43,217,236,.12); color: #E3EEFF; font-size: .95rem; }
+    .como a { color: var(--cian); font-weight: 700; }
+    main { padding-block: 28px 64px; }
+    h2 { font: 400 1.6rem/1.1 var(--display); text-transform: uppercase; margin: 36px 0 16px; }
+    .lista { display: grid; gap: 22px; }
+    .post { display: grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); gap: 24px; padding: 20px; background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 18px; }
+    @media (max-width: 820px) { .post { grid-template-columns: 1fr; padding: 14px; } }
+    .medios { display: flex; align-items: flex-start; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; border-radius: 12px; }
+    .medios img, .medios video { flex: 0 0 100%; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; scroll-snap-align: start; border-radius: 12px; background: var(--navy); }
+    .medios video, .medios .vertical { aspect-ratio: 9 / 16; object-fit: contain; }
+    .ayuda-medios { margin: 6px 2px 0; font-size: .85rem; color: var(--suave); }
+    .estado { display: inline-block; padding: 4px 12px; border-radius: 999px; font-weight: 700; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+    .estado.borrador { background: #FFF1D6; color: #8A5300; }
+    .estado.aprobado { background: #DDF6FF; color: #035E73; }
+    .estado.publicado { background: #DDF7E8; color: #0B6B37; }
+    .estado.descartado { background: #F3E1E1; color: #8C1D1D; }
+    .cabeza { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; color: var(--suave); font-size: .92rem; }
+    .post h3 { margin: 10px 0 8px; font-size: 1.35rem; line-height: 1.25; text-wrap: balance; }
+    .fecha { font-weight: 700; color: var(--texto); }
+    .datos { margin: 10px 0; padding-left: 1.3em; }
+    .datos li + li { margin-top: 4px; }
+    .fuente { font-size: .88rem; color: var(--suave); }
+    details { margin-top: 10px; border: 1px solid var(--borde); border-radius: 12px; padding: 10px 14px; }
+    summary { cursor: pointer; font-weight: 600; }
+    pre { white-space: pre-wrap; font: inherit; font-size: .93rem; margin: 10px 0 0; color: var(--suave); }
+    .redes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .redes span, .redes a { font-size: .85rem; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--borde); text-decoration: none; }
+    .redes .ok { border-color: var(--verde); color: var(--verde); font-weight: 600; }
+    .acciones { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px 16px; border-radius: 999px; font-weight: 700; text-decoration: none; border: 0; cursor: pointer; font: 700 .95rem var(--body); transition: transform .15s ease; }
+    .btn:active { transform: scale(.96); }
+    .btn:focus-visible, summary:focus-visible { outline: 3px solid var(--cian); outline-offset: 3px; }
+    .btn.primario { background: var(--cian); color: var(--navy); }
+    .btn.secundario { background: transparent; color: var(--texto); border: 1px solid var(--borde); }
+    .id { font-family: ui-monospace, monospace; font-size: .82rem; background: var(--fondo); padding: 2px 6px; border-radius: 6px; }
+    .vacio { color: var(--suave); padding: 20px; border: 1px dashed var(--borde); border-radius: 14px; }
+    .copiado { color: var(--verde); font-weight: 600; font-size: .9rem; align-self: center; }
+    .descargas { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: rgba(37, 211, 102, .1); border: 1px solid rgba(37, 211, 102, .35); }
+    .descargas strong { display: block; margin-bottom: 8px; font-size: .95rem; }
+    .descargas .fila { display: flex; flex-wrap: wrap; gap: 8px; }
+    .btn.wa { background: #25D366; color: #fff; }
+    .btn.wa.borde { background: transparent; color: var(--texto); border: 1px solid #25D366; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="logo">STC PERÚ</div>
+      <h1>Calendario de publicaciones</h1>
+      <p>Revisa cada publicación (feed, historia y reel), su texto para Facebook e Instagram y la fecha programada. Solo se publica lo que está <strong>aprobado</strong>.</p>
+      <div class="resumen" id="resumen"></div>
+      <div class="como">
+        <strong>Cómo aprobar:</strong> copia el ID con el botón «Copiar ID» y pégalo en
+        <a href="https://github.com/jeanluiscalle/stcperu-social/actions/workflows/aprobar.yml" target="_blank" rel="noopener">GitHub → Aprobar publicaciones → Run workflow</a>
+        (o escribe <em>todos</em> para aprobar todos los borradores). También puedes pedírselo a Claude en el chat.
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="contenido" aria-live="polite"></main>
+
+  <script>
+    const APROBAR = "https://github.com/jeanluiscalle/stcperu-social/actions/workflows/aprobar.yml";
+    const ESTADOS = { borrador: "Pendiente de aprobación", aprobado: "Programada", publicado: "Publicada", descartado: "Descartada" };
+    const SECCIONES = [["borrador", "Pendientes de tu aprobación"], ["aprobado", "Programadas"], ["publicado", "Publicadas"], ["descartado", "Descartadas"]];
+    const REDES = { facebook: "Facebook", instagram: "Instagram", facebook_historia: "Historia FB", instagram_historia: "Historia IG", facebook_reel: "Reel FB", instagram_reel: "Reel IG" };
+    const esc = (v) => { const s = document.createElement("span"); s.textContent = v ?? ""; return s.innerHTML; };
+    const fecha = (iso) => iso ? new Date(iso).toLocaleString("es-PE", { weekday: "long", day: "numeric", month: "long", hour: "numeric", minute: "2-digit", timeZone: "America/Lima" }) : "Sin fecha";
+
+    function tarjeta(p) {
+      const imagenes = (p.imagenes || []).map((src, i) => `<img src="${esc(src)}" alt="Imagen ${i + 1} de ${esc(p.titulo)}" loading="lazy" />`).join("");
+      const historia = p.historia ? `<img class="vertical" src="${esc(p.historia)}" alt="Historia" loading="lazy" />` : "";
+      const reel = p.reel ? `<video src="${esc(p.reel)}" controls muted playsinline preload="none" poster="${esc(p.portada || p.historia || "")}"></video>` : "";
+      const n = (p.imagenes || []).length;
+      const piezas = p.tipo === "video"
+        ? "Video propio (reel en Facebook e Instagram, también en el feed)"
+        : [n > 1 ? `${n} imágenes (carrusel)` : "1 imagen", p.historia && "historia", p.reel && "reel"].filter(Boolean).join(" · ") + " — desliza para ver todo";
+      const datos = (p.datos || []).map((d) => `<li>${esc(d)}</li>`).join("");
+      const fuentes = (p.fuentes || []).map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">enlace ${i + 1}</a>`).join(", ");
+      const publicado = p.publicado || {};
+      const redes = Object.entries(REDES).map(([k, nombre]) => {
+        if (p.tipo === "video" && !k.endsWith("_reel")) return "";
+        const r = publicado[k];
+        if (!r) return p.estado === "publicado" ? "" : `<span>${nombre}</span>`;
+        return r.url ? `<a class="ok" href="${esc(r.url)}" target="_blank" rel="noopener">✓ ${nombre}</a>` : `<span class="ok">✓ ${nombre}</span>`;
+      }).join("");
+      const momento = p.estado === "publicado"
+        ? `Publicada el ${fecha((publicado.instagram || publicado.facebook || {}).fecha || p.programado)}`
+        : `Programada para el ${fecha(p.programado)}`;
+      const nombre = (ruta) => `stcperu-${p.id}-${ruta.split("/").pop()}`;
+      const descargas = (p.historia || p.reel) ? `
+        <div class="descargas">
+          <strong>📲 Para tu estado de WhatsApp (y TikTok)</strong>
+          <div class="fila">
+            ${p.historia ? `<a class="btn wa" href="${esc(p.historia)}" download="${esc(nombre(p.historia))}">Descargar imagen</a>` : ""}
+            ${p.reel ? `<a class="btn wa borde" href="${esc(p.reel)}" download="${esc(nombre(p.reel))}">Descargar video</a>` : ""}
+            <button class="btn wa borde" type="button" data-copiar-texto="${esc(p.id)}">Copiar texto</button>
+          </div>
+        </div>` : "";
+      const acciones = p.estado === "publicado" ? "" : `
+        <div class="acciones">
+          <button class="btn primario" type="button" data-copiar="${esc(p.id)}">Copiar ID</button>
+          <a class="btn secundario" href="${APROBAR}" target="_blank" rel="noopener">Aprobar / descartar en GitHub</a>
+          <span class="copiado" hidden>ID copiado ✓</span>
+        </div>`;
+      const leyenda = p.leyenda || {};
+      LEYENDAS[p.id] = leyenda.instagram || leyenda.facebook || "";
+      return `<article class="post">
+        <div>
+          <div class="medios">${imagenes}${historia}${reel}</div>
+          <p class="ayuda-medios">${piezas}</p>
+        </div>
+        <div>
+          <div class="cabeza"><span class="estado ${esc(p.estado)}">${ESTADOS[p.estado] || esc(p.estado)}</span><span>${esc(p.categoria)} · formato ${esc(p.formato)}</span></div>
+          <h3>${esc(p.titulo)}</h3>
+          <div class="fecha">${momento}</div>
+          ${datos ? `<ol class="datos">${datos}</ol>` : ""}
+          ${p.fuente ? `<div class="fuente">📚 Fuente: ${esc(p.fuente)}${fuentes ? " — " + fuentes : ""}</div>` : ""}
+          <details><summary>Texto para Facebook (con enlace de WhatsApp)</summary><pre>${esc(leyenda.facebook)}</pre></details>
+          <details><summary>Texto para Instagram</summary><pre>${esc(leyenda.instagram)}</pre></details>
+          <div class="redes">${redes}</div>
+          <p class="fuente">ID: <span class="id">${esc(p.id)}</span></p>
+          ${descargas}
+          ${acciones}
+        </div>
+      </article>`;
+    }
+
+    async function cargar() {
+      const contenedor = document.getElementById("contenido");
+      let indice = [];
+      try { indice = await (await fetch("posts/index.json", { cache: "no-cache" })).json(); } catch { /* sin datos */ }
+      const posts = await Promise.all(indice.filter((e) => !e.prueba).map(async (e) => {
+        try { return { ...e, ...(await (await fetch(`posts/${e.id}/post.json`, { cache: "no-cache" })).json()) }; } catch { return e; }
+      }));
+      const conteo = (estado) => posts.filter((p) => p.estado === estado).length;
+      document.getElementById("resumen").innerHTML = SECCIONES.slice(0, 3).map(([k, t]) => `<span>${t}: ${conteo(k)}</span>`).join("");
+      contenedor.innerHTML = SECCIONES.map(([estado, titulo]) => {
+        const grupo = posts.filter((p) => p.estado === estado)
+          .sort((a, b) => estado === "publicado" ? (b.programado || "").localeCompare(a.programado || "") : (a.programado || "").localeCompare(b.programado || ""));
+        if (!grupo.length && estado === "descartado") return "";
+        return `<section><h2>${titulo}</h2><div class="lista">${grupo.length ? grupo.map(tarjeta).join("") : '<p class="vacio">No hay publicaciones aquí.</p>'}</div></section>`;
+      }).join("");
+    }
+
+    const LEYENDAS = {};
+    document.addEventListener("click", async (ev) => {
+      const textoBtn = ev.target.closest("[data-copiar-texto]");
+      if (textoBtn) {
+        try { await navigator.clipboard.writeText(LEYENDAS[textoBtn.dataset.copiarTexto] || ""); textoBtn.textContent = "Texto copiado ✓"; }
+        catch { textoBtn.textContent = "No se pudo copiar"; }
+        setTimeout(() => { textoBtn.textContent = "Copiar texto"; }, 2000);
+        return;
+      }
+      const boton = ev.target.closest("[data-copiar]");
+      if (!boton) return;
+      try { await navigator.clipboard.writeText(boton.dataset.copiar); } catch { /* el ID sigue visible */ }
+      const aviso = boton.parentElement.querySelector(".copiado");
+      aviso.hidden = false;
+      setTimeout(() => { aviso.hidden = true; }, 2000);
+    });
+
+    cargar();
+  </script>
+</body>
+</html>

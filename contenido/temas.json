@@ -1,0 +1,862 @@
+[
+  {
+    "id": "impresora-cada-cuanto",
+    "formato": "mito",
+    "categoria": "Impresoras",
+    "titulo": "¿Cada cuánto darle mantenimiento a tu impresora?",
+    "resaltar": [
+      "MANTENIMIENTO"
+    ],
+    "mito": "Solo se revisa cuando se malogra.",
+    "slides": [
+      {
+        "titulo": "Cada semana",
+        "texto": "Imprime al menos una página a color. Si estuvo días sin usarse, haz un test de inyectores antes de imprimir algo importante."
+      },
+      {
+        "titulo": "Si ves líneas o colores pálidos",
+        "texto": "Haz el test de inyectores y limpia el cabezal solo si salen huecos. Máximo 3 limpiezas seguidas; si no mejora, espera 12 horas."
+      },
+      {
+        "titulo": "Si se atasca o jala 2 hojas",
+        "texto": "Limpia los rodillos de arrastre con un paño apenas húmedo. Si sigue fallando, toca revisión técnica."
+      }
+    ],
+    "escena": "close-up of the paper feed area of an Epson EcoTank L4260 ink tank printer opened on a technician's workbench, rubber pickup rollers visible, precision tools and a microfiber cloth nearby, professional repair workshop in Peru, realistic lighting",
+    "gancho": "Líneas en tus impresiones, papel atascado o colores que no salen… casi siempre avisan antes 🖨️",
+    "contexto": "Desliza 👉 Esto es lo que recomienda Epson para saber cuándo darle mantenimiento a tu impresora de tinta y evitar esos problemas.",
+    "cierre": "🔖 Guárdalo. ¿Ya probaste esto y sigue fallando? Escríbenos: hacemos mantenimiento preventivo a impresoras Epson, Canon, HP y Brother.",
+    "pregunta_cta": "¿Tu impresora ya da señales?",
+    "fuente": "Soporte de Epson (test de inyectores, limpieza de cabezal y alimentación de papel)",
+    "fuentes": [
+      "https://www.epson.eu/en_EU/faq/KA-01531",
+      "https://download4.epson.biz/sec_pubs/l5590_series/useg/en/GUID-FC5ACEF2-3185-4594-ADC8-7E820B569164.htm",
+      "https://epson.com/faq/SPT_C511001UCM~faq-89685"
+    ],
+    "servicio": "mantenimiento preventivo de impresora",
+    "hashtags": [
+      "#impresoras",
+      "#Epson",
+      "#EcoTank",
+      "#mantenimiento",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "laptop-nueva-lenta",
+    "formato": "carrusel",
+    "categoria": "Laptops",
+    "titulo": "¿Tu laptop nueva ya va lenta? 3 ajustes que recomienda Microsoft",
+    "resaltar": [
+      "LENTA?"
+    ],
+    "subtitulo": "Para HP, Lenovo y cualquier laptop con Windows 11.",
+    "slides": [
+      {
+        "titulo": "Apaga apps de inicio",
+        "texto": "Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender."
+      },
+      {
+        "titulo": "Modo «Mejor rendimiento»",
+        "texto": "Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería."
+      },
+      {
+        "titulo": "Libera espacio",
+        "texto": "Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales."
+      }
+    ],
+    "escena": "a modern silver HP 15 inch laptop with an Intel Core Ultra 5 sticker on the palm rest, open on a light wooden desk in a modern apartment in Lima, Peru, warm afternoon window light, coffee cup and notebook nearby, screen showing a clean Windows 11 desktop",
+    "gancho": "Laptop nueva, pero a las semanas ya se siente pesada 🐢 Casi siempre no es el equipo: es la configuración.",
+    "contexto": "Desliza 👉 Son los 3 ajustes que la propia Microsoft recomienda para mejorar el rendimiento en Windows 11. Te toman 5 minutos.",
+    "cierre": "🔖 Guárdalo para cuando lo necesites. ¿Ya lo hiciste y sigue lenta? Ahí entramos nosotros.",
+    "pregunta_cta": "¿Sigue lenta? Te ayudamos",
+    "fuente": "Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»",
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
+    ],
+    "servicio": "revisión de laptop lenta",
+    "hashtags": [
+      "#laptop",
+      "#Windows11",
+      "#HP",
+      "#Lenovo",
+      "#IntelCoreUltra",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "pc-armada-checklist",
+    "formato": "checklist",
+    "categoria": "PC a medida",
+    "titulo": "Antes de comprar una PC armada, revisa esto",
+    "resaltar": [
+      "PC",
+      "ARMADA,"
+    ],
+    "slides": [
+      {
+        "titulo": "Fuente certificada 80 Plus",
+        "texto": "Más eficiente y protege mejor tus piezas. Que tenga margen de potencia para crecer."
+      },
+      {
+        "titulo": "Disco SSD NVMe",
+        "texto": "Para el sistema: Windows arranca y los programas abren mucho más rápido que con un disco mecánico."
+      },
+      {
+        "titulo": "2 memorias RAM",
+        "texto": "En dual channel la memoria trabaja en doble canal: casi el doble de ancho de banda que con un solo módulo."
+      }
+    ],
+    "escena": "a real assembled mid-range gaming desktop PC with tempered glass side panel, neatly routed cables, tower CPU cooler and graphics card visible, subtle white and cyan lighting, on a desk in a real bedroom setup in Peru with monitor and keyboard, evening ambient light",
+    "gancho": "Una PC puede verse 🔥 por fuera y estar mal armada por dentro.",
+    "contexto": "Desliza 👉 Antes de pagar, pregunta por estas 3 cosas. Si el vendedor no sabe responder, mejor sigue buscando 😉",
+    "cierre": "En STC Perú armamos tu PC a medida (oficina, diseño o gaming), con boleta o factura y garantía. Etiqueta a ese amigo que está por armarse una 👇",
+    "pregunta_cta": "¿Armamos tu PC a medida?",
+    "fuente": "Guías de armado de Micro Center, CGDirector y Digital Trends",
+    "fuentes": [
+      "https://www.microcenter.com/site/mc-news/article/building-your-first-pc.aspx",
+      "https://www.cgdirector.com/how-to-build-a-pc/"
+    ],
+    "servicio": "armar una PC a medida",
+    "hashtags": [
+      "#PCGamer",
+      "#PCaMedida",
+      "#Ensamblaje",
+      "#Gaming",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "stc-1600-atenciones",
+    "formato": "dato",
+    "categoria": "STC Perú",
+    "titulo": "Más de 1,600 servicios realizados",
+    "numero": "1,600+",
+    "etiqueta": "servicios realizados",
+    "datos": [
+      [
+        "680+",
+        "clientes"
+      ],
+      [
+        "188",
+        "empresas"
+      ],
+      [
+        "1 año",
+        "de garantía"
+      ]
+    ],
+    "slides": [
+      {
+        "titulo": "680+ clientes",
+        "texto": "Hogares y negocios de Sullana, Piura y la región que ya optaron por nuestros servicios."
+      },
+      {
+        "titulo": "188 empresas",
+        "texto": "Negocios con RUC que confían su tecnología en nosotros, con boleta o factura en cada trabajo."
+      },
+      {
+        "titulo": "Garantía de hasta 1 año",
+        "texto": "Si algo falla por el servicio que hicimos, lo revisamos y lo solucionamos."
+      }
+    ],
+    "escena": "a professional and tidy computer repair workshop in Peru, a technician in a dark polo shirt repairing an open laptop with a precision screwdriver on an antistatic mat, soldering station and organized tools, realistic natural and LED light",
+    "gancho": "Desde 2017 cuidamos la tecnología de hogares, negocios e instituciones del norte del Perú 💙",
+    "contexto": "Más de 1,600 servicios realizados. Detrás de cada número hay un equipo que volvió a funcionar.",
+    "cierre": "Gracias a cada cliente que nos recomienda. ¿Tu equipo necesita una revisión?",
+    "pregunta_cta": "¿Tu equipo necesita una revisión?",
+    "fuente": "Comprobantes emitidos por STC Perú (ago. 2020 – nov. 2026)",
+    "fuentes": [
+      "https://stcperu.com"
+    ],
+    "servicio": "servicio técnico",
+    "hashtags": [
+      "#STCPerú",
+      "#ServicioTécnico",
+      "#Sullana",
+      "#Piura",
+      "#Paita",
+      "#Talara"
+    ],
+    "pastilla": "Desde 2017"
+  },
+  {
+    "id": "laptop-polvo-dentro",
+    "formato": "portada",
+    "categoria": "Mantenimiento",
+    "titulo": "Así se ve una laptop por dentro sin mantenimiento",
+    "resaltar": [
+      "DENTRO"
+    ],
+    "subtitulo": "El polvo tapa el ventilador, el procesador se calienta y todo va más lento.",
+    "slides": [
+      {
+        "titulo": "Superficie dura y plana",
+        "texto": "Nunca sobre la cama o cojines: tapan las rejillas de ventilación y la laptop se recalienta."
+      },
+      {
+        "titulo": "Limpia las rejillas",
+        "texto": "Con aire comprimido, en ráfagas cortas y con la lata en posición vertical."
+      },
+      {
+        "titulo": "¿Se recalienta seguido?",
+        "texto": "Si pasa cada semana, llévala a revisar: el ventilador puede estar fallando o lleno de polvo por dentro."
+      }
+    ],
+    "escena": "close-up macro photograph of an opened laptop bottom showing a cooling fan and copper heat pipe clogged with thick grey dust, a technician's gloved hand holding a soft anti-static brush, workshop bench, realistic lighting",
+    "gancho": "Si tu laptop se calienta, suena como avión 🌀 o se apaga sola… probablemente está así por dentro 😳",
+    "contexto": "Desliza 👉 El polvo tapa el ventilador y el procesador baja su rendimiento para protegerse. Esto recomienda HP para evitarlo:",
+    "cierre": "¿Hace cuánto no le das mantenimiento a la tuya? 👇 Nosotros la limpiamos por dentro y cambiamos la pasta térmica.",
+    "pregunta_cta": "¿Le toca mantenimiento a tu laptop?",
+    "fuente": "Soporte de HP, «Cómo solucionar el sobrecalentamiento en laptops HP»",
+    "fuentes": [
+      "https://www.hp.com/us-en/shop/tech-takes/how-to-fix-overheating-issues-in-hp-laptops"
+    ],
+    "servicio": "mantenimiento preventivo de laptop",
+    "hashtags": [
+      "#mantenimiento",
+      "#laptop",
+      "#sobrecalentamiento",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "respaldo-3-2-1",
+    "formato": "carrusel",
+    "categoria": "Seguridad",
+    "titulo": "La regla 3-2-1 para no perder nunca tus archivos",
+    "resaltar": [
+      "3-2-1"
+    ],
+    "subtitulo": "Fotos, documentos, la contabilidad del negocio: protégelos así.",
+    "slides": [
+      {
+        "titulo": "3 copias",
+        "texto": "El archivo original y 2 copias de respaldo."
+      },
+      {
+        "titulo": "2 tipos de almacenamiento",
+        "texto": "Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro."
+      },
+      {
+        "titulo": "1 copia fuera",
+        "texto": "Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones."
+      }
+    ],
+    "escena": "a laptop connected to a compact external SSD drive on a tidy home office desk in Peru, family photos and business folders nearby, soft morning window light, realistic and warm",
+    "gancho": "Un disco que falla, un robo o un virus… y adiós a años de fotos y documentos 💔",
+    "contexto": "Desliza 👉 La regla 3-2-1 es la guía de respaldo que recomienda CISA, la agencia de ciberseguridad de EE. UU.",
+    "cierre": "🔖 Guárdalo y compártelo con quien tiene todo en una sola computadora. ¿Necesitas ayuda para configurar tus copias automáticas? Escríbenos.",
+    "pregunta_cta": "¿Configuramos tus copias?",
+    "fuente": "CISA, «Back up business data»",
+    "fuentes": [
+      "https://www.cisa.gov/back-business-data",
+      "https://www.cisa.gov/back-government-data"
+    ],
+    "servicio": "configurar copias de seguridad",
+    "hashtags": [
+      "#backup",
+      "#copiadeseguridad",
+      "#ciberseguridad",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "windows-10-sin-soporte",
+    "formato": "portada",
+    "categoria": "Windows",
+    "titulo": "¿Tu PC sigue con Windows 10? Esto debes saber",
+    "resaltar": [
+      "WINDOWS",
+      "10?"
+    ],
+    "subtitulo": "Microsoft terminó su soporte el 14 de octubre de 2025.",
+    "slides": [
+      {
+        "titulo": "Ya no recibe parches",
+        "texto": "Desde el 14/10/2025 Windows 10 no tiene soporte técnico ni actualizaciones de seguridad gratuitas de Microsoft."
+      },
+      {
+        "titulo": "Revisa si pasa a Windows 11",
+        "texto": "Usa la app «Comprobación de estado del PC» de Microsoft: te dice si tu equipo es compatible."
+      },
+      {
+        "titulo": "Si no es compatible",
+        "texto": "Repotenciar (SSD, RAM) o renovar el equipo. Te asesoramos para no gastar de más."
+      }
+    ],
+    "escena": "an older desktop computer monitor on an office desk in Peru showing a generic blue operating system upgrade screen, a modern laptop next to it, natural office light, realistic",
+    "gancho": "Si tu computadora todavía usa Windows 10, esto te interesa ⚠️",
+    "contexto": "Desliza 👉 Microsoft dejó de darle soporte. Sigue funcionando, pero ya no recibe arreglos de seguridad gratuitos.",
+    "cierre": "Hacemos la migración a Windows 11 con licencia original, en taller (Sullana y Piura) o de forma remota a todo el Perú. Compártelo con quien aún lo usa 👇",
+    "pregunta_cta": "¿Migramos tu PC a Windows 11?",
+    "fuente": "Soporte de Microsoft, «El soporte de Windows 10 finalizó el 14 de octubre de 2025»",
+    "fuentes": [
+      "https://support.microsoft.com/en-US/Windows/Deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025"
+    ],
+    "servicio": "actualizar a Windows 11",
+    "hashtags": [
+      "#Windows10",
+      "#Windows11",
+      "#Microsoft",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "camaras-hackeadas",
+    "formato": "checklist",
+    "categoria": "Seguridad",
+    "titulo": "Que nadie más vea tus cámaras",
+    "resaltar": [
+      "CÁMARAS"
+    ],
+    "slides": [
+      {
+        "titulo": "Cambia la contraseña de fábrica",
+        "texto": "Las contraseñas por defecto están publicadas en internet. Usa una larga y única."
+      },
+      {
+        "titulo": "Actualiza el firmware",
+        "texto": "Las actualizaciones corrigen fallas conocidas. Si tu equipo ya no recibe actualizaciones, considera cambiarlo."
+      },
+      {
+        "titulo": "Revisa el acceso remoto",
+        "texto": "Verifica quién puede ver tus cámaras desde fuera y desactiva UPnP en el router si no lo usas."
+      }
+    ],
+    "escena": "a modern dome security camera mounted on the ceiling corner of a small shop entrance in Peru, and a smartphone in the foreground showing a live security camera grid view, evening light, realistic",
+    "gancho": "Tus cámaras te cuidan… ¿pero quién más las puede estar viendo? 👀",
+    "contexto": "Desliza 👉 Estos son los 3 ajustes que recomiendan CISA y el NCSC del Reino Unido para proteger cámaras conectadas a internet.",
+    "cierre": "Instalamos y configuramos cámaras en Sullana y Piura, con acceso seguro desde tu celular. ¿Ya cambiaste la clave de las tuyas? 👇",
+    "pregunta_cta": "¿Revisamos tus cámaras?",
+    "fuente": "CISA, «Secure new internet-connected devices», y NCSC (Reino Unido)",
+    "fuentes": [
+      "https://cisa.gov/news-events/alerts/2019/12/31/secure-new-internet-connected-devices",
+      "https://www.ncsc.gov.uk/pdfs/guidance/smart-security-cameras-using-them-safely-in-your-home.pdf"
+    ],
+    "servicio": "instalación de cámaras de seguridad",
+    "hashtags": [
+      "#cámarasdeseguridad",
+      "#seguridad",
+      "#CCTV",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "estafas-mensajes",
+    "formato": "mito",
+    "categoria": "Ciberseguridad",
+    "titulo": "Así te intentan robar con un mensaje",
+    "resaltar": [
+      "ROBAR"
+    ],
+    "mito": "Si dice que es del banco, es del banco.",
+    "slides": [
+      {
+        "titulo": "Te apuran",
+        "texto": "«Tu cuenta será bloqueada hoy». La urgencia es la señal número uno de una estafa."
+      },
+      {
+        "titulo": "El enlace se ve raro",
+        "texto": "Letras cambiadas o dominios extraños. Ante la duda, no toques el enlace: entra tú mismo a la app oficial."
+      },
+      {
+        "titulo": "Te piden datos o claves",
+        "texto": "Ninguna entidad seria te pide contraseñas o códigos por mensaje. Activa la verificación en dos pasos."
+      }
+    ],
+    "escena": "a person's hands holding a smartphone showing a generic suspicious text message notification with a warning feel, laptop on a desk in a home in Peru, moody realistic light, no real brand logos",
+    "gancho": "Este mensaje llega todos los días a miles de peruanos… y muchos caen 🚨",
+    "contexto": "Desliza 👉 Son las 3 señales de phishing que enseña CISA, la agencia de ciberseguridad de EE. UU. Aplican a WhatsApp, SMS y correo.",
+    "cierre": "Envíaselo a tus papás, abuelos y a ese grupo familiar que necesita verlo 🙏 ¿Te llegó uno así? Cuéntanos 👇",
+    "pregunta_cta": "¿Dudas si un mensaje es real?",
+    "fuente": "CISA, «Recognize and report phishing»",
+    "fuentes": [
+      "https://www.cisa.gov/secure-our-world/recognize-and-report-phishing",
+      "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#estafas",
+      "#phishing",
+      "#ciberseguridad",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "perfil-google-negocio",
+    "formato": "dato",
+    "categoria": "Negocios",
+    "titulo": "Tu negocio en Google",
+    "numero": "70%",
+    "etiqueta": "más probable que te visiten",
+    "datos": [
+      [
+        "2.7x",
+        "más confianza"
+      ],
+      [
+        "Gratis",
+        "Perfil de Google"
+      ],
+      [
+        "24/7",
+        "tu web vende"
+      ]
+    ],
+    "slides": [
+      {
+        "titulo": "Perfil de Empresa completo",
+        "texto": "Google indica que los clientes tienen 70 % más probabilidad de visitar un negocio con su perfil completo."
+      },
+      {
+        "titulo": "Horarios, teléfono y fotos",
+        "texto": "Según Google, un perfil completo hace 2.7 veces más probable que te consideren un negocio confiable."
+      },
+      {
+        "titulo": "Suma una página web",
+        "texto": "Tu web con botón de WhatsApp trabaja por ti las 24 horas y te ayuda a aparecer en Google."
+      }
+    ],
+    "escena": "a small business owner in Peru standing proudly at the counter of their shop, holding a smartphone showing a map search with a business listing, warm realistic light, no real logos",
+    "gancho": "Si tu negocio no aparece en Google, tus clientes están encontrando a tu competencia 📍",
+    "contexto": "Desliza 👉 Datos del propio Google sobre por qué un perfil completo y una web marcan la diferencia.",
+    "cierre": "Diseñamos tu página web y configuramos tu Perfil de Empresa en Google, en todo el Perú y de forma remota. Etiqueta a un emprendedor 👇",
+    "pregunta_cta": "¿Hacemos tu página web?",
+    "fuente": "Google, ayuda de Perfil de Empresa",
+    "fuentes": [
+      "https://support.google.com/business/answer/10515606"
+    ],
+    "servicio": "diseño de página web y Perfil de Google",
+    "hashtags": [
+      "#páginaweb",
+      "#emprendedores",
+      "#negociosperú",
+      "#GoogleMaps",
+      "#Perú"
+    ],
+    "pastilla": "Dato de Google"
+  },
+  {
+    "id": "antes-de-reparar",
+    "formato": "checklist",
+    "categoria": "Consejos",
+    "titulo": "Antes de llevar tu laptop a reparar, haz esto",
+    "resaltar": [
+      "LAPTOP"
+    ],
+    "slides": [
+      {
+        "titulo": "Respalda tus archivos",
+        "texto": "Copia fotos y documentos importantes antes de entregarla. Así no dependes de nadie."
+      },
+      {
+        "titulo": "Cierra sesiones sensibles",
+        "texto": "Banca, correo y redes: cierra sesión o protege esa información antes de entregar el equipo."
+      },
+      {
+        "titulo": "Pide diagnóstico y comprobante",
+        "texto": "Exige el detalle de la falla, el precio antes de reparar y boleta o factura con garantía."
+      }
+    ],
+    "escena": "a laptop on a desk next to an external hard drive copying files, a notepad with a checklist and a pen, home office in Peru, soft daylight, realistic",
+    "gancho": "El error más común al llevar una laptop al técnico… y cómo evitarlo 💻",
+    "contexto": "Desliza 👉 3 pasos que recomiendan Lenovo Perú y especialistas para proteger tu información y tu dinero.",
+    "cierre": "En STC Perú no empezamos nada sin tu aprobación: diagnóstico claro, comprobante y garantía de hasta 1 año. Guárdalo 🔖",
+    "pregunta_cta": "¿Tu laptop necesita revisión?",
+    "fuente": "Lenovo Perú, La República y la política de atención de STC Perú",
+    "fuentes": [
+      "https://www.lenovo.com/pe/es/glosario/laptop-no-enciende/",
+      "https://larepublica.pe/tecnologia/2020/11/24/como-proteger-tu-informacion-en-caso-lleves-tu-computadora-a-reparar"
+    ],
+    "servicio": "reparación de laptop",
+    "hashtags": [
+      "#laptop",
+      "#reparación",
+      "#consejos",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "facturacion-sunat",
+    "formato": "portada",
+    "categoria": "Negocios",
+    "titulo": "Factura electrónica: lo que todo negocio debe saber",
+    "resaltar": [
+      "ELECTRÓNICA:"
+    ],
+    "subtitulo": "La emisión electrónica ya es la regla para casi todos los contribuyentes.",
+    "slides": [
+      {
+        "titulo": "Casi todos están obligados",
+        "texto": "Según SUNAT, la mayoría de contribuyentes debe emitir comprobantes electrónicos, salvo excepciones como el Nuevo RUS."
+      },
+      {
+        "titulo": "Desde que sacas tu RUC",
+        "texto": "SUNAT designa como emisores electrónicos a los nuevos contribuyentes desde su inscripción en el RUC."
+      },
+      {
+        "titulo": "Valida cada comprobante",
+        "texto": "Tu boleta o factura electrónica debe ser enviada y aceptada por SUNAT o un OSE autorizado."
+      }
+    ],
+    "escena": "a small store counter in Peru with a computer showing a point of sale screen, a thermal receipt printer printing a receipt and a barcode scanner, realistic bright light, no real logos",
+    "gancho": "¿Todavía emites boletas en papel? Esto te interesa 🧾",
+    "contexto": "Desliza 👉 Lo esencial sobre comprobantes electrónicos según SUNAT. Revisa siempre la norma vigente en cpe.sunat.gob.pe.",
+    "cierre": "Vendemos, instalamos y configuramos tu sistema de facturación electrónica con los equipos, y te capacitamos. Atendemos en todo el Perú 🇵🇪",
+    "pregunta_cta": "¿Implementamos tu facturación?",
+    "fuente": "SUNAT, portal de comprobantes de pago electrónicos",
+    "fuentes": [
+      "https://cpe.sunat.gob.pe/informacion_general/obligados_cpe",
+      "https://www.gob.pe/institucion/sunat/noticias/1398485-contribuyentes-seran-designados-como-emisores-electronicos-desde-que-se-inscriban-en-el-ruc"
+    ],
+    "servicio": "sistema de facturación electrónica",
+    "hashtags": [
+      "#facturaciónelectrónica",
+      "#SUNAT",
+      "#emprendedores",
+      "#negociosperú",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "contrasenas-seguras",
+    "formato": "carrusel",
+    "categoria": "Ciberseguridad",
+    "titulo": "Tu contraseña se puede adivinar más rápido de lo que crees",
+    "resaltar": [
+      "CONTRASEÑA"
+    ],
+    "subtitulo": "3 hábitos que recomienda CISA para proteger tus cuentas.",
+    "slides": [
+      {
+        "titulo": "Larga y aleatoria",
+        "texto": "CISA recomienda contraseñas de al menos 16 caracteres, aleatorias y únicas para cada cuenta."
+      },
+      {
+        "titulo": "Usa un gestor",
+        "texto": "Un administrador de contraseñas las crea, las guarda y las completa por ti. Solo recuerdas una."
+      },
+      {
+        "titulo": "Activa la verificación en 2 pasos",
+        "texto": "Úsala en toda cuenta que lo permita: aunque roben tu clave, no podrán entrar."
+      }
+    ],
+    "escena": "close-up of a laptop keyboard and a smartphone showing a generic two-step verification code screen, a padlock-shaped desk object nearby, modern office in Peru, cool realistic light, no real logos",
+    "gancho": "«123456», tu fecha de nacimiento o el nombre de tu mascota… 😬",
+    "contexto": "Desliza 👉 Así protegen sus cuentas los expertos en ciberseguridad. Te toma 10 minutos hoy y te ahorra un gran problema mañana.",
+    "cierre": "🔖 Guárdalo y compártelo con quien usa la misma clave para todo. ¿Necesitas ayuda para configurarlo en tu negocio? Escríbenos.",
+    "pregunta_cta": "¿Protegemos las cuentas de tu negocio?",
+    "fuente": "CISA, «Secure Our World»",
+    "fuentes": [
+      "https://www.cisa.gov/sites/default/files/2024-09/Secure-Our-World-4-Easy-Ways-Stay-Safe-Online-Tip-Sheet.pdf"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#contraseñas",
+      "#ciberseguridad",
+      "#2FA",
+      "#Perú",
+      "#Sullana"
+    ]
+  },
+  {
+    "id": "buenos-dias-pc-al-100",
+    "formato": "checklist",
+    "categoria": "Buenos días",
+    "titulo": "Antes de empezar a trabajar, haz esto en tu PC",
+    "resaltar": [
+      "PC"
+    ],
+    "slides": [
+      {
+        "titulo": "Reinicia de vez en cuando",
+        "texto": "Microsoft recomienda reiniciar: libera memoria, cierra procesos colgados y termina de instalar actualizaciones."
+      },
+      {
+        "titulo": "Instala las actualizaciones",
+        "texto": "Configuración → Windows Update. Corrigen fallas y mejoran la seguridad y el rendimiento."
+      },
+      {
+        "titulo": "Haz un examen rápido",
+        "texto": "Seguridad de Windows → Protección antivirus → Examen rápido. Detecta malware que pone lento tu equipo."
+      }
+    ],
+    "escena": "an early morning office in northern Peru, golden sunrise light coming through the window, a laptop just opened on a clean desk next to a steaming cup of coffee and a notebook, calm and optimistic atmosphere, realistic",
+    "gancho": "Buenos días ☀️ Empieza el día con tu computadora al 100 %.",
+    "contexto": "Desliza 👉 3 hábitos que recomienda Microsoft para que tu PC no te deje mal en plena jornada. Te toman 5 minutos con el primer café ☕",
+    "cierre": "¡Que tengas un excelente día! Si tu equipo igual va lento o se traba, escríbenos: en taller (Sullana y Piura) o remoto a todo el Perú. Comparte con tu equipo de trabajo 👇",
+    "pregunta_cta": "¿Tu PC no arranca bien el día?",
+    "fuente": "Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»",
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
+    ],
+    "servicio": "mantenimiento de mi computadora",
+    "hashtags": [
+      "#BuenosDías",
+      "#productividad",
+      "#Windows",
+      "#Perú",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "atajos-windows",
+    "formato": "carrusel",
+    "categoria": "Productividad",
+    "titulo": "3 atajos de Windows que te ahorran tiempo todos los días",
+    "resaltar": [
+      "ATAJOS"
+    ],
+    "subtitulo": "¡Buenos días! Empieza la jornada trabajando más rápido.",
+    "slides": [
+      {
+        "titulo": "Windows + V",
+        "texto": "Abre el historial del portapapeles: pega cualquier cosa que copiaste antes. Actívalo en Configuración → Sistema → Portapapeles."
+      },
+      {
+        "titulo": "Windows + Shift + S",
+        "texto": "Captura solo la parte de la pantalla que necesitas, lista para pegar en WhatsApp o un correo."
+      },
+      {
+        "titulo": "Windows + L",
+        "texto": "Bloquea tu PC al instante cuando te levantas del escritorio. Tu información queda protegida."
+      }
+    ],
+    "escena": "close-up of hands typing on a laptop keyboard in a bright modern office in Peru early in the morning, sunlight, coffee cup, shallow depth of field, realistic",
+    "gancho": "Buenos días ☀️ ¿Sabías que con 2 teclas puedes ahorrarte minutos cada día?",
+    "contexto": "Desliza 👉 3 atajos oficiales de Microsoft que casi nadie usa y que te hacen la jornada más fácil.",
+    "cierre": "🔖 Guárdalo y compártelo con tu equipo de trabajo. ¿Cuál no conocías? 👇",
+    "pregunta_cta": "¿Tu PC no rinde como debería?",
+    "fuente": "Soporte de Microsoft, «Métodos abreviados de teclado de Windows»",
+    "fuentes": [
+      "https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts"
+    ],
+    "servicio": "soporte para mi computadora",
+    "hashtags": [
+      "#BuenosDías",
+      "#Windows",
+      "#productividad",
+      "#atajos",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "bateria-laptop",
+    "formato": "checklist",
+    "categoria": "Buenos días",
+    "titulo": "Haz que la batería de tu laptop dure más años",
+    "resaltar": [
+      "BATERÍA"
+    ],
+    "slides": [
+      {
+        "titulo": "Evita el calor",
+        "texto": "HP recomienda usarla a temperatura ambiente: nunca en el auto, al sol ni cargando sobre la cama o cojines."
+      },
+      {
+        "titulo": "No la dejes llegar a 0 %",
+        "texto": "Las descargas completas frecuentes desgastan la batería. Cárgala antes de que se agote."
+      },
+      {
+        "titulo": "No siempre al 100 %",
+        "texto": "Tenerla todo el día al 100 % también la desgasta. Si tu laptop tiene «límite de carga» o «Battery Health», actívalo."
+      }
+    ],
+    "escena": "a laptop on a wooden desk near a window in the morning with a battery charging indicator glowing on screen, the original charger neatly placed, warm sunrise light, home office in Peru, realistic",
+    "gancho": "Buenos días ☀️ ¿Tu laptop ya no aguanta ni 2 horas sin cargador? 🔋",
+    "contexto": "Desliza 👉 3 hábitos que recomienda HP para cuidar la batería de tu laptop (sirven para cualquier marca).",
+    "cierre": "Si la batería ya está hinchada o dura muy poco, no la sigas usando: te la revisamos y cambiamos. ¿Cuánto te dura a ti? 👇",
+    "pregunta_cta": "¿Tu batería ya no aguanta?",
+    "fuente": "HP, guía de batería de laptops",
+    "fuentes": [
+      "https://www.hp.com/us-en/tech-takes/laptops/glossary/battery.html",
+      "https://hp.com/au-en/shop/tech-takes/post/hp-laptop-battery-life-tips"
+    ],
+    "servicio": "cambio o revisión de batería de laptop",
+    "hashtags": [
+      "#BuenosDías",
+      "#laptop",
+      "#batería",
+      "#Sullana",
+      "#Piura"
+    ]
+  },
+  {
+    "id": "respaldo-whatsapp",
+    "formato": "mito",
+    "categoria": "Buenos días",
+    "titulo": "¿Perdiste el celular? Que no se vayan tus chats",
+    "resaltar": [
+      "CHATS"
+    ],
+    "mito": "Mis chats de WhatsApp se guardan solos.",
+    "slides": [
+      {
+        "titulo": "Activa la copia",
+        "texto": "WhatsApp → Ajustes → Chats → Copia de seguridad. Elige Google Drive (Android) o iCloud (iPhone)."
+      },
+      {
+        "titulo": "Que sea automática",
+        "texto": "Programa la copia diaria o semanal, y conéctate a Wi-Fi para que no gaste tus datos."
+      },
+      {
+        "titulo": "Protégela",
+        "texto": "Activa la copia cifrada de extremo a extremo para que nadie más pueda leerla."
+      }
+    ],
+    "escena": "a smartphone on a wooden table next to morning coffee showing a generic cloud backup progress screen, soft sunrise light, home in Peru, realistic, no real app logos",
+    "gancho": "Buenos días ☀️ Si hoy pierdes tu celular… ¿recuperas tus chats de trabajo? 📱",
+    "contexto": "Desliza 👉 Así se configura la copia de seguridad oficial de WhatsApp. Toma 2 minutos.",
+    "cierre": "Compártelo con quien tiene todo su negocio en WhatsApp 🙏 ¿Ya tenías la copia activada? 👇",
+    "pregunta_cta": "¿Te ayudamos a respaldar tu información?",
+    "fuente": "Centro de ayuda de WhatsApp (copias de seguridad)",
+    "fuentes": [
+      "https://whatsapp.com/faq/en/android/28000019"
+    ],
+    "servicio": "respaldo de información",
+    "hashtags": [
+      "#BuenosDías",
+      "#WhatsApp",
+      "#backup",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "wifi-publico",
+    "formato": "checklist",
+    "categoria": "Ciberseguridad",
+    "titulo": "¿Usas Wi-Fi público? Cuida esto",
+    "resaltar": [
+      "WI-FI"
+    ],
+    "slides": [
+      {
+        "titulo": "Sin contraseña = no es seguro",
+        "texto": "La FTC advierte que una red que no pide contraseña no es segura."
+      },
+      {
+        "titulo": "Busca el candado (https)",
+        "texto": "Entra solo a sitios con https. Evita la banca y los pagos en redes públicas."
+      },
+      {
+        "titulo": "Cierra sesión al terminar",
+        "texto": "No te quedes conectado a tus cuentas. Para uso frecuente, una VPN cifra tu conexión."
+      }
+    ],
+    "escena": "a person using a laptop at a cafe table in a Peruvian city in the morning, a phone beside, people blurred in background, natural light, realistic, no real logos",
+    "gancho": "Buenos días ☀️ El Wi-Fi gratis del café sale caro si no tomas precauciones ☕",
+    "contexto": "Desliza 👉 3 recomendaciones de la FTC (Comisión Federal de Comercio de EE. UU.) para conectarte de forma segura.",
+    "cierre": "Envíaselo a quien trabaja desde cafés o aeropuertos ✈️ ¿Te conectas a redes públicas? 👇",
+    "pregunta_cta": "¿Protegemos los equipos de tu negocio?",
+    "fuente": "FTC, consejos para usar redes Wi-Fi públicas",
+    "fuentes": [
+      "https://www.ftc.gov/news-events/news/press-releases/2011/02/ftc-offers-tips-wise-use-wi-fi-networks",
+      "https://consumer.ftc.gov/node/298664"
+    ],
+    "servicio": "seguridad informática",
+    "hashtags": [
+      "#BuenosDías",
+      "#WiFi",
+      "#ciberseguridad",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "sunat-mensajes-falsos",
+    "formato": "mito",
+    "categoria": "Negocios",
+    "titulo": "¿Te llegó un mensaje de la SUNAT? Revisa esto",
+    "resaltar": [
+      "SUNAT?"
+    ],
+    "mito": "Si dice SUNAT, el enlace es seguro.",
+    "slides": [
+      {
+        "titulo": "No envía enlaces ni adjuntos",
+        "texto": "SUNAT informa que no envía enlaces, adjuntos ni pide depósitos por correo, SMS o WhatsApp."
+      },
+      {
+        "titulo": "Revisa tu Buzón Electrónico",
+        "texto": "Si dudas, entra tú mismo a SUNAT Operaciones en Línea: las notificaciones reales llegan a tu buzón."
+      },
+      {
+        "titulo": "Reporta",
+        "texto": "Usa los canales oficiales de SUNAT. Nunca compartas tu Clave SOL ni pagues «deudas» por mensaje."
+      }
+    ],
+    "escena": "a small business owner at a desk in Peru in the morning looking carefully at a laptop email inbox with a generic suspicious email and a warning feel, receipts and calculator on desk, realistic, no real logos",
+    "gancho": "Buenos días ☀️ «Tienes una deuda pendiente, paga aquí»… ¡Cuidado! 🚨",
+    "contexto": "Desliza 👉 Lo que SUNAT advierte sobre los mensajes falsos que llegan a contribuyentes y emprendedores.",
+    "cierre": "Compártelo con tu contador y con todo emprendedor que conozcas 🙏 ¿Te llegó uno así? 👇",
+    "pregunta_cta": "¿Proteges la información de tu negocio?",
+    "fuente": "SUNAT, avisos sobre comunicaciones fraudulentas",
+    "fuentes": [
+      "https://www.sunat.gob.pe/mensajes/mayo/2026/aviso-ti-050526.html",
+      "https://www.sunat.gob.pe/mensajes/octubre/2019/aviso-ti-041019.html"
+    ],
+    "servicio": "seguridad informática para mi negocio",
+    "hashtags": [
+      "#BuenosDías",
+      "#SUNAT",
+      "#emprendedores",
+      "#estafas",
+      "#Perú"
+    ]
+  },
+  {
+    "id": "limpiar-pantalla",
+    "formato": "portada",
+    "categoria": "Buenos días",
+    "titulo": "Así se limpia la pantalla de tu laptop (sin dañarla)",
+    "resaltar": [
+      "PANTALLA"
+    ],
+    "subtitulo": "¡Buenos días! Empieza la semana con tu equipo impecable.",
+    "slides": [
+      {
+        "titulo": "Apágala y desconéctala",
+        "texto": "HP recomienda apagar el equipo y desconectarlo antes de limpiar."
+      },
+      {
+        "titulo": "Paño de microfibra húmedo",
+        "texto": "Humedece el paño (no la pantalla). HP sugiere 70 % alcohol isopropílico y 30 % agua; nunca rocíes directo."
+      },
+      {
+        "titulo": "Nada de papel ni químicos",
+        "texto": "Evita papel toalla, amoníaco, acetona y lejía: rayan o dañan la pantalla."
+      }
+    ],
+    "escena": "hands gently wiping a laptop screen with a grey microfiber cloth on a clean desk, early morning light, office in Peru, realistic, shallow depth of field",
+    "gancho": "Buenos días ☀️ ¿Limpias tu pantalla con papel o con el polo? 😬",
+    "contexto": "Desliza 👉 Así recomienda HP limpiar la pantalla de tu laptop sin rayarla ni dañarla.",
+    "cierre": "🔖 Guárdalo para tu próxima limpieza. Y si tu laptop necesita limpieza por dentro, ahí entramos nosotros.",
+    "pregunta_cta": "¿Mantenimiento completo para tu laptop?",
+    "fuente": "HP, cuidado y limpieza de laptops",
+    "fuentes": [
+      "https://www.hp.com/us-en/tech-takes/laptops/glossary/cleaning-care.html",
+      "https://www.support.hp.com/us-en/document/ish_4507286-4416682-16"
+    ],
+    "servicio": "mantenimiento de laptop",
+    "hashtags": [
+      "#BuenosDías",
+      "#laptop",
+      "#limpieza",
+      "#Sullana",
+      "#Piura"
+    ]
+  }
+]

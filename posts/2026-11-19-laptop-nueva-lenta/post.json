@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-19-laptop-nueva-lenta",
+  "tema": "laptop-nueva-lenta",
+  "formato": "carrusel",
+  "categoria": "Laptops",
+  "titulo": "¿Tu laptop nueva ya va lenta? 3 ajustes que recomienda Microsoft",
+  "imagenes": [
+    "posts/2026-11-19-laptop-nueva-lenta/imagen-1.jpg",
+    "posts/2026-11-19-laptop-nueva-lenta/imagen-2.jpg",
+    "posts/2026-11-19-laptop-nueva-lenta/imagen-3.jpg",
+    "posts/2026-11-19-laptop-nueva-lenta/imagen-4.jpg",
+    "posts/2026-11-19-laptop-nueva-lenta/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-laptop-nueva-lenta/historia.jpg",
+  "reel": "posts/2026-11-19-laptop-nueva-lenta/reel.mp4",
+  "leyenda": {
+    "facebook": "Laptop nueva, pero a las semanas ya se siente pesada 🐢 Casi siempre no es el equipo: es la configuración.\n\nDesliza 👉 Son los 3 ajustes que la propia Microsoft recomienda para mejorar el rendimiento en Windows 11. Te toman 5 minutos.\n\n1️⃣ Apaga apps de inicio: Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender.\n2️⃣ Modo «Mejor rendimiento»: Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería.\n3️⃣ Libera espacio: Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales.\n\n🔖 Guárdalo para cuando lo necesites. ¿Ya lo hiciste y sigue lenta? Ahí entramos nosotros.\n\n📚 Fuente: Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFTu%20laptop%20nueva%20ya%20va%20lenta%3F%203%20ajustes%20que%20recomienda%20Microsoft%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20revisi%C3%B3n%20de%20laptop%20lenta.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#laptop #Windows11 #HP #Lenovo #IntelCoreUltra #Sullana #Piura #STCPerú",
+    "instagram": "Laptop nueva, pero a las semanas ya se siente pesada 🐢 Casi siempre no es el equipo: es la configuración.\n\nDesliza 👉 Son los 3 ajustes que la propia Microsoft recomienda para mejorar el rendimiento en Windows 11. Te toman 5 minutos.\n\n1️⃣ Apaga apps de inicio: Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender.\n2️⃣ Modo «Mejor rendimiento»: Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería.\n3️⃣ Libera espacio: Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales.\n\n🔖 Guárdalo para cuando lo necesites. ¿Ya lo hiciste y sigue lenta? Ahí entramos nosotros.\n\n📚 Fuente: Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#laptop #Windows11 #HP #Lenovo #IntelCoreUltra #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFTu%20laptop%20nueva%20ya%20va%20lenta%3F%203%20ajustes%20que%20recomienda%20Microsoft%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20revisi%C3%B3n%20de%20laptop%20lenta.",
+  "datos": [
+    "Apaga apps de inicio: Ctrl + Shift + Esc → Aplicaciones de arranque. Desactiva las que no necesitas al encender.",
+    "Modo «Mejor rendimiento»: Configuración → Sistema → Energía y batería. Úsalo con el cargador: consume más batería.",
+    "Libera espacio: Configuración → Sistema → Almacenamiento. Activa el Sensor de almacenamiento y borra temporales."
+  ],
+  "fuente": "Soporte de Microsoft, «Sugerencias para mejorar el rendimiento del PC en Windows»",
+  "fuentes": [
+    "https://support.microsoft.com/es-es/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-20T19:00-05:00",
+  "creado": "2026-11-19T17:26:44-05:00",
+  "prueba": false,
+  "publicado": {}
+}

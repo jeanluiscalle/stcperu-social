@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-20-respaldo-whatsapp",
+  "tema": "respaldo-whatsapp",
+  "formato": "mito",
+  "categoria": "Buenos días",
+  "titulo": "¿Perdiste el celular? Que no se vayan tus chats",
+  "imagenes": [
+    "posts/2026-11-20-respaldo-whatsapp/imagen-1.jpg",
+    "posts/2026-11-20-respaldo-whatsapp/imagen-2.jpg",
+    "posts/2026-11-20-respaldo-whatsapp/imagen-3.jpg",
+    "posts/2026-11-20-respaldo-whatsapp/imagen-4.jpg",
+    "posts/2026-11-20-respaldo-whatsapp/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-20-respaldo-whatsapp/historia.jpg",
+  "reel": "posts/2026-11-20-respaldo-whatsapp/reel.mp4",
+  "leyenda": {
+    "facebook": "Buenos días ☀️ Si hoy pierdes tu celular… ¿recuperas tus chats de trabajo? 📱\n\nDesliza 👉 Así se configura la copia de seguridad oficial de WhatsApp. Toma 2 minutos.\n\n1️⃣ Activa la copia: WhatsApp → Ajustes → Chats → Copia de seguridad. Elige Google Drive (Android) o iCloud (iPhone).\n2️⃣ Que sea automática: Programa la copia diaria o semanal, y conéctate a Wi-Fi para que no gaste tus datos.\n3️⃣ Protégela: Activa la copia cifrada de extremo a extremo para que nadie más pueda leerla.\n\nCompártelo con quien tiene todo su negocio en WhatsApp 🙏 ¿Ya tenías la copia activada? 👇\n\n📚 Fuente: Centro de ayuda de WhatsApp (copias de seguridad)\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFPerdiste%20el%20celular%3F%20Que%20no%20se%20vayan%20tus%20chats%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20respaldo%20de%20informaci%C3%B3n.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #WhatsApp #backup #Perú #STCPerú",
+    "instagram": "Buenos días ☀️ Si hoy pierdes tu celular… ¿recuperas tus chats de trabajo? 📱\n\nDesliza 👉 Así se configura la copia de seguridad oficial de WhatsApp. Toma 2 minutos.\n\n1️⃣ Activa la copia: WhatsApp → Ajustes → Chats → Copia de seguridad. Elige Google Drive (Android) o iCloud (iPhone).\n2️⃣ Que sea automática: Programa la copia diaria o semanal, y conéctate a Wi-Fi para que no gaste tus datos.\n3️⃣ Protégela: Activa la copia cifrada de extremo a extremo para que nadie más pueda leerla.\n\nCompártelo con quien tiene todo su negocio en WhatsApp 🙏 ¿Ya tenías la copia activada? 👇\n\n📚 Fuente: Centro de ayuda de WhatsApp (copias de seguridad)\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#BuenosDías #WhatsApp #backup #Perú #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%AB%C2%BFPerdiste%20el%20celular%3F%20Que%20no%20se%20vayan%20tus%20chats%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20respaldo%20de%20informaci%C3%B3n.",
+  "datos": [
+    "Activa la copia: WhatsApp → Ajustes → Chats → Copia de seguridad. Elige Google Drive (Android) o iCloud (iPhone).",
+    "Que sea automática: Programa la copia diaria o semanal, y conéctate a Wi-Fi para que no gaste tus datos.",
+    "Protégela: Activa la copia cifrada de extremo a extremo para que nadie más pueda leerla."
+  ],
+  "fuente": "Centro de ayuda de WhatsApp (copias de seguridad)",
+  "fuentes": [
+    "https://whatsapp.com/faq/en/android/28000019"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-23T06:00-05:00",
+  "creado": "2026-11-20T07:28:31-05:00",
+  "prueba": false,
+  "publicado": {}
+}

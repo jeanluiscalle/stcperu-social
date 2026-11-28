@@ -1,0 +1,36 @@
+{
+  "id": "2026-11-19-respaldo-3-2-1",
+  "tema": "respaldo-3-2-1",
+  "formato": "carrusel",
+  "categoria": "Seguridad",
+  "titulo": "La regla 3-2-1 para no perder nunca tus archivos",
+  "imagenes": [
+    "posts/2026-11-19-respaldo-3-2-1/imagen-1.jpg",
+    "posts/2026-11-19-respaldo-3-2-1/imagen-2.jpg",
+    "posts/2026-11-19-respaldo-3-2-1/imagen-3.jpg",
+    "posts/2026-11-19-respaldo-3-2-1/imagen-4.jpg",
+    "posts/2026-11-19-respaldo-3-2-1/imagen-5.jpg"
+  ],
+  "historia": "posts/2026-11-19-respaldo-3-2-1/historia.jpg",
+  "reel": "posts/2026-11-19-respaldo-3-2-1/reel.mp4",
+  "leyenda": {
+    "facebook": "Un disco que falla, un robo o un virus… y adiós a años de fotos y documentos 💔\n\nDesliza 👉 La regla 3-2-1 es la guía de respaldo que recomienda CISA, la agencia de ciberseguridad de EE. UU.\n\n1️⃣ 3 copias: El archivo original y 2 copias de respaldo.\n2️⃣ 2 tipos de almacenamiento: Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro.\n3️⃣ 1 copia fuera: Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones.\n\n🔖 Guárdalo y compártelo con quien tiene todo en una sola computadora. ¿Necesitas ayuda para configurar tus copias automáticas? Escríbenos.\n\n📚 Fuente: CISA, «Back up business data»\n\n💬 Escríbenos por WhatsApp: https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABLa%20regla%203-2-1%20para%20no%20perder%20nunca%20tus%20archivos%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20configurar%20copias%20de%20seguridad.\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#backup #copiadeseguridad #ciberseguridad #Sullana #Piura #STCPerú",
+    "instagram": "Un disco que falla, un robo o un virus… y adiós a años de fotos y documentos 💔\n\nDesliza 👉 La regla 3-2-1 es la guía de respaldo que recomienda CISA, la agencia de ciberseguridad de EE. UU.\n\n1️⃣ 3 copias: El archivo original y 2 copias de respaldo.\n2️⃣ 2 tipos de almacenamiento: Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro.\n3️⃣ 1 copia fuera: Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones.\n\n🔖 Guárdalo y compártelo con quien tiene todo en una sola computadora. ¿Necesitas ayuda para configurar tus copias automáticas? Escríbenos.\n\n📚 Fuente: CISA, «Back up business data»\n\n💬 WhatsApp 930 372 417 (enlace directo en nuestro perfil)\n🌐 stcperu.com  ·  📍 Sullana y Piura\n\n#backup #copiadeseguridad #ciberseguridad #Sullana #Piura #STCPerú"
+  },
+  "whatsapp": "https://wa.me/51930372417?text=Hola%20STC%20Per%C3%BA%2C%20vi%20su%20publicaci%C3%B3n%20%C2%ABLa%20regla%203-2-1%20para%20no%20perder%20nunca%20tus%20archivos%C2%BB%20y%20quiero%20informaci%C3%B3n%20sobre%20configurar%20copias%20de%20seguridad.",
+  "datos": [
+    "3 copias: El archivo original y 2 copias de respaldo.",
+    "2 tipos de almacenamiento: Por ejemplo, un disco externo y la nube. Si uno falla, tienes el otro.",
+    "1 copia fuera: Guarda una copia lejos de tu casa u oficina: te protege de robos, incendios o inundaciones."
+  ],
+  "fuente": "CISA, «Back up business data»",
+  "fuentes": [
+    "https://www.cisa.gov/back-business-data",
+    "https://www.cisa.gov/back-government-data"
+  ],
+  "estado": "aprobado",
+  "programado": "2026-11-24T19:00-05:00",
+  "creado": "2026-11-19T17:30:15-05:00",
+  "prueba": false,
+  "publicado": {}
+}
